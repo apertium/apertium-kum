@@ -1,0 +1,20 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-kum-0.1.pc.in -text
+/apertium-kum.kum.lexc -text
+/apertium-kum.kum.rlx -text
+/apertium-kum.kum.twol -text
+/autogen.sh -text
+/configure.ac -text
+dev/countstems.sh -text
+dev/editdist.py -text
+/modes.xml -text
+speller/editdist.default.txt -text
+speller/index.xml -text
+speller/strings.default.txt -text
+speller/words.default.txt -text
