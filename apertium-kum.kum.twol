@@ -5,6 +5,7 @@ Alphabet
 
  %{A%}:а
  %{I%}:ы
+ %{D%}:д
  %{N%}:н
  %{G%}:г
  %{r%}:р
@@ -27,3 +28,5 @@ Rules
 "Deletion of {n} word final"
 %{n%}:0 <=>  _ (:0) .#. ;
 
+"Deletion of {r} before suffix" ! FIXME
+%{r%}:0 <=> _ %>: ; 
