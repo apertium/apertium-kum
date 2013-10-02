@@ -37,3 +37,5 @@ Rules
 "Deletion of {s} after a consonant"
 %{s%}:0 <=> [ :Cns | й: ]/[ %>: | :0 ] _ ;
 
+"Deletion of {I} after vowels"
+%{I%}:0 <=> [ :Vow ]/[ :0 | %>: ] _ ;
