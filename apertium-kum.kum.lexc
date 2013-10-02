@@ -118,6 +118,8 @@ Multichar_Symbols
 %{N%}                     !
 %{D%}                     ! 
 %{r%}                     ! 
+%{s%}                     ! 
+%{n%}                     ! 
 
 ! Miscellaneous symbols
 
@@ -133,6 +135,7 @@ Pronouns ;
 Numerals ; 
 Nouns ; 
 Adjectives ; 
+Adverbs ; 
 Verbs ; 
 Punctuation ;
 
@@ -215,6 +218,10 @@ LEXICON PRON-BIZ
 LEXICON PRON-SIZ
 
 %<prn%>%<pers%>%<p2%>%<pl%>%<nom%>: # ;
+
+LEXICON ADV5 ! Pure adverbial
+
+%<adv%>: # ;
 
 
 LEXICON POST 
@@ -481,6 +488,7 @@ LEXICON Nouns
 ярашывлукъ:ярашывлукъ N1 ; ! "примирение; мир, согласие"
 ястыкъ:ястыкъ N1 ; ! "подушка"
 адабият:адабият N1 ; ! ""
+халкъ:халкъ N1 ; ! ""
 
 этнография:этнография N1 ; ! ""
 центр:центр N1 ; ! ""
@@ -495,6 +503,7 @@ LEXICON Nouns
 геотермия:геотермия N1 ; ! ""
 геология:геология N1 ; ! ""
 археология:археология N1 ; ! ""
+концерт:концерт N1 ; ! ""
 
 
 къумукъ:къумукъ N1 ; ! "кумык"
@@ -502,6 +511,10 @@ LEXICON Nouns
 LEXICON Adjectives 
 
 яхшы:яхшы A1 ; ! ""
+
+LEXICON Adverbs 
+
+бугюнлерде:бугюнлерде ADV5 ; ! ""
 
 LEXICON Verbs
 
