@@ -119,9 +119,18 @@ Multichar_Symbols
 %{D%}                     ! 
 %{r%}                     ! 
 
+! Miscellaneous symbols
+
+%-
+% 
+%+
+
 LEXICON Root
 
+Conjunctions ;
+Postpositions ; 
 Pronouns ; 
+Numerals ; 
 Nouns ; 
 Adjectives ; 
 Verbs ; 
@@ -129,6 +138,7 @@ Punctuation ;
 
 LEXICON CLIT 
 
+!%+мы%<qst%>:%>м%{I%} # ; 
 # ; 
 
 LEXICON CASES-OBL
@@ -179,6 +189,16 @@ LEXICON A1
 %<adj%>: # ;
 %<adj%>%<subst%>: SUBST ;
 
+LEXICON NUM-COMMON
+
+%<num%>: # ;
+%<num%>%<subst%>: SUBST ;
+
+LEXICON NUM
+
+NUM-COMMON ;
+%<num%>%<ord%>:%>%{I%}нч%{I%} # ;             ! FIXME: base form, <det> reading
+%<num%>%<ord%>:%>%{I%}нч%{I%} N-INFL-COMMON ;
 
 LEXICON V-TV 
 
@@ -188,11 +208,77 @@ LEXICON PRON-MEN
 
 %<prn%>%<pers%>%<p1%>%<sg%>%<nom%>: # ;
 
+LEXICON PRON-BIZ
+
+%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>: # ;
+
+LEXICON PRON-SIZ
+
+%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>: # ;
+
+
+LEXICON POST 
+
+%<post%>: # ;
+
+LEXICON CC
+
+%<cnjcoo%>: # ;
+
+LEXICON CS
+
+%<cnjsub%>: # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Conjunctions
+
+да:%~да CC ; ! "" Dir/RL
+да:да CC ; ! ""       Dir/LR
+да:де CC ; ! ""       Dir/LR
+
+булан:булан CC ; ! "и"
+не:не CC ; ! "neither... , nor ... (x2)" ! FIXME:NOTE: disambig
+
+эгер:эгер CS ; ! "если"
+
+
+
+LEXICON Postpositions
+
+гоьре:гоьре POST ; ! ""
+сонг:сонг POST ; ! ""
+башгъа:башгъа POST ; ! ""
 
 LEXICON Pronouns 
 
 мен:мен PRON-MEN ; ! "я"
+
+биз:биз PRON-BIZ ; ! "мы"
+сиз:сиз PRON-SIZ ; ! "вы"
+
+LEXICON Numerals
+
+бир:бир NUM ; ! "один"
+эки:эки NUM ; ! "два"
+уьч:уьч NUM ; ! "три"
+дёрт:дёрт NUM ; ! ""
+беш:беш NUM ; ! "пять"
+алты:алты NUM ; ! "шесть"
+етти:етти NUM ; ! "семь"
+сегиз:сегиз NUM ; ! "восемь"
+тогъуз:тогъуз NUM ; ! "деветь"
+
+йигирма:йигирма NUM ; ! ""
+отуз:отуз NUM ; ! ""
+къыркъ:къыркъ NUM ; ! "сорок"
+элли:элли NUM ; ! ""
+алтмыш:алтмыш NUM ; ! ""
+етмиш:етмиш NUM ; ! ""
+сексен:сексен NUM ; ! ""
+токъсан:токъсан NUM ; ! ""
+
+юз:юз NUM ; ! ""
 
 LEXICON Nouns 
 
