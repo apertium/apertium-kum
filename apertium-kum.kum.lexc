@@ -135,6 +135,7 @@ Postpositions ;
 Pronouns ; 
 Numerals ; 
 Nouns ; 
+ProperNouns ;
 Adjectives ; 
 Adverbs ; 
 Verbs ; 
@@ -182,6 +183,9 @@ POSS ;
 CASES-ETC ;
 !ABESS ;
 
+LEXICON NP-COMMON
+N-INFL-COMMON ;
+
 LEXICON SUBST
 
 N-INFL-COMMON ;
@@ -191,6 +195,18 @@ LEXICON N1
 
 %<n%>%<attr%>: # ;
 %<n%>: SUBST ;
+
+LEXICON NP-TOP-ACR
+
+%<np%>%<top%>%<nom%>: CLIT ;
+%<np%>%<top%>:%- CASES-OBL ;
+%<np%>%<top%>%<attr%>: # ;
+
+LEXICON NP-TOP
+
+%<np%>%<top%>: NP-COMMON ;
+%<np%>%<top%>%<attr%>: # ;
+
 
 LEXICON A1 
 
@@ -208,6 +224,13 @@ NUM-COMMON ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} # ;             ! FIXME: base form, <det> reading
 %<num%>%<ord%>:%>%{I%}нч%{I%} N-INFL-COMMON ;
 
+LEXICON V-FIN-REG-NEG
+
+%<ifi%>:%>%{D%}%{I%} # ; ! V-PERS-S2 
+
+LEXICON V-FIN-IRREG-NEG
+
+%<aor%>:%>%{E%} # ; ! V-PERS-AOR 
 
 LEXICON V-NONFIN-IRREG-NEG
 
@@ -548,9 +571,22 @@ LEXICON Nouns
 геология:геология N1 ; ! ""
 археология:археология N1 ; ! ""
 концерт:концерт N1 ; ! ""
+район:район N1 ; ! ""
+республика:республика N1 ; ! ""
+спорт:спорт N1 ; ! ""
 
 
 къумукъ:къумукъ N1 ; ! "кумык"
+
+LEXICON ProperNouns
+
+Дагъыстан:Дагъыстан NP-TOP ; ! ""
+Россия:Россия NP-TOP ; ! ""
+
+СССР:СССР NP-TOP-ACR ; ! ""
+РФ:РФ NP-TOP-ACR ; ! ""
+ДР:ДР NP-TOP-ACR ; ! ""
+РСФСР:РСФСР NP-TOP-ACR ; ! ""
 
 LEXICON Adjectives 
 
