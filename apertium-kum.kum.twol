@@ -68,3 +68,6 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
                 Cy in ( б г )
                 matched;
 
+"Deletion of {A} after vowels"
+%{A%}:0 <=> [ :Vow ]/[ [ :0 - й:0 ] | %>: ] _ ;
+
