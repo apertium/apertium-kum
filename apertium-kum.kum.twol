@@ -46,3 +46,12 @@ Rules
 
 "Deletion of {I} after vowels"
 %{I%}:0 <=> [ :Vow ]/[ :0 | %>: ] _ ;
+
+"Deletion of ь when vowel-initial stem follows"
+! е behaves like a consonant after vowels; i.e., it's /йэ/
+ь:0 <=> _ %>: [ :Vow - :е ]/[ :0 ] ;
+!       except
+!             [ :а | :о | :у ] _ %>: [ :Vow ]/[ :0 ] ;
+    except
+        _ й: %>: %{E%}: ;
+
