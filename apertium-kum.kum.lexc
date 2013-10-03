@@ -52,6 +52,8 @@ Multichar_Symbols
 %<p2%>                    ! 
 %<p3%>                    ! 
 
+%<px%>                 ! 
+
 %<px1sg%>                 ! 
 %<px2sg%>                 ! 
 %<px3sp%>                 ! 
@@ -189,7 +191,7 @@ CASES-ETC ;
 %<px2sg%>:%>%{I%}нг CASES-ETC ;
 %<px3sp%>:%>%{s%}%{I%}%{n%} CASES-ETC ;
 %<px1pl%>:%>%{I%}б%{I%}з CASES-ETC ;
-%<px2pl%>:%>%{I%}г%{I%}з CASES-ETC ;
+%<px2pl%>:%>%{I%}г%{ъ%}%{I%}з CASES-ETC ;
 
 LEXICON ATTR-SUBST
 
@@ -199,6 +201,7 @@ LEXICON ATTR-SUBST
 
 LEXICON GENPOSS-ETC
 
+%<px%>:%>%{N%}%{I%}ки%{n%} CASES ; ! халкъныкинде
 %<loc%>:%>д%{A%}г%{ъ%}%{I%} ATTR-SUBST ;
 %<sim%>:%>%{D%}%{A%}й CLIT ;
 
@@ -446,6 +449,7 @@ LEXICON PRON-MEN
 %<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:ени # ;
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:енде # ;
 %<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:енден # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<px%>:еники%{n%} CASES ;
 
 LEXICON PRON-SEN 
 
@@ -455,6 +459,7 @@ LEXICON PRON-SEN
 %<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:ени # ;
 %<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:енде # ;
 %<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:енден # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<px%>:еники%{n%} CASES ;
 
 LEXICON PRON-OL
 
@@ -464,7 +469,8 @@ LEXICON PRON-OL
 %<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:гъар # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:ну # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:нда # ;
-%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ндан # ;
+%<prn%>%<pers%>%<p3%>%<sg1%>%<abl%>:ндан # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<px%>:нуки%{n%} CASES ;
 
 LEXICON PRON-BIZ
 
