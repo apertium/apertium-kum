@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../kum.autogen.hfst
+    Morph: ../kum.automorf.hfst
+
+Tests:
+  "[twol] Front-vowel words":
+    тарих<n><nom> : тарих
+    тарих<n><acc> : тарихни
+    тарих<n><gen> : тарихни
+    тарих<n><dat> : тарихге
+    тарих<n><loc> : тарихде
+    тарих<n><abl> : тарихден
+
+  "[twol] Back vowel words":
+    йыл<n><nom> : йыл
+    йыл<n><acc> : йылны
+    йыл<n><gen> : йылны
+    йыл<n><dat> : йылгъа
+    йыл<n><loc> : йылда
+    йыл<n><abl> : йылдан
+
+  "[twol] px3sp Front-vowel words":
+    тарих<n><px3sp><nom> : тарих
+    тарих<n><px3sp><acc> : тарихин
+    тарих<n><px3sp><gen> : тарихини
+    тарих<n><px3sp><dat> : тарихине
+    тарих<n><px3sp><loc> : тарихинде
+    тарих<n><px3sp><abl> : тарихинден
+
+  "[twol] px3sp Back vowel words":
+    йыл<n><px3sp><nom> : йылы
+    йыл<n><px3sp><acc> : йылын
+    йыл<n><px3sp><gen> : йылыны
+    йыл<n><px3sp><dat> : йылына
+    йыл<n><px3sp><loc> : йылында
+    йыл<n><px3sp><abl> : йылындан
