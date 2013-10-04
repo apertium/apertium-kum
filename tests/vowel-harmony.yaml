@@ -1,0 +1,18 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../kum.autogen.hfst
+    Morph: ../kum.automorf.hfst
+
+Tests:
+  "[twol] Vowel harmony words":
+
+    къол<n><px1sg><nom> : къолум
+    фронт<n><acc> : фронтну
+    гёр<v><tv><pass><gpr_impf> : гёрюлеген
+    оху<v><tv><ifi><p3><sg> : охуду
+    тавуш<n><px3sp><nom> : тавушу
+    СССР<np><top><acc> : СССР-ни
+    оьз<prn><ref><px3sp><nom> : оьзю 
+
+
