@@ -4,6 +4,7 @@ Config:
     Gen: ../kum.autogen.hfst
     Morph: ../kum.automorf.hfst
 
+Tests:
   "[twol] px3sp Front-vowel words":
     тарих<n><px3sp><nom> : тарихи
     тарих<n><px3sp><acc> : тарихин
