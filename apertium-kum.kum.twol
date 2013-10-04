@@ -131,13 +131,13 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 %{I%}:и <=> [ [ :FrontVow | [ [ :Vow - :RdVow ] :ь ] ] :Cns :Cns* ]/:0 _ ;
 
 "{I} front rounded harmony"
-%{I%}:ю <=>      [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
-           [ [ [ \[ .#. | :Vow ] ] :RdYotVow ] :Cns :Cns* ]/:0 _ ;
+%{I%}:ю <=>                 [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
+        [ [ [ \[ .#. | :Vow ] ] :RdYotVow ] :Cns :Cns* ]/:0 _ ;
 
 "{A} front unrounded harmony"
 %{A%}:е <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns :Cns* ]/:0 _ ;
                           [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
-                     [ [ \[ .#. | :Vow ] ] :RdYotVow ]/:0 _ ;
+      [ [ [ \[ .#. | :Vow ] ] :RdYotVow ] :Cns :Cns* ]/:0 _ ;
 
 
 !!!!!!!!! Cons - VH interaction !!!!!!!!!
