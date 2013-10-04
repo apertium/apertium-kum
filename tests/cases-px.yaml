@@ -1,0 +1,50 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../kum.autogen.hfst
+    Morph: ../kum.automorf.hfst
+
+  "[twol] px3sp Front-vowel words":
+    тарих<n><px3sp><nom> : тарихи
+    тарих<n><px3sp><acc> : тарихин
+    тарих<n><px3sp><gen> : тарихини
+    тарих<n><px3sp><dat> : тарихине
+    тарих<n><px3sp><loc> : тарихинде
+    тарих<n><px3sp><abl> : тарихинден
+
+  "[twol] px3sp Back vowel words":
+    йыл<n><px3sp><nom> : йылы
+    йыл<n><px3sp><acc> : йылын
+    йыл<n><px3sp><gen> : йылыны
+    йыл<n><px3sp><dat> : йылына
+    йыл<n><px3sp><loc> : йылында
+    йыл<n><px3sp><abl> : йылындан
+
+  "[twol] Front-rounded vowel words":
+    оьмюр<n><px3sp><nom> : оьмюр
+    оьмюр<n><px3sp><acc> : оьмюрюн
+    оьмюр<n><px3sp><gen> : оьмюрюню
+    оьмюр<n><px3sp><dat> : оьмюрюне
+    оьмюр<n><px3sp><loc> : оьмюрюнде
+    оьмюр<n><px3sp><abl> : оьмюрюнден
+    оьмюр<n><px3sp><loc><attr> : оьмюрюндеги
+
+  "[twol] Front-rounded vowel words with ё":
+    кёз<n><px3sp><nom> : кёз
+    кёз<n><px3sp><acc> : кёзюн
+    кёз<n><px3sp><gen> : кёзюню
+    кёз<n><px3sp><dat> : кёзюне
+    кёз<n><px3sp><loc> : кёзюнде
+    кёз<n><px3sp><abl> : кёзюнден
+    кёз<n><px3sp><loc><attr> : кёзюндеги
+
+  "[twol] Front-rounded vowel words with оь":
+    оьр<n><px3sp><nom> : оьр
+    оьр<n><px3sp><acc> : оьрюн
+    оьр<n><px3sp><gen> : оьрюню
+    оьр<n><px3sp><dat> : оьрюне
+    оьр<n><px3sp><loc> : оьрюнде
+    оьр<n><px3sp><abl> : оьрюнден
+    оьр<n><px3sp><loc><attr> : оьрюндеги
+
+

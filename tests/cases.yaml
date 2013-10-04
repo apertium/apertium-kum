@@ -30,29 +30,21 @@ Tests:
     оьмюр<n><abl> : оьмюрден
     оьмюр<n><loc><attr> : оьмюрдеги
 
-  "[twol] px3sp Front-vowel words":
-    тарих<n><px3sp><nom> : тарихи
-    тарих<n><px3sp><acc> : тарихин
-    тарих<n><px3sp><gen> : тарихини
-    тарих<n><px3sp><dat> : тарихине
-    тарих<n><px3sp><loc> : тарихинде
-    тарих<n><px3sp><abl> : тарихинден
+  "[twol] Front-rounded vowel words in ё":
+    кёз<n><nom> : кёз
+    кёз<n><acc> : кёзню
+    кёз<n><gen> : кёзню
+    кёз<n><dat> : кёзге
+    кёз<n><loc> : кёзде
+    кёз<n><abl> : кёзден
+    кёз<n><loc><attr> : кёздеги
 
-  "[twol] px3sp Back vowel words":
-    йыл<n><px3sp><nom> : йылы
-    йыл<n><px3sp><acc> : йылын
-    йыл<n><px3sp><gen> : йылыны
-    йыл<n><px3sp><dat> : йылына
-    йыл<n><px3sp><loc> : йылында
-    йыл<n><px3sp><abl> : йылындан
-
-  "[twol] Front-rounded vowel words":
-    оьмюр<n><px3sp><nom> : оьмюр
-    оьмюр<n><px3sp><acc> : оьмюрюн
-    оьмюр<n><px3sp><gen> : оьмюрюню
-    оьмюр<n><px3sp><dat> : оьмюрюне
-    оьмюр<n><px3sp><loc> : оьмюрюнде
-    оьмюр<n><px3sp><abl> : оьмюрюнден
-    оьмюр<n><px3sp><loc><attr> : оьмюрюндеги
-
+  "[twol] Front-rounded vowel words in оь":
+    оьр<n><nom> : оьр
+    оьр<n><acc> : оьрню
+    оьр<n><gen> : оьрню
+    оьр<n><dat> : оьрге
+    оьр<n><loc> : оьрде
+    оьр<n><abl> : оьрден
+    оьр<n><loc><attr> : оьрдеги
 
