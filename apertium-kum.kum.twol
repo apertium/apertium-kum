@@ -3,7 +3,7 @@ Alphabet
  А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
  а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
 
- %{A%}:а %{A%}:е
+ %{A%}:а ! %{A%}:е
  %{I%}:ы ! %{I%}:и %{I%}:у %{I%}:ю
  %{D%}:д 
  %{N%}:н
@@ -15,7 +15,7 @@ Alphabet
  %{n%}:н
  %{y%}:у
  %{l%}:л %{l%}:н
- %{ъ%}:ъ %{ъ%}:0
+ %{ъ%}:ъ ! %{ъ%}:0
 
  %{❗%}:0
  %{☭%}:0
@@ -32,6 +32,15 @@ Vow = а э и о у А Э И О У     ! Уь Оь
 Cns =  Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь
        б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ ь ; 
 
+FrontVow = и е э
+           И Е Э ; !! leave out front-rounded vowels ё/оь and ю/уь!
+
+RdVow = о у
+        О У ;
+
+RdYotVow = ё ю
+           Ё Ю ;
+
 FrontUnroundVow = е э и
                   Е Э И ;
 
@@ -44,7 +53,7 @@ BackUnroundVow = а ы
 ! BackRoundVow = о у
 !                О У ;
 
-YotVow = Я я Е е Ё ё ; ! CHECK: Ю ю ;
+YotVow = Я я Е е Ё ё Ю ю ;  ! BEWARE of non-post-C ё ю
 
 Rules
 
@@ -101,7 +110,35 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 %{A%}:0 <=> [ :Vow ]/[ [ :0 - й:0 ] | %>: ] _ ;
 
 
+!!!!!!!!! Vowels !!!!!!!!!!
+!!!
+!!! Basic front vowel contexts
+!!! includes и, е, э, аь, оь, уь
+!!!  [ :FrontVow | [ :Vow :ь ] ]
+!!!
+!!! #includes оь, уь
+!!! # [ :RdVow :ь ]
+!!!
+!!! Front-round vowel hack
+!!! includes ю, ё
+!!!  [ [ \[ .#. | :Vow ] ] :RdYotVow ]
+!!!
+!!!
+
 !!!!!!!!! Vowel Harmony !!!!!!!!!!!
 
 "{I} front unrounded harmony"
-%{I%}:и <=> [ :FrontUnroundVow :Cns :Cns* ]/:0 _ ;
+%{I%}:и <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns :Cns* ]/:0 _ ;
+                          [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
+                     [ [ \[ .#. | :Vow ] ] :RdYotVow ]/:0 _ ;
+
+"{A} front unrounded harmony"
+%{A%}:е <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns :Cns* ]/:0 _ ;
+                          [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
+                     [ [ \[ .#. | :Vow ] ] :RdYotVow ]/:0 _ ;
+
+
+!!!!!!!!! Cons - VH interaction !!!!!!!!!
+
+"Delete ъ in front vowel context"
+%{ъ%}:0 <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns* [ :г | :к ] ]/[ :0 - %{ъ%}:0 ] _ ;
