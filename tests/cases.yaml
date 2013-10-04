@@ -39,13 +39,13 @@ Tests:
     оьмюр<n><loc><attr> : оьмюрдеги
 
   "[twol] Front-rounded vowel words in ё":
-    кёз<n><nom> : кёз
-    кёз<n><acc> : кёзню
-    кёз<n><gen> : кёзню
-    кёз<n><dat> : кёзге
-    кёз<n><loc> : кёзде
-    кёз<n><abl> : кёзден
-    кёз<n><loc><attr> : кёздеги
+    гёз<n><nom> : гёз
+    гёз<n><acc> : гёзню
+    гёз<n><gen> : гёзню
+    гёз<n><dat> : гёзге
+    гёз<n><loc> : гёзде
+    гёз<n><abl> : гёзден
+    гёз<n><loc><attr> : гёздеги
 
   "[twol] Front-rounded vowel words in оь":
     оьр<n><nom> : оьр

@@ -38,13 +38,13 @@ Config:
     оьмюр<n><px3sp><loc><attr> : оьмюрюндеги
 
   "[twol] Front-rounded vowel words with ё":
-    кёз<n><px3sp><nom> : кёз
-    кёз<n><px3sp><acc> : кёзюн
-    кёз<n><px3sp><gen> : кёзюню
-    кёз<n><px3sp><dat> : кёзюне
-    кёз<n><px3sp><loc> : кёзюнде
-    кёз<n><px3sp><abl> : кёзюнден
-    кёз<n><px3sp><loc><attr> : кёзюндеги
+    гёз<n><px3sp><nom> : гёз
+    гёз<n><px3sp><acc> : гёзюн
+    гёз<n><px3sp><gen> : гёзюню
+    гёз<n><px3sp><dat> : гёзюне
+    гёз<n><px3sp><loc> : гёзюнде
+    гёз<n><px3sp><abl> : гёзюнден
+    гёз<n><px3sp><loc><attr> : гёзюндеги
 
   "[twol] Front-rounded vowel words with оь":
     оьр<n><px3sp><nom> : оьр
