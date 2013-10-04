@@ -21,6 +21,14 @@ Tests:
     йыл<n><loc> : йылда
     йыл<n><abl> : йылдан
 
+  "[twol] Back vowel words":
+    ёл<n><nom> : ёл
+    ёл<n><acc> : ёлны
+    ёл<n><gen> : ёлны
+    ёл<n><dat> : ёлгъа
+    ёл<n><loc> : ёлда
+    ёл<n><abl> : ёлдан
+
   "[twol] Front-rounded vowel words":
     оьмюр<n><nom> : оьмюр
     оьмюр<n><acc> : оьмюрню

@@ -20,6 +20,14 @@ Config:
     йыл<n><px3sp><loc> : йылында
     йыл<n><px3sp><abl> : йылындан
 
+  "[twol] px3sp Back vowel words in ё":
+    ёл<n><px3sp><nom> : ёлы
+    ёл<n><px3sp><acc> : ёлын
+    ёл<n><px3sp><gen> : ёлыны
+    ёл<n><px3sp><dat> : ёлына
+    ёл<n><px3sp><loc> : ёлында
+    ёл<n><px3sp><abl> : ёлындан
+
   "[twol] Front-rounded vowel words":
     оьмюр<n><px3sp><nom> : оьмюр
     оьмюр<n><px3sp><acc> : оьмюрюн
