@@ -4,7 +4,7 @@ Alphabet
  а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
 
  %{A%}:а %{A%}:е
- %{I%}:ы %{I%}:и %{I%}:у %{I%}:ю
+ %{I%}:ы ! %{I%}:и %{I%}:у %{I%}:ю
  %{D%}:д 
  %{N%}:н
  %{M%}:б %{M%}:м
@@ -30,6 +30,18 @@ Vow = а э и о у А Э И О У     ! Уь Оь
 
 Cns =  Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь
        б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ ь ; 
+
+FrontUnroundVow = е э и
+                  Е Э И ;
+
+! FrontRoundVow = ё ю   ! оь
+!                 Ё Ю ; ! Оь
+
+BackUnroundVow = а ы
+                 А Ы ;
+
+! BackRoundVow = о у
+!                О У ;
 
 Rules
 
@@ -71,3 +83,8 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 "Deletion of {A} after vowels"
 %{A%}:0 <=> [ :Vow ]/[ [ :0 - й:0 ] | %>: ] _ ;
 
+
+!!!!!!!!! Vowel Harmony !!!!!!!!!!!
+
+"{I} front unrounded harmony"
+%{I%}:и <=> [ :FrontUnroundVow :Cns :Cns* ]/:0 _ ;
