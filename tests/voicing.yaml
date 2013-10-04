@@ -1,0 +1,12 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../kum.autogen.hfst
+    Morph: ../kum.automorf.hfst
+
+Tests:
+  "[twol] Voicing words":
+
+    къуллукъ<n><px3sp><nom> : къуллугъу
+
+
