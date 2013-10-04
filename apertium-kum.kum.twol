@@ -44,6 +44,8 @@ BackUnroundVow = а ы
 ! BackRoundVow = о у
 !                О У ;
 
+YotVow = Я я Е е Ё ё ; ! CHECK: Ю ю ;
+
 Rules
 
 "Deletion of {n} word final"
@@ -91,6 +93,9 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
           where Cx in ( п )
                 Cy in ( б )
                 matched;
+
+"Deletion of й before yoticised vowels when not earlier in a stem"
+й:0 <=> _ %>: [ :YotVow ]/[ :0 ] ;
 
 "Deletion of {A} after vowels"
 %{A%}:0 <=> [ :Vow ]/[ [ :0 - й:0 ] | %>: ] _ ;
