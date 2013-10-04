@@ -8,7 +8,7 @@ Alphabet
  %{D%}:д 
  %{N%}:н
  %{M%}:б %{M%}:м
- %{G%}:г %{G%}:к
+ %{G%}:г ! %{G%}:к
  %{E%}:а %{E%}:е %{E%}:й
  %{r%}:р
  %{s%}:с
@@ -16,6 +16,7 @@ Alphabet
  %{y%}:у
  %{l%}:л %{l%}:н
  %{ъ%}:ъ ! %{ъ%}:0
+ %{ң%}:0
 
  %{❗%}:0
  %{☭%}:0
@@ -31,6 +32,9 @@ Vow = а э и о у А Э И О У     ! Уь Оь
 
 Cns =  Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь
        б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ ь ; 
+
+Nasals = н м
+         Н М ;
 
 FrontVow = и е э
            И Е Э ; !! leave out front-rounded vowels ё/оь and ю/уь!
@@ -57,9 +61,6 @@ YotVow = Я я Е е Ё ё Ю ю ;  ! BEWARE of non-post-C ё ю
 
 Rules
 
-"Deletion of {n} word final"
-%{n%}:0 <=>  _ (:0) .#. ;
-
 "Deletion of {r} before suffix" ! FIXME
 %{r%}:0 <=> _ %>: ; 
         except 
@@ -78,11 +79,6 @@ Rules
 !             [ :а | :о | :у ] _ %>: [ :Vow ]/[ :0 ] ;
     except
         _ й: %>: %{E%}: ;
-
-"Deletion of accusative and genitive {D} after {n}"
-%{N%}:0 <=> %{n%}: %>: _ %{I%}: .#. ;
-            %{n%}: %>: _ %{I%}: .#. ;
-
 
 "Intervocalic voicing of к"
 Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
@@ -106,9 +102,6 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 "Deletion of й before yoticised vowels when not earlier in a stem"
 й:0 <=> _ %>: [ :YotVow ]/[ :0 ] ;
 
-"Deletion of {A} after vowels"
-%{A%}:0 <=> [ :Vow ]/[ [ :0 - й:0 ] | %>: ] _ ;
-
 
 !!!!!!!!! Vowels !!!!!!!!!!
 !!!
@@ -128,11 +121,21 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 !!!!!!!!! Vowel Harmony !!!!!!!!!!!
 
 "{I} front unrounded harmony"
-%{I%}:и <=> [ [ :FrontVow | [ [ :Vow - :RdVow ] :ь ] ] :Cns :Cns* ]/:0 _ ;
+%{I%}:и <=> [ [ :FrontVow | [ [ :Vow - [ :RdVow | :RdYotVow ] ] :ь ] ] :Cns :Cns* ]/:0 _ ;
+        except
+            %{n%}:н/[ :0 | %>: ] _ .#. ;
 
 "{I} front rounded harmony"
 %{I%}:ю <=>                 [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
         [ [ [ \[ .#. | :Vow ] ] :RdYotVow ] :Cns :Cns* ]/:0 _ ;
+        except
+            %{n%}:н/[ :0 | %>: ] _ .#. ;
+
+"{I} back rounded harmony"
+%{I%}:у <=>        [ :RdVow :Cns :Cns* ]/:0 _ ;
+        except
+                       %{n%}:н/[ :0 | %>: ] _ .#. ;
+            [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
 
 "{A} front unrounded harmony"
 %{A%}:е <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns :Cns* ]/:0 _ ;
@@ -142,9 +145,31 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 
 !!!!!!!!! Cons - VH interaction !!!!!!!!!
 
-"Delete ъ in front vowel context"
-%{ъ%}:0 <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns* [ :г | :к ] ]/[ :0 - %{ъ%}:0 ] _ ;
+"Delete ъ in front vowel context and after г:0"
+%{ъ%}:0 <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns* :г ]/[ :0 - %{ъ%}:0 ] _ ;
                           [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
       [ [ [ \[ .#. | :Vow ] ] :RdYotVow ] :Cns :Cns* ]/:0 _ ;
+                                                      г:0 _ ;
+
+!!!!!!!!! Special stuff for px+case !!!!!!!!!
+
+"Deletion of {n} word final"
+%{n%}:0 <=>  _ (:0) .#. ;
+
+"Deletion of accusative and genitive {D} after {n}"
+%{N%}:0 <=> %{n%}: %>: _ %{I%}: (%{ң%}:) .#. ;
+            %{n%}: %>: _ %{I%}: (%{ң%}:) .#. ;
+
+"Deletion of {A} after vowels"
+%{A%}:0 <=> [ :Vow ]/[ [ :0 - й:0 ] | %>: ] _ ;
+
+"Deletion of {I} after {n}"
+%{I%}:0 <=> %{n%}:н/[ :0 | %>: ] _ .#. ;
+            except
+                         %{o%}:0 _ ;
+
+"Deletion of dative г after px1sg, px2sg, px3sp"
+г:0 <=>  %{I%}: :Nasals %>: _ %{ъ%}: %{A%}: .#. ;
+         %{I%}: :Nasals %>: _ %{ъ%}: %{A%}: %  ;
 
 

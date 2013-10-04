@@ -136,6 +136,7 @@ Multichar_Symbols
 %{l%}                     ! 
 %{y%}                     ! 
 %{ъ%}                     !
+%{ң%}                     !
 
 %{☭%}                     ! Russian noun (final voiced Cns treated as unvoiced)
 %{❗%}
@@ -184,7 +185,7 @@ CLIT ;
 
 LEXICON CASES-OBL
 
-%<gen%>:%>%{N%}%{I%} CLIT ;
+%<gen%>:%>%{N%}%{I%}%{ң%} CLIT ;
 %<acc%>:%>%{N%}%{I%} CLIT ;
 %<dat%>:%>г%{ъ%}%{A%} CLIT ;
 %<loc%>:%>%{D%}%{A%} CLIT-COP ; 

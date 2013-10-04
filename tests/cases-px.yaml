@@ -30,7 +30,7 @@ Tests:
     ёл<n><px3sp><abl> : ёлындан
 
   "[twol] Front-rounded vowel words":
-    оьмюр<n><px3sp><nom> : оьмюр
+    оьмюр<n><px3sp><nom> : оьмюрю
     оьмюр<n><px3sp><acc> : оьмюрюн
     оьмюр<n><px3sp><gen> : оьмюрюню
     оьмюр<n><px3sp><dat> : оьмюрюне
@@ -39,7 +39,7 @@ Tests:
     оьмюр<n><px3sp><loc><attr> : оьмюрюндеги
 
   "[twol] Front-rounded vowel words with ё":
-    гёз<n><px3sp><nom> : гёз
+    гёз<n><px3sp><nom> : гёзю
     гёз<n><px3sp><acc> : гёзюн
     гёз<n><px3sp><gen> : гёзюню
     гёз<n><px3sp><dat> : гёзюне
@@ -48,7 +48,7 @@ Tests:
     гёз<n><px3sp><loc><attr> : гёзюндеги
 
   "[twol] Front-rounded vowel words with оь":
-    оьр<n><px3sp><nom> : оьр
+    оьр<n><px3sp><nom> : оьрю
     оьр<n><px3sp><acc> : оьрюн
     оьр<n><px3sp><gen> : оьрюню
     оьр<n><px3sp><dat> : оьрюне
