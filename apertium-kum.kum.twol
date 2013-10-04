@@ -132,7 +132,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 
 "{I} front rounded harmony"
 %{I%}:ю <=>      [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
-            [ [ \[ .#. | :Vow ] ] :RdYotVow ]/:0 _ ;
+           [ [ [ \[ .#. | :Vow ] ] :RdYotVow ] :Cns :Cns* ]/:0 _ ;
 
 "{A} front unrounded harmony"
 %{A%}:е <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns :Cns* ]/:0 _ ;
