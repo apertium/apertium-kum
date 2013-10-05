@@ -29,6 +29,14 @@ Tests:
     ёл<n><px3sp><loc> : ёлында
     ёл<n><px3sp><abl> : ёлындан
 
+  "[twol] px3sp Back rounded vowel words in ю":
+    юрт<n><px3sp><nom> : юрту
+    юрт<n><px3sp><acc> : юртун
+    юрт<n><px3sp><gen> : юртуну
+    юрт<n><px3sp><dat> : юртуна
+    юрт<n><px3sp><loc> : юртунда
+    юрт<n><px3sp><abl> : юртундан
+
   "[twol] Front-rounded vowel words":
     оьмюр<n><px3sp><nom> : оьмюрю
     оьмюр<n><px3sp><acc> : оьмюрюн
