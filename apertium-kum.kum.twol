@@ -123,23 +123,29 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 "{I} front unrounded harmony"
 %{I%}:и <=> [ [ :FrontVow | [ [ :Vow - [ :RdVow | :RdYotVow ] ] :ь ] ] :Cns :Cns* ]/:0 _ ;
         except
-            %{n%}:н/[ :0 | %>: ] _ .#. ;
+                       %{n%}:н/[ :0 | %>: ] _ .#. ;
+ [ [ :е | :э ] :в :Cns*  ]/[ :0 - %{☭%}:0 ] _ ;  ! -евни in Russian words
 
 "{I} front rounded harmony"
-%{I%}:ю <=>                 [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
-                            [ [ :RdYotVow ] :Cns :Cns* ]/:0 _ ;
+%{I%}:ю <=> [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
+            [ [ :RdYotVow ] :Cns :Cns* ]/:0 _ ;
+               [ [ :е | :э ] :в :Cns*  ]/:0 _ ;
         except
             %{n%}:н/[ :0 | %>: ] _ .#. ;
            :Vow [ :RdYotVow :Cns :Cns* ]/:0 _ ;
             .#. [ :RdYotVow :Cns :Cns* ]/:0 _ ;
+             %{☭%}: :Cns*/[ :0 - %{☭%}:0 ]* _ ;
+        [ [ :е | :э ] :в %{☭%}: :Cns* ]/[ :0 - %{☭%}:0 ]* _ ;
 
 "{I} back rounded harmony"
 %{I%}:у <=>        [ :RdVow :Cns :Cns* ]/:0 _ ;
            :Vow [ :RdYotVow :Cns :Cns* ]/:0 _ ;
             .#. [ :RdYotVow :Cns :Cns* ]/:0 _ ;
+                        [ :а :в :Cns*  ]/:0 _ ;
         except
                        %{n%}:н/[ :0 | %>: ] _ .#. ;
             [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
+       :а :в %{☭%}: :Cns*/[ :0 - %{☭%}:0 ]* _ ;  !  -авны, -овну
 
 "{A} front unrounded harmony"
 %{A%}:е <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns :Cns* ]/:0 _ ;

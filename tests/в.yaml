@@ -7,7 +7,7 @@ Config:
 Tests:
   "[twol] Vowel harmony after ав":
     тав<n><abl> : тавдан
-    тав<n><px3sp><dat> : тавына
+    тав<n><px3sp><dat> : тавуна
     тав<n><gen> : тавну
     тав<n><acc> : тавну
     тав<n><px3sp><nom> : таву
@@ -27,3 +27,7 @@ Tests:
     Акаев<np><cog><m><acc> : Акаевни
     Къадиев<np><cog><m><px3sp><acc> : Къадиевин
     Акаев<np><cog><m><px3sp><acc> : Акаевин
+    состав<n><acc> : составны
+    состав<n><px3sp><acc> : составын
+    Муратов<np><cog><m><acc> : Муратовну
+    Муратов<np><cog><m><px3sp><acc> : Муратовун

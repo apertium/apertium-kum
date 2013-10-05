@@ -252,6 +252,11 @@ LEXICON N1
 %<n%>%<attr%>: # ;
 %<n%>: SUBST ;
 
+LEXICON N5
+
+%<n%>%<attr%>: # ;
+%<n%>:%{☭%} SUBST ;
+
 LEXICON NP-TOP-ACR
 
 %<np%>%<top%>%<nom%>: CLIT ;
@@ -1571,6 +1576,8 @@ LEXICON Nouns
 театр:театр N1 ; ! ""
 гележек:гележек N1 ; ! "будушое"
 тилев:тилев N1 ; ! "желание" (??)
+устав:устав N5 ; ! 
+состав:состав N5 ; ! 
 
 
 LEXICON ProperNouns
@@ -1730,6 +1737,7 @@ LEXICON ProperNouns
 Умаханов:Умаханов NP-COG-OV ; ! ""
 Меликов:Меликов NP-COG-OV ; ! ""
 Къадиев:Къадиев NP-COG-OV ; ! ""
+Муратов:Муратов NP-COG-OV ; ! ""
 
 Путин:Путин NP-COG-IN ; ! ""
 Ленин:Ленин NP-COG-IN ; ! ""
