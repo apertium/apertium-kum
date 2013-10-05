@@ -127,12 +127,16 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 
 "{I} front rounded harmony"
 %{I%}:ю <=>                 [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
-        [ [ [ \[ .#. | :Vow ] ] :RdYotVow ] :Cns :Cns* ]/:0 _ ;
+                            [ [ :RdYotVow ] :Cns :Cns* ]/:0 _ ;
         except
             %{n%}:н/[ :0 | %>: ] _ .#. ;
+           :Vow [ :RdYotVow :Cns :Cns* ]/:0 _ ;
+            .#. [ :RdYotVow :Cns :Cns* ]/:0 _ ;
 
 "{I} back rounded harmony"
 %{I%}:у <=>        [ :RdVow :Cns :Cns* ]/:0 _ ;
+           :Vow [ :RdYotVow :Cns :Cns* ]/:0 _ ;
+            .#. [ :RdYotVow :Cns :Cns* ]/:0 _ ;
         except
                        %{n%}:н/[ :0 | %>: ] _ .#. ;
             [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
