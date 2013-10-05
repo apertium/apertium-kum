@@ -1,0 +1,29 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../kum.autogen.hfst
+    Morph: ../kum.automorf.hfst
+
+Tests:
+  "[twol] Vowel harmony after ав":
+    тав<n><abl> : тавдан
+    тав<n><px3sp><dat> : тавына
+    тав<n><gen> : тавну
+    тав<n><acc> : тавну
+    тав<n><px3sp><nom> : таву
+
+  "[twol] Vowel harmony after ев":
+    оьлчев<n><abl> : оьлчевден
+    оьлчев<n><dat> : оьлчевге
+    оьлчев<n><px3sp><acc> : оьлчевюн
+    оьлчев<n><gen> : оьлчевню
+    тилев<n><abl> : тилевден
+    тилев<n><dat> : тилевге
+    тилев<n><px3sp><acc> : тилевюн
+    тилев<n><gen> : тилевню
+
+  "[twol] Russian words with ев that don't cause rounding":
+    Къадиев<np><cog><m><acc> : Къадиевни
+    Акаев<np><cog><m><acc> : Акаевни
+    Къадиев<np><cog><m><px3sp><acc> : Къадиевин
+    Акаев<np><cog><m><px3sp><acc> : Акаевин

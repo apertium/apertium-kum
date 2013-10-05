@@ -350,6 +350,12 @@ LEXICON DET-REF
 %<det%>%<ref%>: # ;
 
 
+LEXICON NUM-COLL
+
+%<num%>%<coll%>%<subst%>: N-INFL-COMMON ;
+%<num%>%<coll%>%<advl%>: # ;
+
+
 LEXICON DET-QNT
 
 %<det%>%<qnt%>: # ;
@@ -694,7 +700,8 @@ PRON-DEM-BU ; ! ""
 
 къайсы:къайсы PRON-ITG-QAJSY ; ! ""
 
-бирев:бирев PRON-QNT ; ! ""
+#бирев:бирев PRON-QNT ; ! ""
+бір:бирев NUM-COLL ;
 
 оьз:оьз PRON-REF ; ! "oneself's" FIXME
 
@@ -1563,6 +1570,7 @@ LEXICON Nouns
 пикру:пикру N1 ; ! "мысл"
 театр:театр N1 ; ! ""
 гележек:гележек N1 ; ! "будушое"
+тилев:тилев N1 ; ! "желание" (??)
 
 
 LEXICON ProperNouns
@@ -1721,6 +1729,7 @@ LEXICON ProperNouns
 Ибрагьимов:Ибрагьимов NP-COG-OV ; ! ""
 Умаханов:Умаханов NP-COG-OV ; ! ""
 Меликов:Меликов NP-COG-OV ; ! ""
+Къадиев:Къадиев NP-COG-OV ; ! ""
 
 Путин:Путин NP-COG-IN ; ! ""
 Ленин:Ленин NP-COG-IN ; ! ""
