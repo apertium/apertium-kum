@@ -23,8 +23,8 @@ Tests:
 
   "[twol] Back rounded vowel words in ё":
     ёл<n><nom> : ёл
-    ёл<n><acc> : ёлны
-    ёл<n><gen> : ёлны
+    ёл<n><acc> : ёлну
+    ёл<n><gen> : ёлну
     ёл<n><dat> : ёлгъа
     ёл<n><loc> : ёлда
     ёл<n><abl> : ёлдан
