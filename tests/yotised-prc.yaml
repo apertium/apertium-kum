@@ -1,0 +1,12 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../kum.autogen.hfst
+    Morph: ../kum.automorf.hfst
+
+Tests:
+  "[twol] Vowel harmony words":
+
+    сюй<v><tv><prc_perf> : сююп
+
+

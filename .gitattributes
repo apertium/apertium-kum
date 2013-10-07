@@ -22,4 +22,5 @@ tests/cases-px.yaml -text
 tests/cases.yaml -text
 tests/voicing.yaml -text
 tests/vowel-harmony.yaml -text
+tests/yotised-prc.yaml -text
 tests/в.yaml -text
