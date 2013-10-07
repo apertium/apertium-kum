@@ -9,8 +9,14 @@ LIST EOS = (<<<) (sent);
 LIST N = n ; 
 LIST Post = post ; 
 
+LIST Nom = nom ; 
+
+LIST Attr = attr ;
+
 SECTION
 
 
 REMOVE Post if (-1 BOS);
     ## Мен сизди анъламадым.
+
+SELECT Attr IF (0C Attr OR Nom) (1C Attr OR Nom);
