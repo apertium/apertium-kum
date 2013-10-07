@@ -1,0 +1,20 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../kum.autogen.hfst
+    Morph: ../kum.automorf.hfst
+
+Tests:
+  "[twol] Months":
+
+    декабрь<n><dat> : декабрге
+    декабрь<n><loc> : декабрде
+    сентябрь<n><dat> : сентябрге
+    сентябрь<n><loc> : сентябрде
+    октябрь<n><dat> : октябрге
+    октябрь<n><loc> : октябрде
+    январ<n><loc> : январда
+    июль<n><loc> : июлда
+    июнь<n><loc> : июнда
+    апрель<n><loc> : апрелде
+

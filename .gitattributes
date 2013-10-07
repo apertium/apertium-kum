@@ -20,6 +20,7 @@ speller/strings.default.txt -text
 speller/words.default.txt -text
 tests/cases-px.yaml -text
 tests/cases.yaml -text
+tests/mz-cases.yaml -text
 tests/voicing.yaml -text
 tests/vowel-harmony.yaml -text
 tests/yotised-prc.yaml -text
