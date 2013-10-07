@@ -421,7 +421,7 @@ LEXICON V-NONFIN-REG-NEG
 %<ger_past%>:%>г%{ъ%}%{A%}н SUBST ; ! FIXME: Will overgenerate
 %<ger_pros%>:%>%{A%}ж%{A%}к%{ъ%} SUBST ; ! FIXME: Might not be correct categorisation / Will overgenerate
 %<ger1%>:%>м%{A%} SUBST ; ! FIXME: Will overgenerate
-%<gpr_impf%>:%>%{E%}г%{ъ%}%{A%}н SUBST ; !   FIXME: Will overgenerate
+%<ger_impf%>:%>%{E%}г%{ъ%}%{A%}н SUBST ; !   FIXME: Will overgenerate
 
 %<prc_cond%>:%>с%{A%} V-PERS-S2 ; 
 
