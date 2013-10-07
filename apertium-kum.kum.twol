@@ -156,7 +156,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 !!!!!!!!! Cons - VH interaction !!!!!!!!!
 
 "Delete ъ in front vowel context and after г:0"
-%{ъ%}:0 <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns* :г ]/[ :0 - %{ъ%}:0 ] _ ;
+%{ъ%}:0 <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns* [ :г | :к ]  ]/[ :0 - %{ъ%}:0 ] _ ;
                           [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
       [ [ [ \[ .#. | :Vow ] ] :RdYotVow ] :Cns :Cns* ]/:0 _ ;
                                                       г:0 _ ;
