@@ -5,8 +5,13 @@ Config:
     Morph: ../kum.automorf.hfst
 
 Tests:
-  "[twol] Vowel harmony words":
+  "[twol] Participle":
 
     сюй<v><tv><prc_perf> : сююп
+
+  "[twol] px3sp":
+ 
+    кюй<n><px3sp><nom> : кюю
+    кюй<n><px3sp><loc> : кююнде
 
 
