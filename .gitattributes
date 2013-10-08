@@ -12,6 +12,7 @@
 /autogen.sh -text
 /configure.ac -text
 dev/auto-nouns-from-dict.lexc -text
+dev/auto-verbs-from-dict.lexc -text
 dev/countstems.sh -text
 dev/editdist.py -text
 /modes.xml -text
