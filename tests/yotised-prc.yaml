@@ -6,11 +6,10 @@ Config:
 
 Tests:
   "[twol] Participle":
-
     сюй<v><tv><prc_perf> : сююп
+    къой<v><tv><prc_perf> : къоюп
 
   "[twol] px3sp":
- 
     кюй<n><px3sp><nom> : кюю
     кюй<n><px3sp><loc> : кююнде
 
