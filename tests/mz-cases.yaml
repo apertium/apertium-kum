@@ -41,6 +41,9 @@ Tests:
     апрель<n><acc> : апрелни
     апрель<n><px3sp><nom> : апрели
 
-  "[twol] Other":
-    режиссёр<n><pl><nom> : режиссёрлар
-    режиссёр<n><px3sp><nom> : режиссёру
+  "[twol] Words where orthographic ь doesn't affect harmony":
+    аллагь<n><nom> : аллагь
+    аллагь<n><loc> : аллагьда
+    аллагь<n><dat> : аллагьгъа
+    аллагь<n><px3sp><nom> : аллагьы
+    аллагь<n><gen> : аллагьны
