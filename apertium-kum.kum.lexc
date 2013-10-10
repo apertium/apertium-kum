@@ -4371,7 +4371,7 @@ LEXICON ProperNouns
 ДПС:ДПС NP-AL-ACR ; ! ""
 ВЦСПС:ВЦСПС NP-AL-ACR ; ! "Всесоюзный центральный совет профессиональных союзов"
 
-МТС:МТС NP-ORG ; ! "МТС"  cat FIXME: this needs phonology stuff
+МТС:МТС NP-AL-ACR ; ! "МТС"  cat FIXME: this needs phonology stuff
 ЕГЭ:ЕГЭ NP-AL-ACR ; ! "Единый государственный экзамен" ! FIXME cat
 СИЗО:СИЗО NP-AL-ACR ; ! "Следственный изолятор" ! FIXME cat
 ГУП:ГУП NP-AL-ACR ; ! "Государственное унитарное предприятие" FIXME cat
@@ -4821,6 +4821,9 @@ LEXICON Verbs
 тенглешдир:тенглешдир V-TV ; ! "уравнять" caus
 башла:башла V-TV ; ! "начинать"
 безендир:безендир V-TV ; ! "декорировать, расшить"
+
+теш:теш V-TV ; ! "бурить, пробить, протереть"
+
 
 LEXICON Interjections
 
