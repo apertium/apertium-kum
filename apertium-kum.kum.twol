@@ -75,7 +75,7 @@ Rules
 "Deletion of {I} after vowels"
 %{I%}:0 <=> [ :Vow ]/[ :0 | %>: ] _ ;
             except
-          [ :RdVow :Cns* й:0 ]/[ :0 - й:0 ] _ ;
+          [ й:0 ]/[ :0 - й:0 ] _ ;
 
 "Deletion of ь when vowel-initial stem follows"
 ! е behaves like a consonant after vowels; i.e., it's /йэ/
@@ -138,8 +138,10 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 %{I%}:ю <=> [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
             [ [ :RdYotVow ] :Cns :Cns* ]/:0 _ ;
                  [ :FrontVow :в :Cns*  ]/:0 _ ;
-            !!!!! following for йу !!!!!
+            !!!!! following for ойу → ою !!!!!
           [ :RdVow :Cns* й:0 ]/[ :0 - й:0 ] _ ;
+			   !!!!! following for юйю → юю !!!!!
+       [ :RdYotVow :Cns* й:0 ]/[ :0 - й:0 ] _ ;
         except
             %{n%}:н/[ :0 | %>: ] _ .#. ;
            :Vow [ :RdYotVow :Cns :Cns* ]/:0 _ ;
