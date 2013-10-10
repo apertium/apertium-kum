@@ -39,6 +39,9 @@ Nasals = н м
 FrontVow = и е э
            И Е Э ; !! leave out front-rounded vowels ё/оь and ю/уь!
 
+BackVow = а ы у о
+          А Ы У О ;
+
 RdVow = о у
         О У ;
 
@@ -75,6 +78,8 @@ Rules
 "Deletion of ь when vowel-initial stem follows"
 ! е behaves like a consonant after vowels; i.e., it's /йэ/
 ь:0 <=> _ %>: [ :Vow - :е ]/[ :0 ] ;
+! Uhm, and before consonants....
+        _ %>: :Cns/:0 ;
 !       except
 !             [ :а | :о | :у ] _ %>: [ :Vow ]/[ :0 ] ;
     except
@@ -124,24 +129,28 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 %{I%}:и <=> [ [ :FrontVow | [ [ :Vow - [ :RdVow | :RdYotVow ] ] :ь ] ] :Cns :Cns* ]/:0 _ ;
         except
                        %{n%}:н/[ :0 | %>: ] _ .#. ;
- [ [ :е | :э ] :в :Cns*  ]/[ :0 - %{☭%}:0 ] _ ;  ! -евни in Russian words
+   [ :FrontVow :в :Cns*  ]/[ :0 - %{☭%}:0 ] _ ;  ! -евни in Russian words
 
 "{I} front rounded harmony"
 %{I%}:ю <=> [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
             [ [ :RdYotVow ] :Cns :Cns* ]/:0 _ ;
-               [ [ :е | :э ] :в :Cns*  ]/:0 _ ;
+                 [ :FrontVow :в :Cns*  ]/:0 _ ;
         except
             %{n%}:н/[ :0 | %>: ] _ .#. ;
            :Vow [ :RdYotVow :Cns :Cns* ]/:0 _ ;
             .#. [ :RdYotVow :Cns :Cns* ]/:0 _ ;
              %{☭%}: :Cns*/[ :0 - %{☭%}:0 ]* _ ;
-        [ [ :е | :э ] :в %{☭%}: :Cns* ]/[ :0 - %{☭%}:0 ]* _ ;
+        [ :FrontVow :в %{☭%}: :Cns* ]/[ :0 - %{☭%}:0 ]* _ ;
+       [ :RdYotVow :Cns* %{☭%}:0 :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрну in Russian words
 
 "{I} back rounded harmony"
 %{I%}:у <=>        [ :RdVow :Cns :Cns* ]/:0 _ ;
            :Vow [ :RdYotVow :Cns :Cns* ]/:0 _ ;
             .#. [ :RdYotVow :Cns :Cns* ]/:0 _ ;
-                        [ :а :в :Cns*  ]/:0 _ ;
+                  [ :BackVow :в :Cns*  ]/:0 _ ;
+       :RdYotVow [ :Cns :Cns* %{☭%}:0 :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрну in Russian words
+       :RdYotVow [ :Cns* %{☭%}:0 :Cns :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрну in Russian words
+		 ! need the above two rules because there needs to be at least one consonant, but it doesn't matter which side of {☭} it is; could combine to one rule with | between the two contexts, but I don't think it's possible to simplify it, e.g. "either :Cns before {☭} or :Cns after {☭}, with optional :Cns* either side"
         except
                        %{n%}:н/[ :0 | %>: ] _ .#. ;
             [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
@@ -151,6 +160,8 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 %{A%}:е <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns :Cns* ]/:0 _ ;
                           [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
       [ [ [ \[ .#. | :Vow ] ] :RdYotVow ] :Cns :Cns* ]/:0 _ ;
+        except
+       [ :RdYotVow :Cns* %{☭%}:0 :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрлар in Russian words
 
 
 !!!!!!!!! Cons - VH interaction !!!!!!!!!

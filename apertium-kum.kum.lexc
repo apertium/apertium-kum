@@ -255,6 +255,8 @@ LEXICON N1
 %<n%>: SUBST ;
 
 LEXICON N5
+! needed especially for Russian words with ё and ю after Cns
+! so they behave like back vowels
 
 %<n%>%<attr%>: # ;
 %<n%>:%{☭%} SUBST ;
@@ -1452,7 +1454,7 @@ LEXICON Nouns
 кандидат:кандидат N1 ; ! ""
 доктор:доктор N1 ; ! ""
 ректор:ректор N1 ; ! ""
-режиссёр:режиссёр N1 ; ! ""
+режиссёр:режиссёр N5 ; ! ""
 солдат:солдат N1 ; ! ""
 террорчу:террорчу N1 ; ! ""
 ремонт:ремонт N1 ; ! ""

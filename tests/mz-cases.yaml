@@ -5,18 +5,34 @@ Config:
     Morph: ../kum.automorf.hfst
 
 Tests:
-  "[twol] Months":
-
+  "[twol] Months where ь triggers front harmony but is deleted ":
     декабрь<n><dat> : декабрге
     декабрь<n><loc> : декабрде
+    декабрь<n><acc> : декабрни
+    декабрь<n><px3sp><nom> : декабри
     сентябрь<n><dat> : сентябрге
     сентябрь<n><loc> : сентябрде
+    сентябрь<n><acc> : сентябрни
+    сентябрь<n><px3sp><nom> : сентябри
     октябрь<n><dat> : октябрге
     октябрь<n><loc> : октябрде
-    январ<n><loc> : январда
+    октябрь<n><acc> : октябрни
+    октябрь<n><px3sp><nom> : октябри
+
+  "[twol] Months where ь is deleted, no front harmony":
+    январь<n><loc> : январда
+    январь<n><acc> : январны
+    январь<n><px3sp><nom> : январы
     июль<n><loc> : июлда
+    июль<n><acc> : июлну
     июнь<n><loc> : июнда
+    июнь<n><acc> : июнну
+    июнь<n><px3sp><nom> : июну
+
+  "[twol] Months where ь is deleted, already front":
     апрель<n><loc> : апрелде
+    апрель<n><acc> : апрелни
+    апрель<n><px3sp><nom> : апрели
 
   "[twol] Other":
     режиссёр<n><pl><nom> : режиссёрлар

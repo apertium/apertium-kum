@@ -22,6 +22,25 @@ Tests:
     тилев<n><px3sp><acc> : тилевюн
     тилев<n><gen> : тилевню
 
+  "[twol] Vowel harmony after ив>, и>{I}в and front >{I}в":
+    сезив<n><loc> : сезивде
+    сезив<n><px3sp><nom> : сезивю
+    сезив<n><acc> : сезивню
+    бийи<v><tv><ger><loc> : бийивде
+    бийи<v><tv><ger><px3sp><nom> : бийивю
+    бийи<v><tv><ger><acc> : бийивню
+    чеч<v><tv><ger><loc> : чечивде
+    чеч<v><tv><ger><px3sp><nom> : чечивю
+    чеч<v><tv><ger><acc> : чечивню
+
+  "[twol] Vowel harmony after ыв>, {ы>{I}в} and back >{I}в":
+    сатыв<n><loc> : сатывда
+    сатыв<n><px3sp><nom> : сатыву
+    сатыв<n><acc> : сатывну
+    сат<v><tv><ger><loc> : сатывда
+    сат<v><tv><ger><px3sp><nom> : сатыву
+    сат<v><tv><ger><acc> : сатывну
+
   "[twol] Russian words with ев that don't cause rounding":
     Къадиев<np><cog><m><acc> : Къадиевни
     Акаев<np><cog><m><acc> : Акаевни
