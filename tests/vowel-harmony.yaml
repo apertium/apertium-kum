@@ -19,3 +19,4 @@ Tests:
   "[twol] Russian words with what look like front vowels but aren't":
     режиссёр<n><pl><nom> : режиссёрлар
     режиссёр<n><px3sp><nom> : режиссёру
+    центр<n><pl><nom> : центрлар
