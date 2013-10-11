@@ -13,10 +13,16 @@ LIST Nom = nom ;
 
 LIST Attr = attr ;
 
+LIST Punct = guio ; 
+
 SECTION
 
 
-REMOVE Post if (-1 BOS);
+REMOVE Post if (-1 BOS OR Punct);
     ## Мен сизди анъламадым.
 
 SELECT Attr IF (0C Attr OR Nom) (1C Attr OR Nom);
+
+REMOVE Attr IF (1 EOS) ; 
+
+REMOVE Nom IF (1C Nom) ; 
