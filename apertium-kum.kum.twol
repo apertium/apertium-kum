@@ -9,7 +9,7 @@ Alphabet
  %{N%}:н
  %{M%}:м ! %{M%}:б
  %{G%}:г ! %{G%}:к
- %{E%}:а %{E%}:е %{E%}:й
+ %{E%}:а ! %{E%}:е %{E%}:й
  %{r%}:р
  %{s%}:с
  %{n%}:н
@@ -109,6 +109,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 
 "Deletion of й before yoticised vowels when not earlier in a stem"
 й:0 <=> _ %>: [ :YotVow ]/[ :0 ] ;
+        _ %>: [ %{A%}: | %{E%}: | %{I%}: ] ;
 
 
 !!!!!!!!! Vowels !!!!!!!!!!
@@ -125,6 +126,11 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 !!!  [ [ \[ .#. | :Vow ] ] :RdYotVow ]
 !!!
 !!!
+
+"{E} is й after vowels"
+%{E%}:й <=> :Vow/[ :0 - й:0 ] _ ;
+        except
+            [ :Vow й: ]/[ :0 - й:0 ] _ ;
 
 !!!!!!!!! Vowel Harmony !!!!!!!!!!!
 
@@ -170,6 +176,22 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
       [ [ [ \[ .#. | :Vow ] ] :RdYotVow ] :Cns :Cns* ]/:0 _ ;
         except
        [ :RdYotVow :Cns* %{☭%}:0 :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрлар in Russian words
+
+"{E} front harmony"
+%{E%}:е <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns :Cns* ]/:0 _ ;
+                          [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
+      [ [ [ \[ .#. | :Vow ] ] :RdYotVow ] :Cns :Cns* ]/:0 _ ;
+      [ [ [ \[ .#. | :Vow ] ] :RdYotVow ] :Cns* й:0 ]/[ :0 - й:0 ] _ ; ! сюй>E>мIн:сюемин
+        except
+       [ :RdYotVow :Cns* %{☭%}:0 :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрлар in Russian words
+!                                        :Vow/[ :0 - й:0 ] _ ;
+
+
+"{E} back й harmony"
+%{E%}:я <=> [ :BackVow й:0 ]/[ :0 - й:0 ] _ ;
+
+
+
 
 
 !!!!!!!!! Cons - VH interaction !!!!!!!!!
