@@ -9,6 +9,12 @@ Tests:
     сюй<v><tv><prc_perf> : сююп
     къой<v><tv><prc_perf> : къоюп
 
+  "[twol] Aorist":
+    сюй<v><tv><aor><p1><sg> : сюемен
+    сюй<v><tv><aor><p3><sg> : сюе
+    къой<v><tv><aor><p1><sg> : къояман
+    къой<v><tv><aor><p3><sg> : къоя
+
   "[twol] px3sp":
     кюй<n><px3sp><nom> : кюю
     кюй<n><px3sp><loc> : кююнде
