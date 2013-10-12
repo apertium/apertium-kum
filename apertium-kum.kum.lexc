@@ -280,11 +280,13 @@ LEXICON NP-TOP-SK
 LEXICON NP-ANT-M
 
 %<np%>%<ant%>%<m%>: NP-COMMON ;
+%<np%>%<ant%>%<m%>%<attr%>: # ;
 %<np%>%<ant%>%<m%>%<pl%>:%>л%{A%}р NP-COMMON ;
 
 LEXICON NP-ANT-F
 
 %<np%>%<ant%>%<f%>: NP-COMMON ;
+%<np%>%<ant%>%<f%>%<attr%>: # ;
 %<np%>%<ant%>%<f%>%<pl%>:%>л%{A%}р NP-COMMON ;
 
 LEXICON NP-COG-OVA
@@ -440,7 +442,7 @@ V-FIN-IRREG-NEG-COMMON ;
 
 LEXICON V-NONFIN-IRREG-NEG
 
-%<inf%>:%>м%{A%}к%{ъ%} # ; ! FIXME
+%<inf%>:%>м%{A%}к%{ъ%} SUBST ; ! FIXME
 
 %<prc_perf%>:%>%{I%}п CLIT ;
 
@@ -3709,6 +3711,7 @@ LEXICON ProperNouns
 Азнавур:Азнавур NP-ANT-M ; ! ""
 Айгум:Айгум NP-ANT-M ; ! ""
 Айнутдин:Айнутдин NP-ANT-M ; ! ""
+Усама:Усама NP-ANT-M ; ! ""
 Акъай:Акъай NP-ANT-M ; ! ""
 Алав:Алав NP-ANT-M ; ! ""
 Алавдин:Алавдин NP-ANT-M ; ! ""
@@ -4618,6 +4621,7 @@ LEXICON ProperNouns
 
 Гоголь:Гоголь NP-COG-MF ; ! ""
 Толстой:Толстой NP-COG-M ; ! ""
+бен% Ладен:бен% Ладен NP-COG-M ; ! ""
 
 Анощенко:Анощенко NP-COG-MF ; ! ""
 Деревенко:Деревенко NP-COG-MF ; ! ""
@@ -5314,6 +5318,9 @@ LEXICON Verbs
 юз:юз V-IV-AR ; ! "плавать, плыть"
 
 уьйлен:уьйлен V-IV-IR ; ! "жениться"
+
+тапшур:тапшур V-TV-IR ; ! "вручить, заказать"
+
 
 LEXICON Interjections
 
