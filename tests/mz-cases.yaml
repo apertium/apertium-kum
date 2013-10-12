@@ -5,6 +5,10 @@ Config:
     Morph: ../kum.automorf.hfst
 
 Tests:
+  "[twol] Words where ь triggers front harmony but is deleted ":
+    ансамбль<n><dat> : ансамблге
+    ансамбль<n><px3sp><nom> : ансамбли
+
   "[twol] Months where ь triggers front harmony but is deleted ":
     декабрь<n><dat> : декабрге
     декабрь<n><loc> : декабрде
@@ -47,3 +51,4 @@ Tests:
     аллагь<n><dat> : аллагьгъа
     аллагь<n><px3sp><nom> : аллагьы
     аллагь<n><gen> : аллагьны
+
