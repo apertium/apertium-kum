@@ -17,6 +17,7 @@ Alphabet
  %{l%}:л %{l%}:н
  %{ъ%}:ъ ! %{ъ%}:0
  %{ң%}:0
+ %{и%}:и
 
  %{❗%}:0
  %{☭%}:0
@@ -63,6 +64,9 @@ BackUnroundVow = а ы
 YotVow = Я я Е е Ё ё Ю ю ;  ! BEWARE of non-post-C ё ю
 
 Rules
+
+"Deletion of {и} at end of word (i.e., in stand-alone forms)"
+%{и%}:0 <=> _ .#. ;
 
 "Deletion of {r} before suffix" ! FIXME
 %{r%}:0 <=> _ %>: ; 

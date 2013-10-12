@@ -1,0 +1,14 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../kum.autogen.hfst
+    Morph: ../kum.automorf.hfst
+
+Tests:
+  "[twol] Base forms in ск":
+    Минск<np><top><nom> : Минск
+    Буйнакск<np><top><nom> : Буйнакск
+
+  "[twol] Inflected forms in ски":
+    Минск<np><top><loc> : Минскиде
+    Буйнакск<np><top><abl> : Буйнакскиден
