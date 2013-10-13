@@ -14,7 +14,6 @@
 dev/auto-adj-from-dict.lexc -text
 dev/auto-nouns-from-dict.lexc -text
 dev/auto-verbs-from-dict.lexc -text
-dev/auto-verbs-from-dict_good.lexc -text
 dev/auto-verbs-from-dict_left.lexc -text
 dev/countstems.sh -text
 dev/editdist.py -text
