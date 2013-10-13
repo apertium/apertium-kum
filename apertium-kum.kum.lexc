@@ -173,16 +173,25 @@ Punctuation ;
 LEXICON CLIT 
 
 ! See: http://wiki.apertium.org/wiki/Kumyk
-!%+мы%<qst%>:%>м%{I%} # ;  
 !%+чы%<qst%>:%>ч%{I%} # ; 
 !%+са%<qst%>:%>с%{A%} # ;  ! нечесе (?)
 !%+сана%<qst%>:%>с%{A%}н%{A%} # ; 
 !%+дагъы%<postadv%>:%>дагъы # ;
 # ; 
 
+LEXICON CLIT-QST
+
+%+мы%<qst%>:%>м%{I%} # ;  
+
+# ;
+
+LEXICON CLIT-NOQST
+
+# ;
+
 LEXICON CLIT-COP
 
-%+э%<cop%>: V-PERS-S1-NO3PERSON ;  ! FIXME
+%+э%<cop%>: V-PERS-S1-QST-NO3PERSON ;  ! FIXME
 %+э%<cop%>%<p3%>%<sg%>:%>д%{I%}р # ;  ! FIXME
 CLIT ; 
 
@@ -332,17 +341,17 @@ LEXICON NP-AL-ACR
 
 LEXICON A1 
 
-%<adj%>: # ;
+%<adj%>: CLIT-QST ;
 %<adj%>%<subst%>: SUBST ;
 
 LEXICON A3
 
-%<adj%>: # ;
+%<adj%>: CLIT-QST ;
 %<adj%>%<subst%>: SUBST ;
 
 LEXICON A4
 
-%<adj%>: # ;
+%<adj%>: CLIT-QST ;
 
 LEXICON NUM-COMMON
 
@@ -385,21 +394,23 @@ LEXICON DET-QNT
 
 %<det%>%<qnt%>: # ;
 
+LEXICON V-PERS-S1-QST-NO3PERSON
 
+%<p1%>%<sg%>:%>м%{A%}н CLIT-QST ;
+%<p1%>%<pl%>:%>б%{I%}з CLIT-QST ;
+%<p1%>%<sg%>:%>м%{A%}н CLIT-QST ;
+%<p1%>%<pl%>:%>б%{I%}з CLIT-QST ;
 
-LEXICON V-PERS-S1-NO3PERSON
+%<p2%>%<sg%>:%>с%{A%}н CLIT-NOQST ;
+%<p2%>%<pl%>:%>с%{I%}з CLIT-NOQST ;
+%<p2%>%<sg%>%+мы%<qst%>:%>м%{I%}%>с%{A%}н CLIT-NOQST ;
+%<p2%>%<pl%>%+мы%<qst%>:%>м%{I%}%>с%{I%}з CLIT-NOQST ;
 
-%<p1%>%<sg%>:%>%{M%}%{A%}н CLIT ;
-%<p2%>%<sg%>:%>с%{A%}н CLIT ;
-%<p1%>%<pl%>:%>б%{I%}з CLIT ;
-%<p2%>%<pl%>:%>с%{I%}з CLIT ;
+LEXICON V-PERS-S1-QST
 
-
-LEXICON V-PERS-S1
-
-V-PERS-S1-NO3PERSON ;
-%<p3%>%<sg%>: CLIT ;
-%<p3%>%<pl%>:%>л%{A%}р CLIT ; ! FIXME
+V-PERS-S1-QST-NO3PERSON ;
+%<p3%>%<sg%>: CLIT-QST ;
+%<p3%>%<pl%>:%>л%{A%}р CLIT-QST ; ! FIXME
 
 LEXICON V-PERS-S2 
 
@@ -412,32 +423,32 @@ LEXICON V-PERS-S2
 
 LEXICON V-PERS-COP
 
-V-PERS-S1-NO3PERSON ;
+V-PERS-S1-QST-NO3PERSON ;
 %<p3%>%<sg%>:%>д%{I%}р CLIT ;
 %<p3%>%<pl%>:%>л%{A%}р CLIT ; ! FIXME
 
 LEXICON V-FIN-REG-NEG
 
-%<past%>:%>г%{ъ%}%{A%}н V-PERS-S1 ;
+%<past%>:%>г%{ъ%}%{A%}н V-PERS-S1-QST ;
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ; 
-%<pros%>:%>%{A%}ж%{A%}к%{ъ%} V-PERS-S1 ; ! FIXME: Might not be finite, see TTL p.311
+%<pros%>:%>%{A%}ж%{A%}к%{ъ%} V-PERS-S1-QST ; ! FIXME: Might not be finite, see TTL p.311
 
 LEXICON V-FIN-IRREG-NEG-COMMON
 
-%<aor%>:%>%{E%} V-PERS-S1 ; 
-%<neg%>%<aor%>:%>м%{A%}й V-PERS-S1 ; ! FIXME
+%<aor%>:%>%{E%} V-PERS-S1-QST ; 
+%<neg%>%<aor%>:%>м%{A%}й V-PERS-S1-QST ; ! FIXME
 
-%<neg%>%<fut%>:%>м%{A%}с V-PERS-S1 ;
+%<neg%>%<fut%>:%>м%{A%}с V-PERS-S1-QST ;
 
 LEXICON V-FIN-IRREG-NEG-AR
 
-%<fut%>:%>%{A%}р V-PERS-S1 ; ! FIXME: What on earth is going on here
-%<fut%>:%>%{I%}р V-PERS-S1 ; ! Dir/LR ! Use/Sub
+%<fut%>:%>%{A%}р V-PERS-S1-QST ; ! FIXME: What on earth is going on here
+%<fut%>:%>%{I%}р V-PERS-S1-QST ; ! Dir/LR ! Use/Sub
 V-FIN-IRREG-NEG-COMMON ; 
 
 LEXICON V-FIN-IRREG-NEG-IR
 
-%<fut%>:%>%{I%}р V-PERS-S1 ; ! FIXME: vide supra.
+%<fut%>:%>%{I%}р V-PERS-S1-QST ; ! FIXME: vide supra.
 V-FIN-IRREG-NEG-COMMON ; 
 
 LEXICON V-NONFIN-IRREG-NEG
@@ -467,8 +478,8 @@ LEXICON V-NONFIN-REG-NEG
 %<gpr_impf%>:%>%{E%}г%{ъ%}%{A%}н # ; ! 
 
 
-%<imp%>%<p2%>%<sg%>: CLIT ;
-%<imp%>%<p2%>%<pl%>:%>%{I%}г%{ъ%}%{I%}з CLIT ;
+%<imp%>%<p2%>%<sg%>: # ;
+%<imp%>%<p2%>%<pl%>:%>%{I%}г%{ъ%}%{I%}з # ;
 
 %<opt%>%<p1%>%<sg%>:%>%{A%}й%{I%}м CLIT ;
 %<opt%>%<p3%>%<sg%>:%>с%{I%}н CLIT ;
@@ -697,7 +708,7 @@ LEXICON Copula
 
 э%<cop%>%<neg%>:тюгюл V-PERS-COP ; 
 э%<cop%>%<ger_past%>:экен SUBST ; ! FIXME: Warning: will overgenerate
-э%<cop%>%<past%>:экен V-PERS-S1 ;
+э%<cop%>%<past%>:экен V-PERS-S1-QST ;
 э%<cop%>%<ifi%>:э%>%{D%}%{I%} V-PERS-S2 ;
 
 LEXICON Postadverbs
