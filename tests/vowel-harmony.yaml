@@ -13,7 +13,7 @@ Tests:
 
   "[twol] Front rounding harmony words with оь and уь":
     оьр<n><loc> : оьрде
-    оьр<n><px3sp><loc> : оьрю
+    оьр<n><px3sp><loc> : оьрюнде
     оьз<prn><ref><px3sp><nom> : оьзю 
 
   "[twol] Front rounding harmony words with ё and ю":
