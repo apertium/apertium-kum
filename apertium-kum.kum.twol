@@ -31,8 +31,8 @@ Sets
 Vow = а э и о у А Э И О У     ! Уь Оь 
       я е ы ё ю Я Е Ы Ё Ю  ;  ! уь Оь
 
-Cns =  Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь
-       б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ ь ; 
+Cns =  Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ
+       б в г д ж з й к л м н п р с т ф х ц ч ш щ ; 
 
 Nasals = н м
          Н М ;
@@ -159,7 +159,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
         except
                        %{n%}:н/[ :0 | %>: ] _ .#. ;
    [ :FrontVow :в :Cns*  ]/[ :0 - %{☭%}:0 ] _ ;  ! -евни in Russian words
-                       [ :Cns :р :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
+            [ :Cns :р %{☭%}: %>: :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
 
 "{I} front rounded harmony"
 %{I%}:ю <=> [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
@@ -201,7 +201,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
                      [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
         except
        [ :RdYotVow :Cns* %{☭%}:0 :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрлар in Russian words
-                                     [ :Cns :р :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
+                          [ :Cns :р %{☭%}: %>: :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
                          [ :Vow :RdYotVow :Cns :Cns* ]/:0 _ ;  ! for some reason the rule above doesn't exclude this condition  e.g., боюнгъа
 
 "{E} front harmony"
@@ -231,7 +231,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
     ! ь only triggers front harmony when there's a consonant cluster before it
                      [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
         except
-                                     [ :Cns :р :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
+                          [ :Cns :р %{☭%}: %>: :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
                          [ :Vow :RdYotVow :Cns :Cns* ]/:0 _ ;  ! for some reason the rule above doesn't exclude this condition  e.g., боюнгъа
 
 
