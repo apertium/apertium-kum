@@ -1,0 +1,25 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../kum.autogen.hfst
+    Morph: ../kum.automorf.hfst
+
+Tests:
+  "[twol] No epenthesis":
+    боюн<n><nom> : боюн
+    боюн<n><dat> : боюнгъа
+    боюн<n><acc> : боюнну
+    орун<n><nom> : орун
+    орун<n><dat> : орунгъа
+    орун<n><acc> : орунну
+    бурун<n><nom> : бурун
+    бурун<n><dat> : бурунгъа
+    бурун<n><acc> : бурунну
+
+  "[twol] epenthesis":
+    боюн<n><px3sp><dat> : бойнуна
+    боюн<n><px3sp><gen> : бойнуну
+    орун<n><px3sp><dat> : орнуна
+    орун<n><px3sp><gen> : орнуну
+    бурун<n><px3sp><dat> : бурнуна
+    бурун<n><px3sp><gen> : бурнуну

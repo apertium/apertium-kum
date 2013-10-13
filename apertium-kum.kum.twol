@@ -79,7 +79,7 @@ Rules
 "Deletion of {I} after vowels"
 %{I%}:0 <=> [ :Vow ]/[ :0 | %>: ] _ ;
             except
-          [ й:0 ]/[ :0 - й:0 ] _ ;
+             [ й:0 ]/[ :0 - й:0 ] _ ;
 
 "Deletion of ь when vowel-initial stem follows"
 ! е behaves like a consonant after vowels; i.e., it's /йэ/
@@ -125,6 +125,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 "Deletion of й before yoticised vowels when not earlier in a stem"
 й:0 <=> _ %>: [ :YotVow ]/[ :0 ] ;
         _ %>: [ %{A%}: | %{E%}: | %{I%}: ] ;
+        _ %{y%}:YotVow ;  ! and before {y}:ю
 
 
 !!!!!!!!! Vowels !!!!!!!!!!
@@ -201,6 +202,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
         except
        [ :RdYotVow :Cns* %{☭%}:0 :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрлар in Russian words
                                      [ :Cns :р :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
+                         [ :Vow :RdYotVow :Cns :Cns* ]/:0 _ ;  ! for some reason the rule above doesn't exclude this condition  e.g., боюнгъа
 
 "{E} front harmony"
 %{E%}:е <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns :Cns* ]/:0 _ ;
@@ -230,6 +232,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
                      [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
         except
                                      [ :Cns :р :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
+                         [ :Vow :RdYotVow :Cns :Cns* ]/:0 _ ;  ! for some reason the rule above doesn't exclude this condition  e.g., боюнгъа
 
 
 !!!!!!!!! Special stuff for px+case !!!!!!!!!
@@ -255,4 +258,9 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 
 "Epenthesis in some stems"
 %{y%}:0 <=> _ [ :Cns :Vow ]/[ :0 | %>: ] ;
+
+"Epenthetic {y} is ю after й"
+%{y%}:ю <=> й: _ ;
+        except
+            _ [ :Cns :Vow ]/[ :0 | %>: ] ;
 

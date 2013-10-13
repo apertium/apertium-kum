@@ -25,6 +25,7 @@ speller/strings.default.txt -text
 speller/words.default.txt -text
 tests/cases-px.yaml -text
 tests/cases.yaml -text
+tests/epenthesis.yaml -text
 tests/mz-cases.yaml -text
 tests/sk.yaml -text
 tests/voicing.yaml -text

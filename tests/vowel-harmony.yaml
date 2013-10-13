@@ -46,7 +46,6 @@ Tests:
   "[twol] abbreviations":
     СССР<np><top><acc> : СССР-ни
 
-
   "[twol] Words that look like front-vowel words but aren't":
     дюнья<n><nom> : дюнья
     дюнья<n><dat> : дюньягъа
