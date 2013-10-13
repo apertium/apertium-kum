@@ -3417,6 +3417,8 @@ LEXICON Nouns
 шоу:шоу N1 ; ! ""
 футболка:футболка N1 ; ! ""
 тренер:тренер N1 ; ! ""
+ини:ини N1 ; ! "братышка"
+эл:эл N1 ; ! "народ"
 
 
 LEXICON ProperNouns
@@ -3988,6 +3990,7 @@ LEXICON ProperNouns
 Ягьуда:Ягьуда NP-ANT-M ; ! "Jehudah"
 Исгьакъ:Исгьакъ NP-ANT-M ; ! "Isaac"
 Исрайыл:Исрайыл NP-ANT-M ; ! "Israel" = "Jacob"
+Нугь:Нугь NP-ANT-M ; ! "Noah"
 
 
 Людмила:Людмила NP-ANT-F ; ! ""

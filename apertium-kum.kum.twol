@@ -85,13 +85,13 @@ Rules
 ! е behaves like a consonant after vowels; i.e., it's /йэ/
 ь:0 <=> _ %>: [ :Vow - :е ]/[ :0 ] ;
        ! before consonants, but only when after more than one consonant
-                    [ :Cns :Cns ]/:0 _ :Cns/:0 ;
+                    [ :Cns :Cns ]/:0 _ %>: :Cns/:0 ;
        ! delete in FrontVow Liquid ь _
         [ :FrontVow [ :л | :р ] ]/:0 _ [ :Cns | :Vow ]/:0 ;
        ! delete in VльлV
                       [ :Vow :л ]/:0 _ [ :л :Vow ]/:0 ;
        ! in Vнь*
-                      [ :Vow :н ]/:0 _ [ :Cns | :Vow ]/:0 ;
+                      [ :Vow :н ]/:0 _ %>: [ :Cns | :Vow ]/:0 ;
        
 !       except
 !             [ :а | :о | :у ] _ %>: [ :Vow ]/[ :0 ] ;
@@ -152,7 +152,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 "{I} front unrounded harmony"
 %{I%}:и <=> [ [ :FrontVow | [ [ :Vow - [ :RdVow | :RdYotVow ] ] :ь ] ] :Cns :Cns* ]/:0 _ ;
             ! ь only triggers front harmony when there's a consonant cluster before it
-            [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
+            [ :Cns :Cns ь:0 %>: :Cns* ]/[ :0 - ь:0 ] _ ;
 
 
         except
