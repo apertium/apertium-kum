@@ -19,6 +19,7 @@ Tests:
     режиссёр<n><px3sp><nom> : режиссёру
     актёр<n><pl><nom> : актёрлар
     актёр<n><px3sp><nom> : актёру
+    министр<n><pl><nom> : министрлер
 
   "[twol] Russian words with front vowels that get back harmony":
     центр<n><pl><nom> : центрлар
@@ -50,3 +51,6 @@ Tests:
     дюнья<n><nom> : дюнья
     дюнья<n><dat> : дюньягъа
     дюнья<n><acc> : дюньяны
+  
+  "[twol] Front harmony words with оь and уь":
+    оьр<n><loc> : оьрде
