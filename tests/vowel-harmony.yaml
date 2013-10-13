@@ -12,14 +12,36 @@ Tests:
     оху<v><tv><ifi><p3><sg> : охуду
     тавуш<n><px3sp><nom> : тавушу
     оьз<prn><ref><px3sp><nom> : оьзю 
+    автор<n><px3sp><nom> : автору
 
   "[twol] Russian words with what look like front vowels but aren't":
     режиссёр<n><pl><nom> : режиссёрлар
     режиссёр<n><px3sp><nom> : режиссёру
+    актёр<n><pl><nom> : актёрлар
+    актёр<n><px3sp><nom> : актёру
 
   "[twol] Russian words with front vowels that get back harmony":
     центр<n><pl><nom> : центрлар
     центр<n><px3sp><nom> : центры
+    центр<n><dat> : центргъа
+    тигр<n><nom> : тигр
+    тигр<n><pl><nom> : тигрлар
+    тигр<n><px3sp><nom> : тигры
+    тигр<n><dat> : тигргъа
+
+  "[twol] Russian words with front vowels that get front harmony":
+    процент<n><pl><nom> : процентлер
+    процент<n><px3sp><nom> : проценти
+    процент<n><dat> : процентге
+    концерт<n><pl><nom> : концертлер
+    концерт<n><px3sp><nom> : концерти
+    концерт<n><dat> : концертге
+    реализм<n><pl><nom> : реализмлер
+    реализм<n><px3sp><nom> : реализми
+    реализм<n><dat> : реализмге
+    проект<n><pl><nom> : проектлер
+    проект<n><px3sp><nom> : проекти
+    проект<n><dat> : проектге
 
   "[twol] abbreviations":
     СССР<np><top><acc> : СССР-ни

@@ -157,6 +157,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
         except
                        %{n%}:н/[ :0 | %>: ] _ .#. ;
    [ :FrontVow :в :Cns*  ]/[ :0 - %{☭%}:0 ] _ ;  ! -евни in Russian words
+                       [ :Cns :р :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
 
 "{I} front rounded harmony"
 %{I%}:ю <=> [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
@@ -198,6 +199,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
                      [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
         except
        [ :RdYotVow :Cns* %{☭%}:0 :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрлар in Russian words
+                                     [ :Cns :р :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
 
 "{E} front harmony"
 %{E%}:е <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns :Cns* ]/:0 _ ;
@@ -225,6 +227,8 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
                                                       г:0 _ ;
     ! ь only triggers front harmony when there's a consonant cluster before it
                      [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
+        except
+                                     [ :Cns :р :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
 
 
 !!!!!!!!! Special stuff for px+case !!!!!!!!!
