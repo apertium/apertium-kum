@@ -5,21 +5,25 @@ Config:
     Morph: ../kum.automorf.hfst
 
 Tests:
-  "[twol] Rounding harmony":
+  "[twol] Back rounding harmony":
     къол<n><px1sg><nom> : къолум
     фронт<n><acc> : фронтну
-    гёр<v><tv><pass><gpr_impf> : гёрюлеген
     оху<v><tv><ifi><p3><sg> : охуду
     тавуш<n><px3sp><nom> : тавушу
+
+  "[twol] Front rounding harmony words with оь and уь":
+    оьр<n><loc> : оьрде
+    оьр<n><px3sp><loc> : оьрю
     оьз<prn><ref><px3sp><nom> : оьзю 
-    автор<n><px3sp><nom> : автору
+
+  "[twol] Front rounding harmony words with ё and ю":
+    гёр<v><tv><pass><gpr_impf> : гёрюлеген
 
   "[twol] Russian words with what look like front vowels but aren't":
     режиссёр<n><pl><nom> : режиссёрлар
     режиссёр<n><px3sp><nom> : режиссёру
     актёр<n><pl><nom> : актёрлар
     актёр<n><px3sp><nom> : актёру
-    министр<n><pl><nom> : министрлер
 
   "[twol] Russian words with front vowels that get back harmony":
     центр<n><pl><nom> : центрлар
@@ -29,6 +33,13 @@ Tests:
     тигр<n><pl><nom> : тигрлар
     тигр<n><px3sp><nom> : тигры
     тигр<n><dat> : тигргъа
+    семестр<n><pl><nom> : семестрлар
+
+  "[twol] Russian words with back vowels that get back harmony":
+    автор<n><px3sp><nom> : автору
+    жанр<n><pl><nom> : жанрлар
+    кадр<n><pl><nom> : кадрлар
+    театр<n><pl><nom> : театрлар
 
   "[twol] Russian words with front vowels that get front harmony":
     процент<n><pl><nom> : процентлер
@@ -43,6 +54,15 @@ Tests:
     проект<n><pl><nom> : проектлер
     проект<n><px3sp><nom> : проекти
     проект<n><dat> : проектге
+    министр<n><pl><nom> : министрлер
+    министр<n><px3sp><nom> : министри
+    шедевр<n><pl> : шедеврлер
+    метр<n><pl> : метрлер
+    арбитр<n><pl> : арбитрлер
+
+  "[lexc] Russian words with front and back":
+    оркестр<n><pl><nom> : оркестрлер
+    оркестр<n><pl><nom> : оркестрлар
 
   "[twol] abbreviations":
     СССР<np><top><acc> : СССР-ни
@@ -52,5 +72,4 @@ Tests:
     дюнья<n><dat> : дюньягъа
     дюнья<n><acc> : дюньяны
   
-  "[twol] Front harmony words with оь and уь":
-    оьр<n><loc> : оьрде
+
