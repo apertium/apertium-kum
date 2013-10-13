@@ -98,6 +98,7 @@ Rules
     except
         _ й: %>: %{E%}: ;
         :г _ %>: ;
+        .#. :RdVow _ ;  ! уью
         !! ь deletes between consonants except for VCьC
         !! but ь deletes in Vльл
         ![ :Vow [ :Cns - :л ] ]/:0 _ [ :Cns - :л ]/:0 ;
