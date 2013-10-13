@@ -45,6 +45,10 @@ Tests:
     апрель<n><loc> : апрелде
     апрель<n><acc> : апрелни
     апрель<n><px3sp><nom> : апрели
+    Сибирь<np><top><nom> : Сибирь
+    Сибирь<np><top><dat> : Сибирге
+    Сибирь<np><top><abl> : Сибирден
+    Сибирь<np><top><loc> : Сибирде
 
   "[twol] Words where orthographic ь doesn't affect harmony":
     аллагь<n><nom> : аллагь

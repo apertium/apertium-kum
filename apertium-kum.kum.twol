@@ -84,14 +84,14 @@ Rules
 "Deletion of ь when vowel-initial stem follows"
 ! е behaves like a consonant after vowels; i.e., it's /йэ/
 ь:0 <=> _ %>: [ :Vow - :е ]/[ :0 ] ;
-! before consonants, but only when after more than one consonant
-           [ :Cns :Cns ]/:0 _ :Cns/:0 ;
-! delete in FrontVowль_
-        [ :FrontVow :л ]/:0 _ [ :Cns | :Vow ]/:0 ;
-! delete in VльлV
-             [ :Vow :л ]/:0 _ [ :л :Vow ]/:0 ;
-! in Vнь*
-             [ :Vow :н ]/:0 _ [ :Cns | :Vow ]/:0 ;
+       ! before consonants, but only when after more than one consonant
+                    [ :Cns :Cns ]/:0 _ :Cns/:0 ;
+       ! delete in FrontVow Liquid ь _
+        [ :FrontVow [ :л | :р ] ]/:0 _ [ :Cns | :Vow ]/:0 ;
+       ! delete in VльлV
+                      [ :Vow :л ]/:0 _ [ :л :Vow ]/:0 ;
+       ! in Vнь*
+                      [ :Vow :н ]/:0 _ [ :Cns | :Vow ]/:0 ;
        
 !       except
 !             [ :а | :о | :у ] _ %>: [ :Vow ]/[ :0 ] ;
