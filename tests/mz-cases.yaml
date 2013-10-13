@@ -8,6 +8,11 @@ Tests:
   "[twol] Words where ь triggers front harmony but is deleted ":
     ансамбль<n><dat> : ансамблге
     ансамбль<n><px3sp><nom> : ансамбли
+    ансамбль<n><pl><nom> : ансамбллер
+    спектакль<n><nom> : спектакль
+    спектакль<n><pl><nom> : спектакллер
+    спектакль<n><px3sp><nom> : спектакли
+    спектакль<n><dat> : спектаклге
 
   "[twol] Months where ь triggers front harmony but is deleted ":
     декабрь<n><dat> : декабрге

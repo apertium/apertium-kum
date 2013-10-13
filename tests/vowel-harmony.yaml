@@ -5,18 +5,21 @@ Config:
     Morph: ../kum.automorf.hfst
 
 Tests:
-  "[twol] Vowel harmony words":
-
+  "[twol] Rounding harmony":
     къол<n><px1sg><nom> : къолум
     фронт<n><acc> : фронтну
     гёр<v><tv><pass><gpr_impf> : гёрюлеген
     оху<v><tv><ifi><p3><sg> : охуду
     тавуш<n><px3sp><nom> : тавушу
-    СССР<np><top><acc> : СССР-ни
     оьз<prn><ref><px3sp><nom> : оьзю 
-    спектакль<n><pl><nom> : спектакллер
 
   "[twol] Russian words with what look like front vowels but aren't":
     режиссёр<n><pl><nom> : режиссёрлар
     режиссёр<n><px3sp><nom> : режиссёру
+
+  "[twol] Russian words with front vowels that get back harmony":
     центр<n><pl><nom> : центрлар
+    центр<n><px3sp><nom> : центры
+
+  "[twol] abbreviations":
+    СССР<np><top><acc> : СССР-ни
