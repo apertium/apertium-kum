@@ -177,11 +177,24 @@ Punctuation ;
 LEXICON CLIT 
 
 ! See: http://wiki.apertium.org/wiki/Kumyk
-!%+чы%<qst%>:%>ч%{I%} # ; 
 !%+са%<qst%>:%>с%{A%} # ;  ! нечесе (?)
-!%+сана%<qst%>:%>с%{A%}н%{A%} # ; 
 !%+дагъы%<postadv%>:%>дагъы # ;
 # ; 
+
+LEXICON CLIT-EMPH-SANA
+
+%+сана%<emph%>:%>с%{A%}н%{A%} # ; 
+# ;
+
+LEXICON CLIT-EMPH-CHI
+
+%+чы%<emph%>:%>ч%{I%} # ; 
+# ;
+
+LEXICON CLIT-EMPH
+
+CLIT-EMPH-SANA ;
+CLIT-EMPH-CHI ; 
 
 LEXICON CLIT-QST
 
@@ -482,8 +495,8 @@ LEXICON V-NONFIN-REG-NEG
 %<gpr_impf%>:%>%{E%}г%{ъ%}%{A%}н # ; ! 
 
 
-%<imp%>%<p2%>%<sg%>: # ;
-%<imp%>%<p2%>%<pl%>:%>%{I%}г%{ъ%}%{I%}з # ;
+%<imp%>%<p2%>%<sg%>: CLIT-EMPH ;
+%<imp%>%<p2%>%<pl%>:%>%{I%}г%{ъ%}%{I%}з CLIT-EMPH-CHI ;
 
 %<opt%>%<p1%>%<sg%>:%>%{A%}й%{I%}м CLIT ;
 %<opt%>%<p3%>%<sg%>:%>с%{I%}н CLIT ;
@@ -604,6 +617,8 @@ LEXICON PRON-DEM-BU
 бу%<prn%>%<dem%>%<abl%>:мундан CLIT ;
 бу%<prn%>%<dem%>%<pl%>:була%{r%} CASES-ETC ;
 бу%<prn%>%<dem%>%<sim%>:булай CLIT ;
+бу%<prn%>%<dem%>%<px%>:бус%{I%}%{n%} CASES ;
+
 
 LEXICON PRON-DEM-SO
 
@@ -615,6 +630,7 @@ LEXICON PRON-DEM-SO
 %<prn%>%<dem%>%<abl%>:ндан CLIT ;
 %<prn%>%<dem%>%<pl%>:ла%{r%} CASES-ETC ;
 %<prn%>%<dem%>%<sim%>:лай CLIT ;
+%<prn%>%<dem%>%<px%>:с%{I%}%{n%} CASES ;
 
 LEXICON PRON-ITG
 
@@ -703,6 +719,9 @@ LEXICON ABBR
 
 LEXICON Miscellaneous
 
+! дайте-ка посмотреть 
+! бер чи къарамагъа
+
 чы%<emph%>:%~чы # ; ! Dir/RL
 чы%<emph%>:чы # ; ! Dir/LR
 чы%<emph%>:чи # ; ! Dir/LR
@@ -775,7 +794,7 @@ PRON-DEM-BU ; ! ""
 
 о:о PRON-DEM-SO ; ! ""
 шо:шо PRON-DEM-SO ; ! ""
-шо:шу PRON-DEM-SO ; ! "" ! Dir/LR ! Use/Sub ! FIXME
+шу:шу PRON-DEM-SO ; ! "" 
 
 ким:ким PRON-ITG ; ! "кто"
 не:не PRON-ITG ; ! "что"
@@ -3504,6 +3523,8 @@ LEXICON Nouns
 идара:идара N1 ; ! ""
 имам:имам N1 ; ! ""
 оьрюш:оьрюш N1 ; ! "выгон"
+сынчы:сынчы N1 ; ! "пророк"
+пайхаммар:пайхаммар N1 ; ! "пророк"
 
 
 LEXICON ProperNouns
@@ -5603,6 +5624,10 @@ LEXICON Verbs
 
 уч:уч V-IV ; ! "порхать, полететь, летать, лететь"
 
+
+къыл:къыл V-TV ; ! "" FIXME (только с словом 'намаз'?)
+
+элт:элт V-TV ; ! "вывезти, увезти, перевезти, эскортировать, провезти, увести, вести, везти, дотянуть, увлечь, вынести, унести, отвезти, ввезти"
 
 
 LEXICON Interjections
