@@ -109,4 +109,4 @@ fi
 
 
 
-AC_OUTPUT([Makefile apertium-kum-0.1.pc])
+AC_OUTPUT([Makefile apertium-kum.pc])

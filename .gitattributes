@@ -5,10 +5,10 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/apertium-kum-0.1.pc.in -text
 /apertium-kum.kum.lexc -text
 /apertium-kum.kum.rlx -text
 /apertium-kum.kum.twol -text
+/apertium-kum.pc.in -text
 /autogen.sh -text
 /configure.ac -text
 dev/auto-adj-from-dict.lexc -text
