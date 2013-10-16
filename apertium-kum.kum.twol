@@ -171,13 +171,15 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 			   !!!!! following for юйю → юю !!!!!
        [ :RdYotVow :Cns* й:0 ]/[ :0 - й:0 ] _ ;
        [ :RdVow :ь :Cns* й:0 ]/[ :0 - й:0 ] _ ;
+                           !!!!! following for ююню !!!!!
+     [ :RdYotVow й:0 :RdYotVow :Cns :Cns* ]/[ :0 - й:0 ] _ ;  ! кююню
         except
             %{n%}:н/[ :0 | %>: ] _ .#. ;
-           :Vow [ :RdYotVow :Cns :Cns* ]/:0 _ ;
+        [ [ :Vow - :RdYotVow ] :RdYotVow :Cns :Cns* ]/:0 _ ;
             .#. [ :RdYotVow :Cns :Cns* ]/:0 _ ;
              %{☭%}: :Cns*/[ :0 - %{☭%}:0 ]* _ ;
-        [ :FrontVow :в %{☭%}: :Cns* ]/[ :0 - %{☭%}:0 ]* _ ;
-       [ :RdYotVow :Cns* %{☭%}:0 :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрну in Russian words
+         [ :FrontVow :в %{☭%}: :Cns* ]/[ :0 - %{☭%}:0 ]* _ ;
+      [ :RdYotVow :Cns* %{☭%}:0 :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрну in Russian words
        [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
 
 "{I} back rounded harmony"
@@ -194,6 +196,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
        :а :в %{☭%}: :Cns*/[ :0 - %{☭%}:0 ]* _ ;  !  -авны, -овну
           [ :RdVow :Cns* й:0 ]/[ :0 - й:0 ] _ ;  ! ойу > ою
        [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
+     [ :RdYotVow й:0 :RdYotVow :Cns :Cns* ]/[ :0 - й:0 ] _ ;  ! кююню
 
 "{A} front unrounded harmony"
 %{A%}:е <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns :Cns* ]/:0 _ ;
@@ -201,10 +204,12 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
       [ [ [ \[ .#. | :Vow ] ] :RdYotVow ] :Cns :Cns* ]/:0 _ ;
     ! ь only triggers front harmony when there's a consonant cluster before it
                      [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
+                           !!!!! following for ююню !!!!!
+      [ :RdYotVow й:0 :RdYotVow :Cns :Cns* ]/[ :0 - й:0 ] _ ;  ! кююню 
         except
        [ :RdYotVow :Cns* %{☭%}:0 :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрлар in Russian words
                           [ :Cns :р %{☭%}: %>: :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
-                         [ :Vow :RdYotVow :Cns :Cns* ]/:0 _ ;  ! for some reason the rule above doesn't exclude this condition  e.g., боюнгъа
+         [ [ :Vow - :RdYotVow ] :RdYotVow :Cns :Cns* ]/:0 _ ;  ! for some reason the rule above doesn't exclude this condition  e.g., боюнгъа
 
 "{E} front harmony"
 %{E%}:е <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns :Cns* ]/:0 _ ;
