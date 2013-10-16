@@ -24,6 +24,7 @@ Multichar_Symbols
 %<cnjadv%>                ! 
 %<emph%>                  ! 
 %<abbr%>                  ! 
+%<mod%>                   ! 
 
 %<qst%>                   !
 
@@ -481,6 +482,7 @@ LEXICON V-NONFIN-REG-NEG
 
 %<ger%>:%>%{I%}в SUBST ;  ! FIXME: Will overgenerate
 %<ger_past%>:%>г%{ъ%}%{A%}н SUBST ; ! FIXME: Will overgenerate
+%<ger_past%>%<loc%>%+окъ%<mod%>:%>г%{ъ%}%{A%}н%>д%>окъ # ; 
 %<ger_pros%>:%>%{A%}ж%{A%}к%{ъ%} SUBST ; ! FIXME: Might not be correct categorisation / Will overgenerate
 %<ger1%>:%>м%{A%} SUBST ; ! FIXME: Will overgenerate
 %<ger_impf%>:%>%{E%}г%{ъ%}%{A%}н SUBST ; !   FIXME: Will overgenerate
@@ -5297,6 +5299,8 @@ LEXICON Adverbs
 тек:тек ADV5 ; ! "лишь"
 янгыз:янгыз ADV5 ; ! "лишь"
 бары:бары ADV5 ; ! "лишь"
+азгине:азгине ADV5 ; ! "немножка"
+бирдокъда:бирдокъда ADV5 ; ! "вовсе"
 
 
 ари:ари ADV7 ; ! ""
