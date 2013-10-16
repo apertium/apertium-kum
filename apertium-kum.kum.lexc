@@ -202,6 +202,10 @@ LEXICON CLIT-QST
 
 # ;
 
+LEXICON CLIT-OQ
+
+%+окъ%<mod%>:%>окъ # ;
+
 LEXICON CLIT-NOQST
 
 # ;
@@ -676,10 +680,11 @@ LEXICON ADV3
 %<adv%>%<itg%>: # ;
 
 LEXICON ADV4
-! -KI adverb, takes -KI but nothing else
+! -KI adverb, takes -KI and -oq but nothing else
 
 ADV5 ;
 %<adv%>: KI ;
+%<adv%>: CLIT-OQ ; ! FIXME
 
 LEXICON ADV5 ! Pure adverbial
 
@@ -5234,7 +5239,7 @@ LEXICON Adjectives
 гьюрметли:гьюрметли A1 ; ! "уважаемый"
 абурлу.:абурлу. A1 ; ! "уважаемый"
 кёп:кёп A1 ; ! "частый"
-тез:тез A1 ; ! "частый"
+тез:тез A1 ; ! "частый" FIXME
 тез-тез:тез-тез A1 ; ! "частый"
 къара:къара A1 ; ! "чёрный"
 таза:таза A1 ; ! "чистый"
@@ -5301,10 +5306,13 @@ LEXICON Adverbs
 бары:бары ADV5 ; ! "лишь"
 азгине:азгине ADV5 ; ! "немножка"
 бирдокъда:бирдокъда ADV5 ; ! "вовсе"
+тезокъда:тезокъда ADV5 ; ! ""
 
 
 ари:ари ADV7 ; ! ""
+
 бугюн:бугюн ADV4 ; ! "сегодня"
+тез:тез ADV4 ; ! "быстро" FIXME 
 о% заман:о% заман ADV4 ; ! ""
 шо% заман:шо% заман ADV4 ; ! ""
 
