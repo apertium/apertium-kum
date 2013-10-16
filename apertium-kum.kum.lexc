@@ -134,7 +134,6 @@ Multichar_Symbols
 %{E%}
 %{N%}                     !
 %{M%}                     !
-%{G%}                     !
 %{D%}                     ! 
 %{r%}                     ! 
 %{s%}                     ! 
