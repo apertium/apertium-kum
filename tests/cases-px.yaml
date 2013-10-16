@@ -64,4 +64,9 @@ Tests:
     оьр<n><px3sp><abl> : оьрюнден
     оьр<n><px3sp><loc><attr> : оьрюндеги
 
-
+  "[lexc+twol] Dative stuff":
+    иш<n><px1sg><dat> : ишиме
+    иш<n><px2sg><dat> : ишинге
+    иш<n><px3sp><dat> : ишине
+    иш<n><px1pl><dat> : ишибизге
+    иш<n><px2pl><dat> : ишигизге
