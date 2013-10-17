@@ -1,0 +1,290 @@
+Multichar_Symbols
+
+%<num%>
+%<percent%>
+%<subst%>
+
+
+%<px1sg%>             ! First person singular
+%<px2sg%>             ! Second person singular
+%<px3sp%>             ! Third person singular/plural
+%<px1pl%>             ! First person plural
+%<px2pl%>             ! Second person plural
+%<px%>                ! General possessive     !# -нікі
+
+
+%<ord%>               ! 
+%<coll%>              !
+
+%<nom%>               ! Nominative
+%<gen%>               ! Genitive
+%<dat%>               ! Dative 
+%<acc%>               ! Accusative 
+%<abl%>               ! Ablative 
+%<loc%>               ! Locative 
+%<ins%>               ! Instrumental 
+
+
+%{A%}                     !
+%{I%}                     ! 
+%{E%}
+%{N%}                     !
+%{M%}                     !
+%{D%}                     ! 
+%{r%}                     ! 
+%{s%}                     ! 
+%{n%}                     ! 
+%{l%}                     ! 
+%{y%}                     ! 
+%{ъ%}                     !
+%{ң%}                     !
+%{и%}                     ! deletes word-finally, for words like Минск / Минскиде
+
+%{☭%}                     ! Russian noun (final voiced Cns treated as unvoiced)
+%{❗%}
+
+
+
+%{а%} 
+%{э%} 
+
+%{й%}
+%{л%}
+%{н%}
+%{т%}
+
+%-
+%,
+%.
+%%
+
+LEXICON Root
+
+Numerals ; 
+LASTDIGIT ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!
+!!  C O P I E D    F R O M    K U M . L E X C 
+!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON CLIT 
+
+# ;
+
+LEXICON CLIT-COP 
+
+# ; 
+
+LEXICON CASES-OBL
+
+%<gen%>:%>%{N%}%{I%}%{ң%} CLIT ;
+%<acc%>:%>%{N%}%{I%} CLIT ;
+%<dat%>:%>г%{ъ%}%{A%} CLIT ;
+%<loc%>:%>%{D%}%{A%} CLIT-COP ; 
+%<abl%>:%>%{D%}%{A%}н CLIT-COP ; 
+
+LEXICON CASES
+
+%<nom%>: CLIT-COP ;
+CASES-OBL ;
+
+LEXICON POSS
+
+CASES-ETC ;
+%<px1sg%>:%>%{I%}м CASES-ETC ;
+%<px2sg%>:%>%{I%}нг CASES-ETC ;
+%<px3sp%>:%>%{s%}%{I%}%{n%} CASES-ETC ;
+%<px1pl%>:%>%{I%}б%{I%}з CASES-ETC ;
+%<px2pl%>:%>%{I%}г%{ъ%}%{I%}з CASES-ETC ;
+
+LEXICON ATTR-SUBST
+
+%<attr%>: # ;
+%<subst%>: CASES ;
+%<subst%>%<pl%>:%>л%{A%}%{r%} CASES ;
+
+LEXICON GENPOSS-ETC
+
+%<px%>:%>%{N%}%{I%}ки%{n%} CASES ; ! халкъныкинде
+%<loc%>:%>д%{A%}г%{ъ%}%{I%} ATTR-SUBST ;
+%<sim%>:%>%{D%}%{A%}й CLIT ;
+
+LEXICON CASES-ETC
+
+CASES ;
+GENPOSS-ETC ;
+
+LEXICON ABESS-INFL
+
+!%<attr%>: CLIT ; 
+!%<advl%>: CLIT ; 
+CLIT ;
+%<subst%>: CASES ;
+
+LEXICON ABESS
+
+%+сыз%<post%>:%>с%{I%}з ABESS-INFL ;
+
+LEXICON N-INFL-COMMON
+
+POSS ;
+CASES-ETC ;
+ABESS ;
+
+LEXICON NP-COMMON
+N-INFL-COMMON ;
+
+LEXICON SUBST
+
+N-INFL-COMMON ;
+%<pl%>:%>л%{A%}%{r%} N-INFL-COMMON ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON CASE-ETC-NONOM
+
+CASES-OBL ;
+GENPOSS-ETC ;
+
+LEXICON N-INFL-COMMON-NONOM
+
+POSS ;
+CASE-ETC-NONOM ;
+
+LEXICON SUBST-NONOM
+
+N-INFL-COMMON-NONOM ;
+%<pl%>:%>л%{A%}%{r%} N-INFL-COMMON-NONOM ;
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!
+!!
+!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON SQRD 
+
+²%<num%>:2 # ;  ! Dir/LR
+³%<num%>:3 # ;  ! Dir/LR
+²%<num%>:² # ; 
+³%<num%>:³ # ; 
+%<num%>: # ; 
+
+LEXICON NUM
+
+%<num%>: # ;
+%<num%>%<subst%>%<nom%>: # ;
+%<num%>%<subst%>:%- SUBST-NONOM ;
+%<num%>%<subst%>: SUBST-NONOM ; ! Dir/LR
+
+%<num%>%<ord%>:%-%{I%}нч%{I%} # ;
+%<num%>%<ord%>%<subst%>%<nom%>:%-%{I%}нч%{I%} # ;
+%<num%>%<ord%>%<subst%>:%-%{I%}нч%{I%} SUBST-NONOM ;
+
+!%<num%>%<coll%>%<advl%>:%-%{A%}у # ;
+!%<num%>%<coll%>%<nom%>:%-%{A%}у # ;
+!%<num%>%<coll%>:%-%{A%}у SUBST-NONOM ;
+
+%<num%>%<percent%>:%% # ;
+%<num%>%<percent%>%<subst%>%<nom%>:%% # ;
+
+%<num%>%<percent%>%<subst%>:%%%{а%}%{н%}%- SUBST-NONOM ;
+%<num%>%<percent%>%<subst%>:%%%{а%}%{н%} SUBST-NONOM ; ! Dir/LR
+%<num%>%<percent%>%<subst%>:%%%{э%}%{н%}%- SUBST-NONOM ; ! Dir/LR
+%<num%>%<percent%>%<subst%>:%%%{э%}%{н%} SUBST-NONOM ; ! Dir/LR
+
+°С%<num%>:°С # ;
+°С%<num%>%<subst%>%<nom%>:°С # ;
+°С%<num%>%<subst%>:°С%{а%}%{н%}%- SUBST-NONOM ;
+°С%<num%>%<subst%>:°С%{э%}%{н%}%- SUBST-NONOM ; ! Dir/LR
+°С%<num%>:ºС # ; ! Dir/LR
+°С%<num%>%<subst%>%<nom%>:ºС # ; ! Dir/LR
+°С%<num%>%<subst%>:ºС%{а%}%{н%}%- SUBST-NONOM ; ! Dir/LR
+°С%<num%>%<subst%>:ºС%{э%}%{н%}%- SUBST-NONOM ; ! Dir/LR
+°С%<num%>:С # ; ! Dir/LR
+°С%<num%>%<subst%>%<nom%>:С # ; ! Dir/LR
+°С%<num%>%<subst%>:С%{а%}%{н%}%- SUBST-NONOM ; ! Dir/LR
+°С%<num%>%<subst%>:С%{э%}%{н%}%- SUBST-NONOM ; ! Dir/LR
+
+С%<num%>:° # ; ! Dir/LR
+С%<num%>%<subst%>%<nom%>:° # ; ! Dir/LR
+С%<num%>%<subst%>:°%{а%}%{н%}%- SUBST-NONOM ; ! Dir/LR
+С%<num%>%<subst%>:°%{э%}%{н%}%- SUBST-NONOM ; ! Dir/LR
+
+км:км SQRD ;
+мм:мм SQRD ;
+см:см SQRD ;
+м:м SQRD ;
+
+LEXICON LASTDIGIT
+
+1:1%{э%}%{й%} NUM ; ! "бир"
+2:2%{э%} NUM ; ! "эки"
+3:3%{э%}%{н%} NUM ; ! "уьч"
+4:4%{э%}%{н%} NUM ; ! "дёрт"
+5:5%{э%}%{н%} NUM ; ! "беш"
+6:6%{а%} NUM ; ! "алты"
+7:7%{э%} NUM ; ! "етти"
+8:8%{э%}%{н%} NUM ; ! "сегиз"
+9:9%{а%}%{н%} NUM ; ! "тогъуз"
+
+LEXICON LASTDIGIT-REST
+
+1%0:1%0%{а%}%{н%} NUM ; ! "он"
+2%0:2%0%{а%} NUM ; ! "йигирма"
+3%0:3%0%{а%}%{н%} NUM ; ! "отуз"
+4%0:4%0%{а%}%{н%} NUM ; ! "къыркъ"
+5%0:5%0%{э%}%{й%} NUM ; ! "элли"
+6%0:6%0%{а%}%{н%} NUM ; ! "алтмыш"
+7%0:7%0%{э%}%{н%} NUM ; ! "етмиш"
+8%0:8%0%{э%}%{н%} NUM ; ! "сексен"
+9%0:9%0%{а%}%{н%} NUM ; ! "токъсан"
+
+LEXICON POWERS 
+!%0:%0%{а%}%{н%} NUM ; ! "он"
+%0%0:%0%0%{э%}%{н%} NUM ; ! "юз"
+%0%0%0:%0%0%0%{а%}%{н%} NUM ; ! "минг"
+
+LEXICON LOOP
+
+%,:%, DIGITLEX ; 
+%.:%. DIGITLEX ; 
+%,:%, LASTDIGIT ; 
+%.:%. LASTDIGIT ; 
+%,:%, LASTDIGIT-REST ; 
+%.:%. LASTDIGIT-REST ; 
+%,:%, POWERS ; 
+%.:%. POWERS ; 
+      DIGITLEX ; 
+      LASTDIGIT ;
+      LASTDIGIT-REST ;
+      POWERS ; 
+! <[%0 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+> LASTDIGIT ; ! to avoid 212, 318 here
+
+LEXICON DIGITLEX
+
+%0:%0 LOOP ; 
+1:1 LOOP ;
+2:2 LOOP ;
+3:3 LOOP ;
+4:4 LOOP ;
+5:5 LOOP ;
+6:6 LOOP ;
+7:7 LOOP ;
+8:8 LOOP ;
+9:9 LOOP ;
+
+LEXICON Numerals
+
+%0:%0 NUM ; 
+№:№ DIGITLEX ; 
+DIGITLEX ; 
+LASTDIGIT ;
+LASTDIGIT-REST ;

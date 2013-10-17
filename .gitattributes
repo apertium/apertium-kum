@@ -17,6 +17,10 @@ dev/auto-verbs-from-dict.lexc -text
 dev/auto-verbs-from-dict_left.lexc -text
 dev/countstems.sh -text
 dev/editdist.py -text
+dev/numerals/Makefile -text
+dev/numerals/numerals.lexc -text
+dev/numerals/numerals.twol -text
+dev/numerals/numerals.txt -text
 eval/Makefile -text
 eval/evaluate-morph.py -text
 eval/ref.1000.txt -text
