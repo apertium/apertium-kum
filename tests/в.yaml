@@ -50,3 +50,23 @@ Tests:
     состав<n><px3sp><acc> : составын
     Муратов<np><cog><m><acc> : Муратовну
     Муратов<np><cog><m><px3sp><acc> : Муратовун
+
+  "[twol] gerunds in яв":
+    аркъатая<v><tv><ger><px3sp><acc> : аркъатаявун
+    аркъатая<v><tv><ger><dat> : аркъатаявгъа
+
+  "[twol] verb stems ending in п":
+    тап<v><tv><pass><ifi><p3><sg> : табулду
+    тап<v><tv><gna_perf> : табып
+    оьп<v><tv><ifi><p3><sg> : оьпдю
+    оьп<v><tv><gna_perf> : оьбюп
+    теп<v><tv><gna_perf> : тебип
+
+  "[twol] verb stems ending in в":
+    яв<v><iv><gna_perf> : явуп
+
+  "[twol] noun stems ending in п":
+    китап<n><px3sp><nom> : китабы
+    гьисап<n><px3sp><nom> : гьисабы
+    себеп<n><px3sp><nom> : себеби
+    теп<n><px3sp><nom> : теби

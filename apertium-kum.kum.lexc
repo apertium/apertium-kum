@@ -144,6 +144,7 @@ Multichar_Symbols
 %{ъ%}                     !
 %{ң%}                     !
 %{и%}                     ! deletes word-finally, for words like Минск / Минскиде
+!%{u%}                     ! disappears and triggers rounding harmony
 
 %{☭%}                     ! Russian noun (final voiced Cns treated as unvoiced)
 %{❗%}
@@ -5513,7 +5514,7 @@ LEXICON Verbs
 бажар:бажар V-TV ; ! "суметь"
 юрют:юрют V-TV ; ! "носить"
 
-гётер:гётер V-TV ; ! ""
+гётер:гётер V-TV ; ! "поднимать"
 къара:къара V-TV ; ! "посмотреть"
 сёйле:сёйле V-TV ; ! "молвить"
 тёк:тёк V-TV ; ! "разлить"
@@ -5688,6 +5689,10 @@ LEXICON Verbs
 къычыр:къычыр V-IV ; ! ""
 
 бечи:бечи V-IV ; ! ""
+
+гесил:гесил V-IV ; ! ""  FIXME: CHECK
+яв:яв V-IV ; ! "идти (дождь, снег, т.д.)"
+аркъатая:аркъатая V-TV ; ! ""
 
 LEXICON Interjections
 

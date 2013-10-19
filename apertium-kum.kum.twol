@@ -72,7 +72,7 @@ Rules
             _ %>: (:0) [ :д | %{I%}: ] ;
 
 "Deletion of {s} after a consonant"
-%{s%}:0 <=> [ :Cns | й: ]/[ %>: | :0 ] _ ;
+%{s%}:0 <=> [ :Cns (:ь) | й:0 ]/[ %>: | [ :0 - й:0 ] ] _ ;
 
 "Deletion of {I} after vowels"
 %{I%}:0 <=> [ :Vow ]/[ :0 | %>: ] _ ;
@@ -101,23 +101,12 @@ Rules
         !! but ь deletes in Vльл
         ![ :Vow [ :Cns - :л ] ]/:0 _ [ :Cns - :л ]/:0 ;
 
-"Intervocalic voicing of к"
-Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
-          :Vow (:0) _ :ъ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
+"Intervocalic voicing of к and п"
+Cx:Cy <=> :Vow (:ь) (:0) _ (:ъ) ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
           except
             %{❗%}:0 _ ;
-          where Cx in ( к )
-                Cy in ( г )
-                matched;
-
-
-"Intervocalic voicing of п"
-Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
-          except
-            %{❗%}:0 _ ;
-!                    _ :0* %{I%}: :п ;
-          where Cx in ( п )
-                Cy in ( б )
+          where Cx in ( к п )
+                Cy in ( г б )
                 matched;
 
 "Deletion of й before yoticised vowels when not earlier in a stem"
@@ -125,7 +114,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
         _ %>: [ %{A%}: | %{E%}: | %{I%}: ] ;
         _ %{y%}:YotVow ;  ! and before {y}:ю
     except
-        !!! in these situations there's no special letter !!!
+        !!! in these situations (йы/йи) there's no yoticised letter !!!
         _ %>: [ %{I%}:ы | %{I%}:и ] ;
 
 
@@ -166,13 +155,12 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 %{I%}:ю <=> [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
             [ [ :RdYotVow ] :Cns :Cns* ]/:0 _ ;
                  [ :FrontVow :в :Cns*  ]/:0 _ ;
-            !!!!! following for ойу → ою !!!!!
-          [ :RdVow :Cns* й:0 ]/[ :0 - й:0 ] _ ;
+            !!!!! following for ойу → ою, уьйу → уью !!!!!
+       [ :RdVow (:ь) :Cns* й: ]/[ :0 - й: ] _ ;
 			   !!!!! following for юйю → юю !!!!!
-       [ :RdYotVow :Cns* й:0 ]/[ :0 - й:0 ] _ ;
-       [ :RdVow :ь :Cns* й:0 ]/[ :0 - й:0 ] _ ;
+       [ :RdYotVow :Cns* й: ]/[ :0 - й: ] _ ;
                            !!!!! following for ююню !!!!!
-     [ :RdYotVow й:0 :RdYotVow :Cns :Cns* ]/[ :0 - й:0 ] _ ;  ! кююню
+     [ :RdYotVow й: :RdYotVow :Cns :Cns* ]/[ :0 - й:0 ] _ ;  ! кююню
         except
             %{n%}:н/[ :0 | %>: ] _ .#. ;
         [ [ :Vow - :RdYotVow ] :RdYotVow :Cns :Cns* ]/:0 _ ;
@@ -183,13 +171,16 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
        [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
 
 "{I} back rounded harmony"
-%{I%}:у <=>        [ :RdVow :Cns :Cns* ]/:0 _ ;
-           :Vow [ :RdYotVow :Cns :Cns* ]/:0 _ ;
-            .#. [ :RdYotVow :Cns :Cns* ]/:0 _ ;
+%{I%}:у <=>   [ :RdVow :Cns (:ь) :Cns* ]/:0 _ ;
+      :Vow [ :RdYotVow :Cns (:ь) :Cns* ]/:0 _ ;
+       .#. [ :RdYotVow :Cns (:ь) :Cns* ]/:0 _ ;
                   [ :BackVow :в :Cns*  ]/:0 _ ;
+                   [ :Vow :я :в :Cns*  ]/:0 _ ;
        :RdYotVow [ :Cns :Cns* %{☭%}:0 :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрну in Russian words
        :RdYotVow [ :Cns* %{☭%}:0 :Cns :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрну in Russian words
 		 ! need the above two rules because there needs to be at least one consonant, but it doesn't matter which side of {☭} it is; could combine to one rule with | between the two contexts, but I don't think it's possible to simplify it, e.g. "either :Cns before {☭} or :Cns after {☭}, with optional :Cns* either side"
+  .#. [ (:Cns) [ :я | :а ] [ :б | :в ] ]/:0 _ \:п ;  ! тав-ул-, яв-ул-
+           .#. [ (:Cns) [ :я | :а ] :в ]/:0 _ :п ;  ! тав-ып, яв-уп
         except
                        %{n%}:н/[ :0 | %>: ] _ .#. ;
             [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
@@ -270,4 +261,11 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 %{y%}:ю <=> й: _ ;
         except
             _ [ :Cns :Vow ]/[ :0 | %>: ] ;
+
+
+!!!! Dissimilation !!!!
+
+"Passive {l} becomes n after verb stem ending in /l/"
+%{l%}:н <=> [ л :Vow ]/[ :0 | %>: ] _ ;
+
 
