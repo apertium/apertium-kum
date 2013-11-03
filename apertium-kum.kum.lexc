@@ -438,12 +438,12 @@ V-PERS-S1-QST-NO3PERSON ;
 
 LEXICON V-PERS-S2 
 
-%<p1%>%<sg%>:%>м CLIT ; 
-%<p2%>%<sg%>:%>нг CLIT ; 
-%<p3%>%<sg%>: CLIT ; 
-%<p1%>%<pl%>:%>к%{ъ%} CLIT ;
-%<p2%>%<pl%>:%>г%{ъ%}%{I%}з CLIT ;
-%<p3%>%<pl%>:%>л%{A%}р CLIT ; ! 
+%<p1%>%<sg%>:%>м CLIT-QST ; 
+%<p2%>%<sg%>:%>нг CLIT-QST ; 
+%<p3%>%<sg%>: CLIT-QST ; 
+%<p1%>%<pl%>:%>к%{ъ%} CLIT-QST ;
+%<p2%>%<pl%>:%>г%{ъ%}%{I%}з CLIT-QST ;
+%<p3%>%<pl%>:%>л%{A%}р CLIT-QST ; ! 
 
 LEXICON V-PERS-COP
 
@@ -5718,6 +5718,8 @@ LEXICON Verbs
 бюрк:бюрк V-TV ; ! "брызгаться, набрызгать, опрыскивать"
 бютюнле:бютюнле V-TV ; ! "окончить, кончить"
 гез:гез V-IV ; ! "пройтись, путешествовать"
+
+унут:унут V-TV ; ! ""
 
 
 LEXICON Interjections
