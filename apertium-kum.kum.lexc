@@ -501,7 +501,9 @@ LEXICON V-NONFIN-REG-NEG
 
 
 %<gpr_past%>:%>г%{ъ%}%{A%}н # ;
+%<gpr_past%>%<subst%>:%>г%{ъ%}%{A%}н SUBST ;
 %<gpr_impf%>:%>%{E%}г%{ъ%}%{A%}н # ; ! 
+%<gpr_impf%>%<subst%>:%>%{E%}г%{ъ%}%{A%}н SUBST ; ! 
 
 
 %<imp%>%<p2%>%<sg%>: CLIT-EMPH ;
