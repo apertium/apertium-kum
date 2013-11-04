@@ -3567,6 +3567,7 @@ LEXICON Nouns
 гьакъыкъат:гьакъыкъат N1 ; ! "правда, истина"
 хан:хан N1 ; ! "хан"
 къомуз:къомуз N1 ; ! "комуз"
+хурма:хурма N1 ; ! "date"
 
 
 LEXICON ProperNouns
@@ -4284,6 +4285,10 @@ LEXICON ProperNouns
 Ребека:Ребека NP-ANT-F ; ! "Rebecca"
 Рагьил:Рагьил NP-ANT-F ; ! "Rachel"
 Лия:Лия NP-ANT-F ; ! "Leah"
+
+Къарачач:Къарачач NP-ANT-F ; ! "Blackhair"
+Сувсар:Сувсар NP-ANT-F ; ! "Suwsar"
+Энем:Энем NP-ANT-F ; ! "Enem"
 
 
 
@@ -5302,6 +5307,8 @@ LEXICON Adjectives
 
 онгача:онгача A4 ; ! ""
 аявлу:аявлу A3 ; ! "дорогой/родной"
+
+гючюк:гючюк A1 ; ! "маленький" CHECK
 
 
 LEXICON Adverbs 
