@@ -31,4 +31,7 @@ Tests:
   "[twol] Back-vowel+B-final verb":
     тап<v><tv><pass><ifi><p3><sg> : табулду
 
-  #FIXME: what about forms like ишлетилинди, гёрсетилинди, ойлашылынды,  ??
+  "[twol] Voicing of К":
+    йыкъ<v><tv><pass><ifi><p3><sg> : йыгъылды
+
+#FIXME: what about forms like ишлетилинди, гёрсетилинди, ойлашылынды,  ??
