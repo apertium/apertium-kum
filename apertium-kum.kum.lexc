@@ -4301,6 +4301,16 @@ LEXICON ProperNouns
 Сувсар:Сувсар NP-ANT-F ; ! "Suwsar"
 Энем:Энем NP-ANT-F ; ! "Enem"
 
+Ташбике:Ташбике NP-ANT-F ;
+Арсланхан:Арсланхан NP-ANT-M ;
+Устар:Устар NP-ANT-M ; ! CHECK
+Шавлух:Шавлух NP-ANT-M ; ! CHECK
+Татув:Татув NP-ANT-F ; ! CHECK
+Моллакъа:Моллакъа NP-ANT-M ; ! CHECK
+Шавхал:Шавхал NP-ANT-M ; ! CHECK
+Лайла:Лайла NP-ANT-F ;
+Асхар:Асхар NP-ANT-M ; 
+Ягьия:Ягьия NP-ANT-M ;
 
 
 Медведев:Медведев NP-COG-OV ; ! ""
@@ -5357,6 +5367,7 @@ LEXICON Adverbs
 тез:тез ADV4 ; ! "быстро" FIXME 
 о% заман:о% заман ADV4 ; ! ""
 шо% заман:шо% заман ADV4 ; ! ""
+бырын:бырын ADV4 ; ! ""
 
 нечик:нечик ADV3 ; ! "как"
 нечикдир:нечикдир ADV3 ; ! "как"
