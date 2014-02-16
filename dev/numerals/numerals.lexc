@@ -39,6 +39,7 @@ Multichar_Symbols
 %{ъ%}                     !
 %{ң%}                     !
 %{и%}                     ! deletes word-finally, for words like Минск / Минскиде
+%{е%}                     ! for use in e.g. 1-ев, deletes in px3sp form, e.g. 1-вю
 
 %{☭%}                     ! Russian noun (final voiced Cns treated as unvoiced)
 %{❗%}
@@ -191,9 +192,9 @@ LEXICON NUM
 %<num%>%<ord%>%<subst%>%<nom%>:%-нч%{I%} # ;
 %<num%>%<ord%>%<subst%>:%-нч%{I%} SUBST-NONOM ;
 
-!%<num%>%<coll%>%<advl%>:%-%{A%}у # ;
-!%<num%>%<coll%>%<nom%>:%-%{A%}у # ;
-!%<num%>%<coll%>:%-%{A%}у SUBST-NONOM ;
+%<num%>%<coll%>%<advl%>:%-%{е%}в # ;
+%<num%>%<coll%>%<nom%>:%-%{е%}в # ;
+%<num%>%<coll%>:%-%{е%}в SUBST-NONOM ;
 
 %<num%>%<percent%>:%% # ;
 %<num%>%<percent%>%<subst%>%<nom%>:%% # ;
