@@ -187,9 +187,9 @@ LEXICON NUM
 %<num%>%<subst%>:%- SUBST-NONOM ;
 %<num%>%<subst%>: SUBST-NONOM ; ! Dir/LR
 
-%<num%>%<ord%>:%-%{I%}нч%{I%} # ;
-%<num%>%<ord%>%<subst%>%<nom%>:%-%{I%}нч%{I%} # ;
-%<num%>%<ord%>%<subst%>:%-%{I%}нч%{I%} SUBST-NONOM ;
+%<num%>%<ord%>:%-нч%{I%} # ;
+%<num%>%<ord%>%<subst%>%<nom%>:%-нч%{I%} # ;
+%<num%>%<ord%>%<subst%>:%-нч%{I%} SUBST-NONOM ;
 
 !%<num%>%<coll%>%<advl%>:%-%{A%}у # ;
 !%<num%>%<coll%>%<nom%>:%-%{A%}у # ;

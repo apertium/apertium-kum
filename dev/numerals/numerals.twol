@@ -24,7 +24,7 @@ Alphabet
  %{й%}:0 
  %{н%}:0 
  %{з%}:0 
- %{с%}:0 
+ %{т%}:0 
 
 
  %{❗%}:0
@@ -32,13 +32,14 @@ Alphabet
  
  %>:0
  % 
+ %-
  %+   ;
 
 Sets
 
 Vow = а э и о у А Э И О У     ! Уь Оь 
       я е ы ё ю Я Е Ы Ё Ю     ! уь Оь
-      %{а%} %{э%} ;
+      %{а%} %{э%} %{о%} %{ү%} ;
 
 Cns =  Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ
        б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ ; 
@@ -48,14 +49,15 @@ Nasals = н м
 
 FrontVow = и е э
            И Е Э 
-           %{э%} ; !! leave out front-rounded vowels ё/оь and ю/уь!
+           %{э%} %{ү%} ; !! leave out front-rounded vowels ё/оь and ю/уь!
 
 BackVow = а ы у о
           А Ы У О 
-           %{а%} ;
+           %{а%} %{о%} ;
 
 RdVow = о у
-        О У ;
+        О У
+        %{о%} %{ү%} ;
 
 RdYotVow = ё ю
            Ё Ю ;
@@ -74,6 +76,11 @@ BackUnroundVow = а ы
 
 YotVow = Я я Е е Ё ё Ю ю ;  ! BEWARE of non-post-C ё ю
 
+Abstract = %{а%} %{э%} %{ү%} %{о%} %{й%} %{н%} %{з%} %{т%} ;
+AbstractVow = %{а%} %{э%} %{ү%} %{о%} ;
+AbstractCns = %{й%} %{н%} %{з%} %{т%} ;
+
+
 Rules
 
 "Deletion of {и} at end of word (i.e., in stand-alone forms)"
@@ -85,10 +92,12 @@ Rules
             _ %>: (:0) [ :д | %{I%}: ] ;
 
 "Deletion of {s} after a consonant"
-%{s%}:0 <=> [ :Cns | й: | %{н%}: ]/[ %>: | :0 ] _ ;
+%{s%}:0 <=> [ :Cns | й: | %{н%}: ]/[ %>: | [ :0 - Abstract: ] ] _ ;
+            AbstractCns:/[ [ :0 - Abstract: ] | %-: ] _ ;
 
 "Deletion of {I} after vowels"
-%{I%}:0 <=> [ :Vow ]/[ :0 | %>: ] _ ;
+%{I%}:0 <=> [ :Vow ]/[ [ :0 - Abstract: ] | %>: ] _ ;
+        [ AbstractCns: %{s%}: ]/[ [ :0 - [ Abstract: | %{s%}: ] ] | %-: ] _ %{n%}: %>: ;
             except
              [ й:0 ]/[ :0 - й:0 ] _ ;
 
@@ -165,51 +174,67 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 !!!!!!!!! Vowel Harmony !!!!!!!!!!!
 
 "{I} front unrounded harmony"
-%{I%}:и <=> [ [ :FrontVow | [ [ :Vow - [ :RdVow | :RdYotVow ] ] :ь ] ] :Cns :Cns* ]/:0 _ ;
+%{I%}:и <=> [ [ :FrontVow | [ [ :Vow - [ :RdVow | :RdYotVow ] ] :ь ] ] :Cns :Cns* ]/[ :0 - Abstract: ] _ ;
             ! ь only triggers front harmony when there's a consonant cluster before it
-            [ :Cns :Cns ь:0 %>: :Cns* ]/[ :0 - ь:0 ] _ ;
-
+            [ :Cns :Cns ь:0 %>: :Cns* ]/[ :0 - [ ь:0 | Abstract: ] ] _ ;
+            ! abstract vowels
+                  [ %{э%}:0 :Cns* ]/[ [ :0 - AbstractVow: ] | %-: ]* _ ;
 
         except
-                       %{n%}:н/[ :0 | %>: ] _ .#. ;
-   [ :FrontVow :в :Cns*  ]/[ :0 - %{☭%}:0 ] _ ;  ! -евни in Russian words
-            [ :Cns :р %{☭%}: %>: :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
+                          %{n%}:н/[ [ :0 - Abstract: ] | %>: ] _ .#. ;
+      [ :FrontVow :в :Cns*  ]/[ :0 - [ Abstract: | %{☭%}:0 ] ] _ ;  ! -евни in Russian words
+  [ :Cns :р %{☭%}: %>: :Cns* ]/[ :0 - [ Abstract: | %{☭%}: | %>: ] ] _ ;  ! центр and тигр take back vowels
+        [ AbstractCns: %{s%}: ]/[ [ :0 - [ Abstract: | %{s%}: ] ] | %-: ] _ %{n%}: %>: ;
 
 "{I} front rounded harmony"
-%{I%}:ю <=> [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
-            [ [ :RdYotVow ] :Cns :Cns* ]/:0 _ ;
-                 [ :FrontVow :в :Cns*  ]/:0 _ ;
+%{I%}:ю <=> [ [ :RdVow :ь ] :Cns :Cns* ]/[ :0 - Abstract: ] _ ;
+            [ [ :RdYotVow ] :Cns :Cns* ]/[ :0 - Abstract: ] _ ;
+                 [ :FrontVow :в :Cns*  ]/[ :0 - Abstract: ] _ ;
             !!!!! following for ойу → ою !!!!!
-          [ :RdVow :Cns* й:0 ]/[ :0 - й:0 ] _ ;
+          [ :RdVow :Cns* й:0 ]/[ :0 - [ й:0 | Abstract: ] ] _ ;
 			   !!!!! following for юйю → юю !!!!!
-       [ :RdYotVow :Cns* й:0 ]/[ :0 - й:0 ] _ ;
-       [ :RdVow :ь :Cns* й:0 ]/[ :0 - й:0 ] _ ;
+       [ :RdYotVow :Cns* й:0 ]/[ :0 - [ й:0 | Abstract: ] ] _ ;
+       [ :RdVow :ь :Cns* й:0 ]/[ :0 - [ й:0 | Abstract: ] ] _ ;
                            !!!!! following for ююню !!!!!
-     [ :RdYotVow й:0 :RdYotVow :Cns :Cns* ]/[ :0 - й:0 ] _ ;  ! кююню
+     [ :RdYotVow й:0 :RdYotVow :Cns :Cns* ]/[ :0 - [ й:0 | Abstract: ] ] _ ;  ! кююню
+            ! abstract vowels
+         [ %{ү%}:0 :Cns* ]/[ [ :0 - AbstractVow: ] | %-: ]* _ ;
         except
-            %{n%}:н/[ :0 | %>: ] _ .#. ;
-        [ [ :Vow - :RdYotVow ] :RdYotVow :Cns :Cns* ]/:0 _ ;
-            .#. [ :RdYotVow :Cns :Cns* ]/:0 _ ;
-             %{☭%}: :Cns*/[ :0 - %{☭%}:0 ]* _ ;
-         [ :FrontVow :в %{☭%}: :Cns* ]/[ :0 - %{☭%}:0 ]* _ ;
-      [ :RdYotVow :Cns* %{☭%}:0 :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрну in Russian words
+            %{n%}:н/[ [ :0 - Abstract: ] | %>: ] _ .#. ;
+        [ [ :Vow - :RdYotVow ] :RdYotVow :Cns :Cns* ]/[ :0 - Abstract: ] _ ;
+            .#. [ :RdYotVow :Cns :Cns* ]/[ :0 - Abstract: ] _ ;
+             %{☭%}: :Cns*/[ [ :0 - Abstract: ] - %{☭%}:0 ]* _ ;
+         [ :FrontVow :в %{☭%}: :Cns* ]/[ :0 - [ Abstract: | %{☭%}:0 ] ]* _ ;
+      [ :RdYotVow :Cns* %{☭%}:0 :Cns* ]/[ :0 - [ Abstract: | %{☭%}:0 ] ] _ ;  ! -ёрну in Russian words
        [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
+        [ AbstractCns: %{s%}: ]/[ [ :0 - [ Abstract: | %{s%}: ] ] | %-: ] _ %{n%}: %>: ;
 
 "{I} back rounded harmony"
-%{I%}:у <=>        [ :RdVow :Cns :Cns* ]/:0 _ ;
-           :Vow [ :RdYotVow :Cns :Cns* ]/:0 _ ;
-            .#. [ :RdYotVow :Cns :Cns* ]/:0 _ ;
-                  [ :BackVow :в :Cns*  ]/:0 _ ;
-       :RdYotVow [ :Cns :Cns* %{☭%}:0 :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрну in Russian words
-       :RdYotVow [ :Cns* %{☭%}:0 :Cns :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрну in Russian words
+%{I%}:у <=>        [ :RdVow :Cns :Cns* ]/[ :0 - Abstract: ] _ ;
+      :FrontVow [ :RdYotVow :Cns :Cns* ]/[ :0 - Abstract: ] _ ;
+            .#. [ :RdYotVow :Cns :Cns* ]/[ :0 - Abstract: ] _ ;
+                  [ :BackVow :в :Cns*  ]/[ :0 - Abstract: ] _ ;
+       :RdYotVow [ :Cns :Cns* %{☭%}:0 :Cns* ]/[ [ :0 - Abstract: ] - %{☭%}:0 ] _ ;  ! -ёрну in Russian words
+       :RdYotVow [ :Cns* %{☭%}:0 :Cns :Cns* ]/[ [ :0 - Abstract: ] - %{☭%}:0 ] _ ;  ! -ёрну in Russian words
 		 ! need the above two rules because there needs to be at least one consonant, but it doesn't matter which side of {☭} it is; could combine to one rule with | between the two contexts, but I don't think it's possible to simplify it, e.g. "either :Cns before {☭} or :Cns after {☭}, with optional :Cns* either side"
+            ! abstract vowels
+         [ %{о%}:0 :Cns* ]/[ [ :0 - AbstractVow: ] | %-: ]* _ ;
+
         except
-                       %{n%}:н/[ :0 | %>: ] _ .#. ;
-            [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
-       :а :в %{☭%}: :Cns*/[ :0 - %{☭%}:0 ]* _ ;  !  -авны, -овну
-          [ :RdVow :Cns* й:0 ]/[ :0 - й:0 ] _ ;  ! ойу > ою
-       [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
-     [ :RdYotVow й:0 :RdYotVow :Cns :Cns* ]/[ :0 - й:0 ] _ ;  ! кююню
+                       %{n%}:н/[ [ :0 - Abstract: ] | %>: ] _ .#. ;
+            [ [ :RdVow :ь ] :Cns :Cns* ]/[ :0 - Abstract: ] _ ;
+       :а :в %{☭%}: :Cns*/[ :0 - [ Abstract: | %{☭%}:0 ] ]* _ ;  !  -авны, -овну
+          [ :RdVow :Cns* й:0 ]/[ :0 - [ Abstract: | й:0 ] ] _ ;  ! ойу > ою
+       [ :Cns :Cns ь:0 :Cns* ]/[ :0 - [ Abstract: | ь:0 ] ] _ ;
+     [ :RdYotVow й:0 :RdYotVow :Cns :Cns* ]/[ :0 - [ Abstract: | й:0 ] ] _ ;  ! кююню
+        [ AbstractCns: %{s%}: ]/[ [ :0 - [ Abstract: | %{s%}: ] ] | %-: ] _ %{n%}: %>: ;
+
+!"Abstract vowel harmony for {I} after {а}"
+!%{I%}:ы  <=> [ %{а%}:0 AbstractCns:0* :Cns* ]/[ [ :0 - Abstract: ] | %>: ] _ ;
+
+
+
+
 
 "{A} front unrounded harmony"
 %{A%}:е <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns :Cns* ]/:0 _ ;
@@ -219,11 +244,14 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
                      [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
                            !!!!! following for ююню !!!!!
       [ :RdYotVow й:0 :RdYotVow :Cns :Cns* ]/[ :0 - й:0 ] _ ;  ! кююню 
-                                         %{э%}: (%-) %>: :Cns* _ ; 
+!                                         %{э%}: (%-) %>: :Cns* _ ; 
+            ! abstract vowels
+ [ [ %{э%}:0 | %{ү%}:0 ] :Cns* ]/[ [ :0 - AbstractVow: ] | %-: ]* _ ;
         except
        [ :RdYotVow :Cns* %{☭%}:0 :Cns* ]/[ :0 - %{☭%}:0 ] _ ;  ! -ёрлар in Russian words
                           [ :Cns :р %{☭%}: %>: :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
          [ [ :Vow - :RdYotVow ] :RdYotVow :Cns :Cns* ]/:0 _ ;  ! for some reason the rule above doesn't exclude this condition  e.g., боюнгъа
+                          [ :Vow ]/[ [ :0 - й:0 ] | %>: ] _ ;
 
 "{E} front harmony"
 %{E%}:е <=> [ [ :FrontVow | [ :Vow :ь ] ] :Cns :Cns* ]/:0 _ ;
@@ -245,12 +273,14 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 !!!!!!!!! Cons - VH interaction !!!!!!!!!
 
 "Delete ъ in front vowel context and after г:0"
-%{ъ%}:0 <=> [ [ [ %{э%}: | :FrontVow ] | [ :Vow :ь ] ] :Cns* [ :г | :к ]  ]/[ :0 - %{ъ%}:0 ] _ ;
-                          [ [ :RdVow :ь ] :Cns :Cns* ]/:0 _ ;
-      [ [ [ \[ .#. | :Vow ] ] :RdYotVow ] :Cns :Cns* ]/:0 _ ;
+%{ъ%}:0 <=> [ [ [ %{э%}: | :FrontVow ] | [ :Vow :ь ] ] :Cns* [ :г | :к ]  ]/[ :0 - [ Abstract: | %{ъ%}:0 ] ] _ ;
+                          [ [ :RdVow :ь ] :Cns :Cns* ]/[ :0 - Abstract: ] _ ;
+      [ [ [ \[ .#. | :Vow ] ] :RdYotVow ] :Cns :Cns* ]/[ :0 - Abstract: ] _ ;
                                                       г:0 _ ;
     ! ь only triggers front harmony when there's a consonant cluster before it
                      [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
+            ! abstract vowels
+ [ [ %{э%}:0 | %{ү%}:0 ] :Cns* ]/[ [ :0 - AbstractVow: ] | %-: ]* _ ;
         except
                           [ :Cns :р %{☭%}: %>: :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
                          [ :Vow :RdYotVow :Cns :Cns* ]/:0 _ ;  ! for some reason the rule above doesn't exclude this condition  e.g., боюнгъа
@@ -269,7 +299,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 %{A%}:0 <=> [ :Vow ]/[ [ :0 - й:0 ] | %>: ] _ ;
 
 "Deletion of {I} after {n}"
-%{I%}:0 <=> %{n%}:н/[ :0 | %>: ] _ .#. ;
+%{I%}:0 <=> %{n%}:н/[ [ :0 - Abstract: ] | %>: ] _ .#. ;
             except
                          %{o%}:0 _ ;
 
