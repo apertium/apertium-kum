@@ -146,6 +146,18 @@ Multichar_Symbols
 %{и%}                     ! deletes word-finally, for words like Минск / Минскиде
 !%{u%}                     ! disappears and triggers rounding harmony
 
+%{а%}
+%{э%}
+%{о%}
+%{ү%}
+
+%{й%}
+%{л%}
+%{н%}
+%{з%}
+%{т%}
+
+
 %{☭%}                     ! Russian noun (final voiced Cns treated as unvoiced)
 %{❗%}
 
