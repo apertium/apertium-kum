@@ -46,6 +46,7 @@ Multichar_Symbols
 %<itg%>                   ! 
 %<qnt%>                   ! 
 %<ord%>                   ! 
+%<coll%>                  ! 
 %<ref%>                   ! 
 
 %<m%>                     ! 
