@@ -93,7 +93,7 @@ Rules
             _ %>: (:0) [ :д | %{I%}: ] ;
 
 "Deletion of {s} after a consonant"
-%{s%}:0 <=> [ :Cns | й: | %{н%}: ]/[ %>: | [ :0 - Abstract: ] ] _ ;
+%{s%}:0 <=> [ [ :Cns (ь:) ] | й: | %{н%}: ]/[ %>: | [ :0 - Abstract: ] ] _ ;
             AbstractCns:/[ [ :0 - Abstract: ] | %-: ] _ ;
 
 "Deletion of {I} after vowels"
@@ -139,6 +139,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
 
 "Intervocalic voicing of п"
 Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
+          .#. :RdVow :ь (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;  ! оьп>{I}п:оьбюп
           except
             %{❗%}:0 _ ;
 !                    _ :0* %{I%}: :п ;
@@ -214,10 +215,16 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
         [ AbstractCns: %{s%}: ]/[ [ :0 - [ Abstract: | %{s%}: ] ] | %-: ] _ %{n%}: %>: ;
 
 "{I} back rounded harmony"
-%{I%}:у <=>        [ :RdVow :Cns :Cns* ]/[ :0 - Abstract: ] _ ;
+%{I%}:у <=>        [ :RdVow :Cns [ :Cns | ь: ]* ]/[ :0 - Abstract: ] _ ;
       :FrontVow [ :RdYotVow :Cns :Cns* ]/[ :0 - Abstract: ] _ ;
+       :BackVow [ :RdYotVow :Cns :Cns* ]/[ :0 - Abstract: ] _ ;
             .#. [ :RdYotVow :Cns :Cns* ]/[ :0 - Abstract: ] _ ;
+
+    ! secondary rounding stuff
                   [ :BackVow :в :Cns*  ]/[ :0 - [ Abstract: | %{е%}: ] ] _ ;
+          [ :BackVow :YotVow :в :Cns*  ]/[ :0 - [ Abstract: | %{е%}: ] ] _ ;
+               [ .#. :YotVow :в :Cns*  ]/[ :0 - [ Abstract: | %{е%}: ] ] _ ;
+
        :RdYotVow [ :Cns :Cns* %{☭%}:0 :Cns* ]/[ [ :0 - Abstract: ] - %{☭%}:0 ] _ ;  ! -ёрну in Russian words
        :RdYotVow [ :Cns* %{☭%}:0 :Cns :Cns* ]/[ [ :0 - Abstract: ] - %{☭%}:0 ] _ ;  ! -ёрну in Russian words
 		 ! need the above two rules because there needs to be at least one consonant, but it doesn't matter which side of {☭} it is; could combine to one rule with | between the two contexts, but I don't think it's possible to simplify it, e.g. "either :Cns before {☭} or :Cns after {☭}, with optional :Cns* either side"
