@@ -448,7 +448,7 @@
 ^Биле/бил<v><tv><aor><p3><sg>/бил<v><tv><prc_impf>/бил<v><tv><gna_impf>$
 ^токъталды/токътал<v><iv><ifi><p3><sg>$
 ^шагьарларыны/шагьар<n><pl><px3sp><gen>$
-^Театрланы/театр<n><pl><nom>/театр<n><pl><attr>$
+^Театрланы/театр<n><pl><acc>/театр<n><pl><gen>$
 ^чыдагъыз/чыда<v><iv><imp><p2><pl>$
 ^айтма/айт<v><tv><ger1><nom>/айт<v><tv><neg><imp><p2><sg>$
 ^батылмай/батыл<v><iv><neg><aor><p3><sg>/батыл<v><iv><neg><gna_impf>/батыл<v><iv><neg><prc_impf>$
