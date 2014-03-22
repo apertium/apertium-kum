@@ -453,7 +453,7 @@
 ^айтма/айт<v><tv><ger1><nom>/айт<v><tv><neg><imp><p2><sg>$
 ^батылмай/батыл<v><iv><neg><aor><p3><sg>/батыл<v><iv><neg><gna_impf>/батыл<v><iv><neg><prc_impf>$
 ^учур/уч<v><iv><fut><p3><sg>$
-^Ума/Ума<np><ant><f><nom>/Ума<np><ant><f><ref>$
+^Ума/Ума<np><ant><f><nom>/Ума<np><ant><f><attr>$
 ^чапгъынлар/чапгъын<n><pl><nom>$
 ^асарларында/асар<n><pl><px3sp><loc>$
 ^хасиятмы/хасият<n><nom>+мы<qst>$
