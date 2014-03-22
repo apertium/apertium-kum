@@ -17,7 +17,7 @@
 ^башчыгъа/башчы<n><dat>$
 ^тёре/тёр<n><px3sp><nom>$
 ^белгиленежек/белгиле<v><tv><pass><ger_pros><nom>/белгиле<v><tv><pass><pros><p3><sg>$
-^август/август<n><dat>$
+^августгъа/август<n><dat>$
 ^агьамиятыны/агьамият<n><px3sp><gen>$
 ^аппаратланы/аппарат<n><pl><acc>/аппарат<n><pl><gen>$
 ^алышдырывлар/алышдыр<v><tv><ger><pl><nom>$
@@ -115,7 +115,7 @@
 ^ахтарывгъа/ахтар<v><tv><ger><dat>/ахтарыв<n><dat>$
 ^Анасыны/ана<n><px3sp><gen>$
 ^ялап/яла<v><tv><prc_perf>/яла<v><tv><gna_perf>$
-^Татарсан/Татарстан<np><top><nom>/Татарстан<np><top><attr>$
+^Татарстан/Татарстан<np><top><nom>/Татарстан<np><top><attr>$
 ^анасыны/ана<n><px3sp><gen>$
 ^болар/бол<v><iv><fut><p3><sg>$
 ^Айтмагъа/айт<v><tv><ger1><dat>$
@@ -172,14 +172,14 @@
 ^агьамиятын/агьамият<n><px3sp><acc>$
 ^берилишлеге/берилиш<n><pl><dat>$
 ^гелгенликни/гел<v><iv><ger_something><acc>/гел<v><iv><ger_something><gen>$
-^чомартны/чомарт<adj><subst><acc>/чомарт<adj><subst>$
+^чомартны/чомарт<adj><subst><acc>/чомарт<adj><subst><gen>$
 ^гелгенче/гел<v><iv><ger1><asmuch>$
 ^токъталмажакъ/токътал<v><iv><neg><ger_pros><nom>/токътал<v><iv><neg><pros><p3><sg>$
 ^язывчуларыбыз/язывчу<n><pl><px1pl><nom>$
 ^юрюйгенине/юрю<v><iv><gpr_impf><subst><px3sp><dat>/юрю<v><iv><ger_impf><px3sp><dat>$
 ^багъышлана/багъышла<v><tv><pass><aor><p3><sg>/багъышла<v><tv><pass><gna_impf>/багъышла<v><tv><pass><prc_impf>$
 ^адиллеге/адил<n><pl><dat>$
-^юлдуруп/юлдур<v><tv><ger1><nom>/юлдур<v><tv><neg><imp><p2><sg>$
+^юлдуруп/юлдур<v><iv><ger1><nom>/юлдур<v><iv><neg><imp><p2><sg>$
 ^боялды/боя<v><tv><pass><ifi><p3><sg>$
 ^автономлугъу/автономлукъ<n><px3sp><nom>$
 ^экономикасы/экономика<n><px3sp><nom>$
@@ -244,7 +244,7 @@
 ^гетгенлерден/гет<v><iv><gpr_past><subst><pl><abl>/гет<v><iv><ger_past><pl><abl>$
 ^берилишден/берилиш<n><abl>$
 ^штабыны/штаб<n><px3sp><gen>$
-^Эшигинден/Эшик<n><px3sp><abl>$
+^Эшигинден/эшик<n><px3sp><abl>$
 ^тёрдегисине/тёр<n><loc><subst><px3sp><nom>$
 ^битмеген/бит<v><iv><neg><gpr_past>/бит<v><iv><neg><gpr_past><subst><nom>/бит<v><iv><neg><ger_past><nom>/бит<v><iv><neg><past><p3><sg>$
 ^юрюйбюз/юрю<v><iv><aor><p1><pl>$
@@ -297,7 +297,7 @@
 ^айтмагъа/айт<v><tv><ger1><dat>$
 ^театрлагъа/театр<n><pl><dat>$
 ^Уьлкебизни/уьлке<n><px1pl><acc>/уьлке<n><px1pl><gen>$
-^ахтарывланы/ахтар<v><tv><ger><pl><gen>/ахтар<v><tv><ger><pl><acc>/ахтарыв<n><acc>/ахтарыв<n><gen>$
+^ахтарывланы/ахтар<v><tv><ger><pl><gen>/ахтар<v><tv><ger><pl><acc>/ахтарыв<n><pl><acc>/ахтарыв<n><pl><gen>$
 ^асарларыбыз/асар<n><pl><px1pl><nom>$
 ^тюрлюлендирсе/тюрлюлелендир<v><tv><gna_cond>/тюрлюлендир<v><tv><prc_cond><p3><sg>$
 ^черсиз/чер<n><nom>+э<cop><p2><pl>/чер<n>+сыз<post>/чер<n>+сыз<post><subst><nom>$
@@ -453,7 +453,7 @@
 ^айтма/айт<v><tv><ger1><nom>/айт<v><tv><neg><imp><p2><sg>$
 ^батылмай/батыл<v><iv><neg><aor><p3><sg>/батыл<v><iv><neg><gna_impf>/батыл<v><iv><neg><prc_impf>$
 ^учур/уч<v><iv><fut><p3><sg>$
-^Ума/Ума<np><ant><f><nom>$
+^Ума/Ума<np><ant><f><nom>/Ума<np><ant><f><ref>$
 ^чапгъынлар/чапгъын<n><pl><nom>$
 ^асарларында/асар<n><pl><px3sp><loc>$
 ^хасиятмы/хасият<n><nom>+мы<qst>$
