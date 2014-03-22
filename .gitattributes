@@ -22,10 +22,10 @@ dev/numerals/numerals.lexc -text
 dev/numerals/numerals.twol -text
 dev/numerals/numerals.txt -text
 eval/Makefile -text
+eval/archive/ref.1000.txt -text
+eval/archive/src.1000.txt -text svneol=unset#application/octet-stream
 eval/evaluate-morph.py -text
-eval/ref.1000.txt -text
 eval/ref.500.txt -text
-eval/src.1000.txt -text svneol=unset#application/octet-stream
 eval/src.500.txt -text svneol=unset#application/octet-stream
 /modes.xml -text
 speller/editdist.default.txt -text
