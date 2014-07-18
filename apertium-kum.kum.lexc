@@ -93,6 +93,7 @@ Multichar_Symbols
 %<past%>                  ! 
 %<pros%>                  ! 
 %<ifi%>                   ! 
+%<pii%>                   ! 
 %<imp%>                   ! 
 %<opt%>                   ! 
 
@@ -413,16 +414,9 @@ LEXICON CASES-ETC
 CASES ;
 GENPOSS-ETC ;
 
-LEXICON ABESS-INFL
-
-!%<attr%>: CLIT ; 
-!%<advl%>: CLIT ; 
-CLIT ;
-%<subst%>: CASES ;
-
 LEXICON ABESS
 
-%+сыз%<post%>:%>с%{I%}з ABESS-INFL ;
+%+сыз%<post%>:%>с%{I%}з CLIT ;
 
 LEXICON N-INFL-COMMON
 
@@ -616,6 +610,7 @@ LEXICON V-FIN-REG-NEG
 
 %<past%>:%>г%{ъ%}%{A%}н V-PERS-S1-QST ;
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ; 
+%<pii%>:%>%{E%}%{D%}%{I%} V-PERS-S2 ; 
 %<pros%>:%>%{A%}ж%{A%}к%{ъ%} V-PERS-S1-QST ; ! FIXME: Might not be finite, see TTL p.311
 
 LEXICON V-FIN-IRREG-NEG-COMMON
@@ -743,6 +738,7 @@ LEXICON PRON-MEN
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:енде # ;
 %<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:енден # ;
 %<prn%>%<pers%>%<p1%>%<sg%>%<px%>:еники%{n%} CASES ;
+%<prn%>%<pers%>%<p1%>%<sg%>:ен ABESS ;
 
 LEXICON PRON-SEN 
 
@@ -753,6 +749,7 @@ LEXICON PRON-SEN
 %<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:енде # ;
 %<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:енден # ;
 %<prn%>%<pers%>%<p2%>%<sg%>%<px%>:еники%{n%} CASES ;
+%<prn%>%<pers%>%<p2%>%<sg%>:ен ABESS ;
 
 LEXICON PRON-OL
 
@@ -764,6 +761,7 @@ LEXICON PRON-OL
 %<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:нда # ;
 %<prn%>%<pers%>%<p3%>%<sg1%>%<abl%>:ндан # ;
 %<prn%>%<pers%>%<p3%>%<sg%>%<px%>:нуки%{n%} CASES ;
+%<prn%>%<pers%>%<p3%>%<sg%>:н ABESS ; ! FIXME: Check
 
 LEXICON PRON-BIZ
 
@@ -773,6 +771,7 @@ LEXICON PRON-BIZ
 %<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:ин # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:де # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:ден # ;
+%<prn%>%<pers%>%<p1%>%<pl%>:ин ABESS ;
 
 LEXICON PRON-SIZ
 
@@ -782,6 +781,7 @@ LEXICON PRON-SIZ
 %<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:ин # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:де # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:ден # ;
+%<prn%>%<pers%>%<p2%>%<pl%>:ин ABESS ;
 
 
 LEXICON PRON-OLAR
@@ -1971,7 +1971,7 @@ LEXICON Nouns
 кризис:кризис N1 ; ! ""
 команда:команда N1 ; ! ""
 наркотик:наркотик N1 ; ! ""
-сююв:сююв N1 ; ! "симпатия"
+сююв:сююв N1 ; ! "симпатия, любовь"
 гезик:гезик N1 ; ! "очередь"
 очередь:очередь N1 ; ! "очередь"
 инженер:инженер N1 ; ! ""
@@ -3946,7 +3946,7 @@ LEXICON ProperNouns
 Македония:Македония NP-TOP ; ! ""
 
 СССР:СССР%{э%}%{й%} NP-TOP-ACR ; ! ""
-РФ:РФ%{э%}%{с%} NP-TOP-ACR ; ! ""
+РФ:РФ%{э%} NP-TOP-ACR ; ! ""
 ДР:ДР%{э%}%{й%} NP-TOP-ACR ; ! ""
 РСФСР:РСФСР%{э%}%{й%} NP-TOP-ACR ; ! ""
 АССР:АССР%{э%}%{й%} NP-TOP-ACR ; ! ""
@@ -5858,6 +5858,7 @@ LEXICON Verbs
 яшын:яшын V-IV ; ! "спрятаться, притаиться, закатиться, прятаться, исчезнуть, деться, скрыться"  REFL of ____
 яшыр:яшыр V-TV ; ! "деть, таить"  CAUS of ____
 акъ:акъ V-TV ; ! ""
+акътыр:акътыр V-TV ; ! "" CAUS of акъ
 
 чал:чал V-TV ; ! "вилять"
 
@@ -6071,6 +6072,8 @@ LEXICON Verbs
 сюйре:сюйре V-TV ; ! "тащить, потянуть, тянуть"
 сюрлюк:сюрлюк V-IV ; ! "обвалиться, оползти"
 сюрт:сюрт V-TV ; ! "втереть, размазать, потирать, замазать, потереть"
+
+яллат:яллат V-TV ; ! "зажигать, поджигать"
 
 
 LEXICON Interjections
