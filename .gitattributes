@@ -9,6 +9,7 @@
 /apertium-kum.kum.rlx -text
 /apertium-kum.kum.twol -text
 /apertium-kum.pc.in -text
+/apertium-kum.post-kum.dix -text
 /autogen.sh -text
 /configure.ac -text
 dev/auto-adj-from-dict.lexc -text
