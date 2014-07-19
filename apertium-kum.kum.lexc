@@ -801,6 +801,8 @@ LEXICON PRON-DEM-BU
 бу%<prn%>%<dem%>%<sim%>:булай CLIT ;
 бу%<prn%>%<dem%>%<px%>:бус%{I%}%{n%} CASES ;
 
+бу%<prn%>%<dem%>%<adv%>:булай CLIT ;
+
 
 LEXICON PRON-DEM-SO
 
@@ -813,6 +815,8 @@ LEXICON PRON-DEM-SO
 %<prn%>%<dem%>%<pl%>:ла%{r%} CASES-ETC ;
 %<prn%>%<dem%>%<sim%>:лай CLIT ;
 %<prn%>%<dem%>%<px%>:с%{I%}%{n%} CASES ;
+
+%<prn%>%<dem%>%<adv%>:лай CLIT ;
 
 LEXICON PRON-ITG
 
@@ -3742,6 +3746,7 @@ LEXICON Nouns
 тарых:тарых N1 ; ! "история"
 гюнагь:гюнагь N1 ; ! "guilt/sin?"
 
+ярыкъ:ярыкъ N1 ; ! "свет"?
 
 
 LEXICON ProperNouns
@@ -5503,6 +5508,8 @@ LEXICON Adjectives
 жанлы:жанлы A4 ; ! "living?  having a soul?"
 сокъур:сокъур A4 ; ! "blind"
 
+геч:геч A1 ; ! "поздний"
+
 
 LEXICON Adverbs 
 
@@ -5595,6 +5602,8 @@ LEXICON Verbs
 
 
 бол:бол V-IV-AR ; ! "быть"
+бол%<v%>%<iv%>%<prc_cond%>:бу%>с%{A%} V-PERS-S2 ; ! Dir/LR ! FIXME: check that this is the right thing to do
+
 ич:ич V-TV ; ! "пить"
 де:де V-TV ; ! "говорить"
 гет:гет V-IV ; ! "ехать"
@@ -6074,6 +6083,7 @@ LEXICON Verbs
 сюрт:сюрт V-TV ; ! "втереть, размазать, потирать, замазать, потереть"
 
 яллат:яллат V-TV ; ! "зажигать, поджигать"
+ойлаш:ойлаш V-TV-AR ; ! "думать"
 
 
 LEXICON Interjections
