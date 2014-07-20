@@ -91,9 +91,10 @@ Rules
 %{r%}:0 <=> _ %>: ; 
         except 
             _ %>: (:0) [ :д | %{I%}: ] ;
+            _ %>: %{s%}: ;  ! don't delete {r} in px3 forms: гёзлерин
 
 "Deletion of {s} after a consonant"
-%{s%}:0 <=> [ [ :Cns (ь:) ] | й: | %{н%}: ]/[ %>: | [ :0 - Abstract: ] ] _ ;
+%{s%}:0 <=> [ [ :Cns (ь:) ] | й: | %{н%}: ]/[ %>: | [ :0 - [ Abstract: | %{r%}: ] ] ] _ ;
             AbstractCns:/[ [ :0 - Abstract: ] | %-: ] _ ;
 
 "Deletion of {I} after vowels"
