@@ -12,7 +12,7 @@ Alphabet
  %{s%}:с
  %{n%}:н
  %{y%}:у
- %{l%}:л %{l%}:н
+ %{l%}:л ! %{l%}:н
  %{ъ%}:ъ ! %{ъ%}:0
  %{ң%}:0
  %{и%}:и
@@ -329,3 +329,8 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
         except
             _ [ :Cns :Vow ]/[ :0 | %>: ] ;
 
+
+!!!!!!!! Passive !!!!!!!!
+
+"Passive morpheme is н after stems whose last consonant is л"
+%{l%}:н <=> [ :л :Vow ]/:0 _ ;

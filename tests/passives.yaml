@@ -21,8 +21,13 @@ Tests:
     къош<v><tv><pass><ifi><p3><sg> : къошулду
     къур<v><tv><pass><ifi><p3><sg> : къурулду
 
-  "[twol] Front-vowel+L-final verb":
+  "[twol] L+front-vowel-final verb":
     сёйле<v><tv><pass><ifi><p3><sg> : сёйленди
+    ишле<v><tv><pass><ifi><p3><sg> : ишленди
+
+  "[twol] Front-vowel+L-final verb":
+    ил<v><tv><pass><ifi><p3><sg> : илинди
+    бёл<v><tv><pass><ifi><p3><sg> : бёлюндю
 
   "[twol] Back-vowel+L-final verb":
     башла<v><tv><pass><ifi><p3><sg> : башланды
@@ -33,5 +38,8 @@ Tests:
 
   "[twol] Voicing of К":
     йыкъ<v><tv><pass><ifi><p3><sg> : йыгъылды
+
+  "[twol] irregular passive of гёр":
+    гёр<v><tv><pass><ifi><p3><sg> : гёрюндю
 
 #FIXME: what about forms like ишлетилинди, гёрсетилинди, ойлашылынды,  ??
