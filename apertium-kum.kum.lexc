@@ -118,6 +118,7 @@ Multichar_Symbols
 
 %<gpr_past%>              ! 
 %<gpr_perf%>              ! 
+%<gpr_fut%>               ! 
 %<gpr_impf%>              ! 
 
 ! Punctuation
@@ -624,11 +625,18 @@ LEXICON V-FIN-IRREG-NEG-AR
 
 %<fut%>:%>%{A%}р V-PERS-S1-QST ; ! FIXME: What on earth is going on here
 %<fut%>:%>%{I%}р V-PERS-S1-QST ; ! Dir/LR ! Use/Sub
+
+%<gpr_fut%>:%>%{A%}р # ; ! FIXME: vide supra.
+%<gpr_fut%>:%>%{I%}р # ; ! Dir/LR ! FIXME: vide supra.
+
 V-FIN-IRREG-NEG-COMMON ; 
 
 LEXICON V-FIN-IRREG-NEG-IR
 
 %<fut%>:%>%{I%}р V-PERS-S1-QST ; ! FIXME: vide supra.
+
+%<gpr_fut%>:%>%{I%}р # ; ! FIXME: vide supra.
+
 V-FIN-IRREG-NEG-COMMON ; 
 
 LEXICON V-NONFIN-IRREG-NEG
@@ -638,6 +646,9 @@ LEXICON V-NONFIN-IRREG-NEG
 %<prc_perf%>:%>%{I%}п CLIT ;
 
 %<gna_perf%>:%>%{I%}п CLIT ;
+
+%<gpr_perf%>:%>%{I%}п # ;
+%<gpr_perf%>%<subst%>:%>%{I%}п SUBST ;
 
 LEXICON V-NONFIN-REG-NEG
 
@@ -650,7 +661,7 @@ LEXICON V-NONFIN-REG-NEG
 
 %<prc_cond%>:%>с%{A%} V-PERS-S2 ; 
 
-%<gna_cond%>:%>с%{A%} CLIT ;
+%<gna_cond%>:%>с%{A%} V-PERS-S2 ;
 !%<gna_until%>:%>г%{ъ%}%{A%}нч%{A%} CLIT ;
 %<gna_until%>:%>г%{ъ%}%{I%}нч%{A%} CLIT ;
 %<gna_after%>:%>г%{ъ%}%{A%}нл%{I%} CLIT ;
