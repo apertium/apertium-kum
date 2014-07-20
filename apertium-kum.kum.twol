@@ -239,7 +239,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
    [ [ :FrontVow | %{е%}: ] :в :Cns*  ]/[ :0 - [ Abstract: | %{е%}: ] ] _ ;
           [ :RdVow :Cns* й:0 ]/[ :0 - [ Abstract: | й:0 ] ] _ ;  ! ойу > ою
        [ :Cns :Cns ь:0 :Cns* ]/[ :0 - [ Abstract: | ь:0 ] ] _ ;
-     [ :RdYotVow й:0 :RdYotVow :Cns :Cns* ]/[ :0 - [ Abstract: | й:0 ] ] _ ;  ! кююню
+     [ :RdYotVow (й:0) :RdYotVow :Cns :Cns* ]/[ :0 - [ Abstract: | й:0 ] ] _ ;  ! кююню
         [ AbstractCns: %{s%}: ]/[ [ :0 - [ Abstract: | %{s%}: ] ] | %-: ] _ %{n%}: %>: ;
 
 !"Abstract vowel harmony for {I} after {а}"
@@ -256,7 +256,7 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
     ! ь only triggers front harmony when there's a consonant cluster before it
                      [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
                            !!!!! following for ююню !!!!!
-      [ :RdYotVow й:0 :RdYotVow :Cns :Cns* ]/[ :0 - й:0 ] _ ;  ! кююню 
+      [ :RdYotVow (й:0) :RdYotVow :Cns :Cns* ]/[ :0 - й:0 ] _ ;  ! кююню 
 !                                         %{э%}: (%-) %>: :Cns* _ ; 
             ! abstract vowels
  [ [ %{э%}:0 | %{ү%}:0 ] :Cns* ]/[ [ :0 - AbstractVow: ] | %-: ]* _ ;
@@ -294,9 +294,10 @@ Cx:Cy <=> :Vow (:0) _ ([ :0 - %{❗%}:0 ]) %>: (:0) :Vow ;
                      [ :Cns :Cns ь:0 :Cns* ]/[ :0 - ь:0 ] _ ;
             ! abstract vowels
  [ [ %{э%}:0 | %{ү%}:0 ] :Cns* ]/[ [ :0 - AbstractVow: ] | %-: ]* _ ;
+      [ :RdYotVow (й:0) :RdYotVow :Cns :Cns* ]/[ :0 - й:0 ] _ ;  ! сюювге
         except
                           [ :Cns :р %{☭%}: %>: :Cns* ]/:0 _ ;  ! центр and тигр take back vowels
-                         [ :Vow :RdYotVow :Cns :Cns* ]/:0 _ ;  ! for some reason the rule above doesn't exclude this condition  e.g., боюнгъа
+                         [ [ :Vow - :RdYotVow ] :RdYotVow :Cns :Cns* ]/:0 _ ;  ! for some reason the rule above doesn't exclude this condition  e.g., боюнгъа
 
 
 !!!!!!!!! Special stuff for px+case !!!!!!!!!
