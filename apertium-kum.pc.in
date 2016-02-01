@@ -1,7 +1,5 @@
 prefix=@prefix@
 exec_prefix=${prefix}
-libdir=@libdir@
-dir=@libdir@/apertium/apertium-kum
 srcdir=@datarootdir@/apertium/apertium-kum
 
 Name: apertium-kum
