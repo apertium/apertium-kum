@@ -1,0 +1,57 @@
+# [twol] Vowel harmony after ав
+тавдан
+тавуна
+тавну
+тавну
+таву
+# [twol] Vowel harmony after ев
+оьлчевден
+оьлчевге
+оьлчевюн
+оьлчевню
+тилевден
+тилевге
+тилевюн
+тилевню
+# [twol] Vowel harmony after ив>, и>{I}в and front >{I}в
+сезивде
+сезивю
+сезивню
+бийивде
+бийивю
+бийивню
+чечивде
+чечивю
+чечивню
+# [twol] Vowel harmony after ыв>, {ы>{I}в} and back >{I}в
+сатывда
+сатыву
+сатывну
+сатывда
+сатыву
+сатывну
+# [twol] Russian words with ев that don't cause rounding
+Къадиевни
+Акаевни
+Къадиевин
+Акаевин
+составны
+составын
+Муратовну
+Муратовун
+# [twol] gerunds in яв
+аркъатаявун
+аркъатаявгъа
+# [twol] verb stems ending in п
+табулду
+табып
+оьпдю
+оьбюп
+тебип
+# [twol] verb stems ending in в
+явуп
+# [twol] noun stems ending in п
+китабы
+гьисабы
+себеби
+теби

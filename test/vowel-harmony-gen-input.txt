@@ -1,0 +1,59 @@
+# [twol] Back rounding harmony
+^къол<n><px1sg><nom>$
+^фронт<n><acc>$
+^оху<v><tv><ifi><p3><sg>$
+^тавуш<n><px3sp><nom>$
+# [twol] Front rounding harmony words with оь and уь
+^оьр<n><loc>$
+^оьр<n><px3sp><loc>$
+^оьл<v><iv><aor><p3><sg>$
+^оьл<v><iv><ifi><p3><sg>$
+^оьл<v><iv><past><p3><sg>$
+^оьз<prn><ref><px3sp><nom>$
+# [twol] Front rounding harmony words with ё and ю
+^гёр<v><tv><pass><gpr_impf>$
+# [twol] Russian words with what look like front vowels but aren't
+^режиссёр<n><pl><nom>$
+^режиссёр<n><px3sp><nom>$
+^актёр<n><pl><nom>$
+^актёр<n><px3sp><nom>$
+# [twol] Russian words with front vowels that get back harmony
+^центр<n><pl><nom>$
+^центр<n><px3sp><nom>$
+^центр<n><dat>$
+^тигр<n><nom>$
+^тигр<n><pl><nom>$
+^тигр<n><px3sp><nom>$
+^тигр<n><dat>$
+^семестр<n><pl><nom>$
+# [twol] Russian words with back vowels that get back harmony
+^автор<n><px3sp><nom>$
+^жанр<n><pl><nom>$
+^кадр<n><pl><nom>$
+^театр<n><pl><nom>$
+# [twol] Russian words with front vowels that get front harmony
+^процент<n><pl><nom>$
+^процент<n><px3sp><nom>$
+^процент<n><dat>$
+^концерт<n><pl><nom>$
+^концерт<n><px3sp><nom>$
+^концерт<n><dat>$
+^реализм<n><pl><nom>$
+^реализм<n><px3sp><nom>$
+^реализм<n><dat>$
+^проект<n><pl><nom>$
+^проект<n><px3sp><nom>$
+^проект<n><dat>$
+^министр<n><pl><nom>$
+^министр<n><px3sp><nom>$
+^шедевр<n><pl><nom>$
+^метр<n><pl><nom>$
+^арбитр<n><pl><nom>$
+# [lexc] Russian words with front and back
+^оркестр<n><pl><nom>$
+# [twol] abbreviations
+^СССР<np><top><acc>$
+# [twol] Words that look like front-vowel words but aren't
+^дюнья<n><nom>$
+^дюнья<n><dat>$
+^дюнья<n><acc>$

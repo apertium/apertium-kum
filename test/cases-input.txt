@@ -1,0 +1,52 @@
+# [twol] Front-vowel words
+тарих
+тарихни
+тарихни
+тарихге
+тарихде
+тарихден
+# [twol] Back vowel words
+йыл
+йылны
+йылны
+йылгъа
+йылда
+йылдан
+# [twol] Back rounded vowel words in ё
+ёл
+ёлну
+ёлну
+ёлгъа
+ёлда
+ёлдан
+# [twol] Back rounded vowel words in ю
+юрт
+юртну
+юртну
+юртгъа
+юртда
+юртдан
+# [twol] Front-rounded vowel words
+оьмюр
+оьмюрню
+оьмюрню
+оьмюрге
+оьмюрде
+оьмюрден
+оьмюрдеги
+# [twol] Front-rounded vowel words in ё
+гёз
+гёзню
+гёзню
+гёзге
+гёзде
+гёзден
+гёздеги
+# [twol] Front-rounded vowel words in оь
+оьр
+оьрню
+оьрню
+оьрге
+оьрде
+оьрден
+оьрдеги

@@ -1,0 +1,8 @@
+[-NrcVXysKupv#0] ^Минск/Минск<np><top><nom>/Минск<np><top><attr>$
+[/-NrcVXysKupv]
+[CHUNmRsh9qV4#0] ^Минскиде/Минск<np><top><loc>$
+[/CHUNmRsh9qV4]
+[CPClvQbrRpw-#0] ^Буйнакскиден/Буйнакск<np><top><abl>$
+[/CPClvQbrRpw-]
+[Fi2EkQGec4xF#0] ^Буйнакск/Буйнакск<np><top><nom>/Буйнакск<np><top><attr>$
+[/Fi2EkQGec4xF]

@@ -1,0 +1,34 @@
+[11vr5ZbCXC1i#0] ^йыгъылды/йыкъ<v><tv><pass><ifi><p3><sg>$
+[/11vr5ZbCXC1i]
+[8aNi7o9V4Jxu#0] ^илинди/ил<v><tv><pass><ifi><p3><sg>$
+[/8aNi7o9V4Jxu]
+[FOP55X7sfhNn#0] ^ишленди/ишле<v><tv><pass><ifi><p3><sg>$
+[/FOP55X7sfhNn]
+[GsJqScCC98iD#0] ^байланды/байла<v><tv><pass><ifi><p3><sg>$
+[/GsJqScCC98iD]
+[HNLVgYJkzG08#0] ^табулду/табулду<n><nom>/табулду<n><attr>/табул<v><iv><ifi><p3><sg>$
+[/HNLVgYJkzG08]
+[IUXV67vj2-oO#0] ^къурулду/къур<v><tv><pass><ifi><p3><sg>$
+[/IUXV67vj2-oO]
+[Lgkre24Tbj9B#0] ^саналды/сана<v><tv><pass><ifi><p3><sg>$
+[/Lgkre24Tbj9B]
+[OGB819iYDo34#0] ^оьлтюрюлдю/оьлтюр<v><tv><pass><ifi><p3><sg>$
+[/OGB819iYDo34]
+[ZVlcnOP-e8Ox#0] ^къошулду/къош<v><tv><pass><ifi><p3><sg>$
+[/ZVlcnOP-e8Ox]
+[e1WhHB_RltF0#0] ^сёйленди/сёйле<v><tv><pass><ifi><p3><sg>$
+[/e1WhHB_RltF0]
+[kycue3DAAa4C#0] ^бёлюндю/бёл<v><tv><pass><ifi><p3><sg>$
+[/kycue3DAAa4C]
+[l48Z5hiZvuXC#0] ^гёрюндю/гёр<v><tv><pass><ifi><p3><sg>$
+[/l48Z5hiZvuXC]
+[mHeYppnEhd48#0] ^этилди/эт<v><tv><pass><ifi><p3><sg>$
+[/mHeYppnEhd48]
+[oDJUdy92G5hM#0] ^оьтгерилди/оьтгер<v><tv><pass><ifi><p3><sg>$
+[/oDJUdy92G5hM]
+[twQGd-3HdJxo#0] ^чакъырылды/чакъыр<v><tv><pass><ifi><p3><sg>$
+[/twQGd-3HdJxo]
+[ujYWQ0LKUFJ3#0] ^тергелди/терге<v><tv><pass><ifi><p3><sg>$
+[/ujYWQ0LKUFJ3]
+[vBUFQs2rx9hf#0] ^башланды/башла<v><tv><pass><ifi><p3><sg>$
+[/vBUFQs2rx9hf]

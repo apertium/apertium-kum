@@ -1,0 +1,58 @@
+# [twol] px3sp Front-vowel words
+^тарих<n><px3sp><nom>$
+^тарих<n><px3sp><acc>$
+^тарих<n><px3sp><gen>$
+^тарих<n><px3sp><dat>$
+^тарих<n><px3sp><loc>$
+^тарих<n><px3sp><abl>$
+# [twol] px3sp Back vowel words
+^йыл<n><px3sp><nom>$
+^йыл<n><px3sp><acc>$
+^йыл<n><px3sp><gen>$
+^йыл<n><px3sp><dat>$
+^йыл<n><px3sp><loc>$
+^йыл<n><px3sp><abl>$
+# [twol] px3sp Back vowel words in ё
+^ёл<n><px3sp><nom>$
+^ёл<n><px3sp><acc>$
+^ёл<n><px3sp><gen>$
+^ёл<n><px3sp><dat>$
+^ёл<n><px3sp><loc>$
+^ёл<n><px3sp><abl>$
+# [twol] px3sp Back rounded vowel words in ю
+^юрт<n><px3sp><nom>$
+^юрт<n><px3sp><acc>$
+^юрт<n><px3sp><gen>$
+^юрт<n><px3sp><dat>$
+^юрт<n><px3sp><loc>$
+^юрт<n><px3sp><abl>$
+# [twol] Front-rounded vowel words
+^оьмюр<n><px3sp><nom>$
+^оьмюр<n><px3sp><acc>$
+^оьмюр<n><px3sp><gen>$
+^оьмюр<n><px3sp><dat>$
+^оьмюр<n><px3sp><loc>$
+^оьмюр<n><px3sp><abl>$
+^оьмюр<n><px3sp><loc><attr>$
+# [twol] Front-rounded vowel words with ё
+^гёз<n><px3sp><nom>$
+^гёз<n><px3sp><acc>$
+^гёз<n><px3sp><gen>$
+^гёз<n><px3sp><dat>$
+^гёз<n><px3sp><loc>$
+^гёз<n><px3sp><abl>$
+^гёз<n><px3sp><loc><attr>$
+# [twol] Front-rounded vowel words with оь
+^оьр<n><px3sp><nom>$
+^оьр<n><px3sp><acc>$
+^оьр<n><px3sp><gen>$
+^оьр<n><px3sp><dat>$
+^оьр<n><px3sp><loc>$
+^оьр<n><px3sp><abl>$
+^оьр<n><px3sp><loc><attr>$
+# [lexc+twol] Dative stuff
+^иш<n><px1sg><dat>$
+^иш<n><px2sg><dat>$
+^иш<n><px3sp><dat>$
+^иш<n><px1pl><dat>$
+^иш<n><px2pl><dat>$

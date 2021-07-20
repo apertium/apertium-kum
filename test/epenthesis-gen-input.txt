@@ -1,0 +1,17 @@
+# [twol] No epenthesis
+^боюн<n><nom>$
+^боюн<n><dat>$
+^боюн<n><acc>$
+^орун<n><nom>$
+^орун<n><dat>$
+^орун<n><acc>$
+^бурун<n><nom>$
+^бурун<n><dat>$
+^бурун<n><acc>$
+# [twol] epenthesis
+^боюн<n><px3sp><dat>$
+^боюн<n><px3sp><gen>$
+^орун<n><px3sp><dat>$
+^орун<n><px3sp><gen>$
+^бурун<n><px3sp><dat>$
+^бурун<n><px3sp><gen>$

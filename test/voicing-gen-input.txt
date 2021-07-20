@@ -1,0 +1,2 @@
+# [twol] Voicing words
+^къуллукъ<n><px3sp><nom>$

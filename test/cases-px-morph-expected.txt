@@ -1,0 +1,100 @@
+[-KEOx0g4ZYGo#0] ^оьрюн/оьр<n><px3sp><acc>$
+[/-KEOx0g4ZYGo]
+[0pOaIuApRc6W#0] ^ёлун/ёл<n><px3sp><acc>$
+[/0pOaIuApRc6W]
+[1C2ZltaE3KUV#0] ^тарихинде/тарих<n><px3sp><loc>$
+[/1C2ZltaE3KUV]
+[2K_v5SCWoKfh#0] ^ёлуну/ёл<n><px3sp><gen>$
+[/2K_v5SCWoKfh]
+[2m_mE3cPKV9S#0] ^юртун/юрт<n><px3sp><acc>$
+[/2m_mE3cPKV9S]
+[5JtnmG98nOwT#0] ^юртунда/юрт<n><px3sp><loc>$
+[/5JtnmG98nOwT]
+[69CSf9rk1R8a#0] ^юрту/юрт<n><px3sp><nom>$
+[/69CSf9rk1R8a]
+[6HZdcWC2pDHJ#0] ^тарихинден/тарих<n><px3sp><abl>$
+[/6HZdcWC2pDHJ]
+[7uMTHB7ZFre4#0] ^ишинге/иш<n><px2sg><dat>$
+[/7uMTHB7ZFre4]
+[9LNjKM0n8hcq#0] ^гёзюн/гёз<n><px3sp><acc>$
+[/9LNjKM0n8hcq]
+[A32xosOr6H-U#0] ^тарихине/тарих<n><px3sp><dat>$
+[/A32xosOr6H-U]
+[BdmmqhKPMu_x#0] ^оьрюнден/оьр<n><px3sp><abl>$
+[/BdmmqhKPMu_x]
+[C-GXV8aFK6DA#0] ^оьрюндеги/оьр<n><px3sp><loc><attr>/оьр<n><px3sp><loc><subst><nom>$
+[/C-GXV8aFK6DA]
+[C0-FGeT2sHyK#0] ^йылыны/йыл<n><px3sp><gen>$
+[/C0-FGeT2sHyK]
+[CmQHdppUX9jp#0] ^ишиме/иш<n><px1sg><dat>$
+[/CmQHdppUX9jp]
+[CmSEvsdSinj3#0] ^йылына/йыл<n><px3sp><dat>$
+[/CmSEvsdSinj3]
+[CwSxTvEp6nnC#0] ^юртундан/юрт<n><px3sp><abl>$
+[/CwSxTvEp6nnC]
+[DjOc-AcbQelN#0] ^оьмюрюндеги/оьмюр<n><px3sp><loc><attr>/оьмюр<n><px3sp><loc><subst><nom>$
+[/DjOc-AcbQelN]
+[EKfCDRVy6Zop#0] ^гёзюнде/гёз<n><px3sp><loc>$
+[/EKfCDRVy6Zop]
+[EP3pOrj8XcBh#0] ^гёзюню/гёз<n><px3sp><gen>$
+[/EP3pOrj8XcBh]
+[E_dP9norib9M#0] ^юртуну/юрт<n><px3sp><gen>$
+[/E_dP9norib9M]
+[HxIYfiH_aZew#0] ^тарихи/тарих<n><px3sp><nom>$
+[/HxIYfiH_aZew]
+[IiZFvHTpw5P1#0] ^оьрюню/оьр<n><px3sp><gen>$
+[/IiZFvHTpw5P1]
+[NQcOfduYLB32#0] ^йылын/йыл<n><px3sp><acc>$
+[/NQcOfduYLB32]
+[OrthW1CyM_XF#0] ^йылындан/йыл<n><px3sp><abl>$
+[/OrthW1CyM_XF]
+[Q3OoLedwxXD0#0] ^тарихин/тарих<n><px3sp><acc>$
+[/Q3OoLedwxXD0]
+[SbxuPvVe-y2W#0] ^ёлундан/ёл<n><px3sp><abl>$
+[/SbxuPvVe-y2W]
+[UBjKMczUTxN-#0] ^оьрюне/оьр<n><px3sp><dat>$
+[/UBjKMczUTxN-]
+[VaMF6M6LFCUW#0] ^ёлунда/ёл<n><px3sp><loc>$
+[/VaMF6M6LFCUW]
+[WkSTXtidR8q9#0] ^оьрю/оьр<n><px3sp><nom>$
+[/WkSTXtidR8q9]
+[YEd1wk1X3UKI#0] ^оьрюнде/оьр<n><px3sp><loc>$
+[/YEd1wk1X3UKI]
+[ZNen3BEgqDJX#0] ^оьмюрюн/оьмюр<n><px3sp><acc>$
+[/ZNen3BEgqDJX]
+[Zq0chSBnp1n2#0] ^гёзюнден/гёз<n><px3sp><abl>$
+[/Zq0chSBnp1n2]
+[Ztz8PnN9sdmW#0] ^гёзюне/гёз<n><px3sp><dat>$
+[/Ztz8PnN9sdmW]
+[__9zhccnb81y#0] ^йылында/йыл<n><px3sp><loc>$
+[/__9zhccnb81y]
+[a_Il2jqC1Ek4#0] ^оьмюрюнден/оьмюр<n><px3sp><abl>$
+[/a_Il2jqC1Ek4]
+[e0YvmhmROSEh#0] ^гёзю/гёз<n><px3sp><nom>$
+[/e0YvmhmROSEh]
+[gY6d0arGwpTS#0] ^ишине/иш<n><px3sp><dat>$
+[/gY6d0arGwpTS]
+[hZ19KGVnwPhi#0] ^ишигизге/иш<n><px2pl><dat>$
+[/hZ19KGVnwPhi]
+[iHTGvPcFU-w3#0] ^йылы/йыл<n><px3sp><nom>$
+[/iHTGvPcFU-w3]
+[jwLMpJb-492g#0] ^оьмюрю/оьмюр<n><px3sp><nom>$
+[/jwLMpJb-492g]
+[lOBNM4jRWFRh#0] ^оьмюрюне/оьмюр<n><px3sp><dat>$
+[/lOBNM4jRWFRh]
+[mH9byoBeb93S#0] ^гёзюндеги/гёз<n><px3sp><loc><attr>/гёз<n><px3sp><loc><subst><nom>$
+[/mH9byoBeb93S]
+[nAUefn-14Poz#0] ^ёлу/ёл<n><px3sp><nom>$
+[/nAUefn-14Poz]
+[ox9uiAOABr6z#0] ^ёлуна/ёл<n><px3sp><dat>$
+[/ox9uiAOABr6z]
+[pKwVOtFP0-BP#0] ^ишибизге/иш<n><px1pl><dat>$
+[/pKwVOtFP0-BP]
+[qWelM5fqNg4t#0] ^тарихини/тарих<n><px3sp><gen>$
+[/qWelM5fqNg4t]
+[quF5Bn_VlVWm#0] ^оьмюрюнде/оьмюр<n><px3sp><loc>$
+[/quF5Bn_VlVWm]
+[todxh912bOzQ#0] ^оьмюрюню/оьмюр<n><px3sp><gen>$
+[/todxh912bOzQ]
+[zu4uAT2_Ntu7#0] ^юртуна/юрт<n><px3sp><dat>$
+[/zu4uAT2_Ntu7]

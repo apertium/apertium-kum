@@ -1,0 +1,63 @@
+# [twol] Words where ь triggers front harmony but is deleted 
+^ансамбль<n><dat>$
+^ансамбль<n><px3sp><nom>$
+^ансамбль<n><pl><nom>$
+^спектакль<n><nom>$
+^спектакль<n><pl><nom>$
+^спектакль<n><px3sp><nom>$
+^спектакль<n><dat>$
+# [twol] Months where ь triggers front harmony but is deleted 
+^декабрь<n><dat>$
+^декабрь<n><loc>$
+^декабрь<n><acc>$
+^декабрь<n><px3sp><nom>$
+^декабрь<n><px3sp><dat>$
+^сентябрь<n><dat>$
+^сентябрь<n><loc>$
+^сентябрь<n><acc>$
+^сентябрь<n><px3sp><nom>$
+^октябрь<n><dat>$
+^октябрь<n><loc>$
+^октябрь<n><acc>$
+^октябрь<n><px3sp><nom>$
+^ноябрь<n><dat>$
+^ноябрь<n><loc>$
+^ноябрь<n><acc>$
+^ноябрь<n><px3sp><nom>$
+# [twol] Months where ь is deleted, no front harmony
+^январь<n><loc>$
+^январь<n><acc>$
+^январь<n><px3sp><nom>$
+^февраль<n><loc>$
+^февраль<n><acc>$
+^февраль<n><px3sp><nom>$
+^июль<n><loc>$
+^июль<n><acc>$
+^июнь<n><loc>$
+^июнь<n><acc>$
+^июнь<n><px3sp><nom>$
+# [twol] Months where ь is deleted, already front
+^апрель<n><loc>$
+^апрель<n><acc>$
+^апрель<n><px3sp><nom>$
+^Сибирь<np><top><nom>$
+^Сибирь<np><top><dat>$
+^Сибирь<np><top><abl>$
+^Сибирь<np><top><loc>$
+# [twol] Words where orthographic ь doesn't affect harmony
+^аллагь<n><nom>$
+^аллагь<n><loc>$
+^аллагь<n><dat>$
+^аллагь<n><px3sp><nom>$
+^аллагь<n><gen>$
+^ругь<n><nom>$
+^ругь<n><loc>$
+^ругь<n><dat>$
+^ругь<n><px3sp><nom>$
+^ругь<n><gen>$
+^фестиваль<n><dat>$
+^фестиваль<n><abl>$
+^фестиваль<n><loc>$
+^фестиваль<n><acc>$
+^фестиваль<n><pl><nom>$
+^фестиваль<n><px3sp><gen>$

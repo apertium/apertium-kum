@@ -1,0 +1,59 @@
+# [twol] Back rounding harmony
+къолум
+фронтну
+охуду
+тавушу
+# [twol] Front rounding harmony words with оь and уь
+оьрде
+оьрюнде
+оьле
+оьлдю
+оьлген
+оьзю
+# [twol] Front rounding harmony words with ё and ю
+гёрюлеген
+# [twol] Russian words with what look like front vowels but aren't
+режиссёрлар
+режиссёру
+актёрлар
+актёру
+# [twol] Russian words with front vowels that get back harmony
+центрлар
+центры
+центргъа
+тигр
+тигрлар
+тигры
+тигргъа
+семестрлар
+# [twol] Russian words with back vowels that get back harmony
+автору
+жанрлар
+кадрлар
+театрлар
+# [twol] Russian words with front vowels that get front harmony
+процентлер
+проценти
+процентге
+концертлер
+концерти
+концертге
+реализмлер
+реализми
+реализмге
+проектлер
+проекти
+проектге
+министрлер
+министри
+шедеврлер
+метрлер
+арбитрлер
+# [lexc] Russian words with front and back
+оркестрлар
+# [twol] abbreviations
+СССР-ни
+# [twol] Words that look like front-vowel words but aren't
+дюнья
+дюньягъа
+дюньяны

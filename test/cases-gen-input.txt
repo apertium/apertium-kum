@@ -1,0 +1,52 @@
+# [twol] Front-vowel words
+^тарих<n><nom>$
+^тарих<n><acc>$
+^тарих<n><gen>$
+^тарих<n><dat>$
+^тарих<n><loc>$
+^тарих<n><abl>$
+# [twol] Back vowel words
+^йыл<n><nom>$
+^йыл<n><acc>$
+^йыл<n><gen>$
+^йыл<n><dat>$
+^йыл<n><loc>$
+^йыл<n><abl>$
+# [twol] Back rounded vowel words in ё
+^ёл<n><nom>$
+^ёл<n><acc>$
+^ёл<n><gen>$
+^ёл<n><dat>$
+^ёл<n><loc>$
+^ёл<n><abl>$
+# [twol] Back rounded vowel words in ю
+^юрт<n><nom>$
+^юрт<n><acc>$
+^юрт<n><gen>$
+^юрт<n><dat>$
+^юрт<n><loc>$
+^юрт<n><abl>$
+# [twol] Front-rounded vowel words
+^оьмюр<n><nom>$
+^оьмюр<n><acc>$
+^оьмюр<n><gen>$
+^оьмюр<n><dat>$
+^оьмюр<n><loc>$
+^оьмюр<n><abl>$
+^оьмюр<n><loc><attr>$
+# [twol] Front-rounded vowel words in ё
+^гёз<n><nom>$
+^гёз<n><acc>$
+^гёз<n><gen>$
+^гёз<n><dat>$
+^гёз<n><loc>$
+^гёз<n><abl>$
+^гёз<n><loc><attr>$
+# [twol] Front-rounded vowel words in оь
+^оьр<n><nom>$
+^оьр<n><acc>$
+^оьр<n><gen>$
+^оьр<n><dat>$
+^оьр<n><loc>$
+^оьр<n><abl>$
+^оьр<n><loc><attr>$

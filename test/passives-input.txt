@@ -1,0 +1,27 @@
+# [twol] Front-vowel-final verb
+тергелди
+# [twol] Back-vowel-final verb
+саналды
+# [twol] Front-vowel+Cons-final verb
+этилди
+оьтгерилди
+оьлтюрюлдю
+# [twol] Back-vowel+Cons-final verb
+чакъырылды
+къошулду
+къурулду
+# [twol] L+front-vowel-final verb
+сёйленди
+ишленди
+# [twol] Front-vowel+L-final verb
+илинди
+бёлюндю
+# [twol] Back-vowel+L-final verb
+башланды
+байланды
+# [twol] Back-vowel+B-final verb
+табулду
+# [twol] Voicing of К
+йыгъылды
+# [twol] irregular passive of гёр
+гёрюндю

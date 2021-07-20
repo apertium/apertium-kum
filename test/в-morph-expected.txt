@@ -1,0 +1,88 @@
+[1fQpvDyHCC5y#0] ^тилевюн/тиле<v><tv><ger><px3sp><acc>/тилев<n><px3sp><acc>$
+[/1fQpvDyHCC5y]
+[1umKQv-eDM19#0] ^сатыву/сат<v><tv><ger><px3sp><nom>/сатыв<n><px3sp><nom>$
+[/1umKQv-eDM19]
+[1xTZm0C_KcHc#0] ^сатывну/сат<v><tv><ger><acc>/сатыв<n><acc>/сат<v><tv><ger><gen>/сатыв<n><gen>$
+[/1xTZm0C_KcHc]
+[2intu8K7DJu7#0] ^тебип/теп<v><tv><prc_perf>/теп<v><tv><gna_perf>/теп<v><tv><gpr_perf>/теп<v><tv><gpr_perf><subst><nom>$
+[/2intu8K7DJu7]
+[3nXFG64lmO8i#0] ^тилевге/тиле<v><tv><ger><dat>/тилев<n><dat>$
+[/3nXFG64lmO8i]
+[6HfwAli_29aw#0] ^тилевню/тиле<v><tv><ger><acc>/тилев<n><acc>/тиле<v><tv><ger><gen>/тилев<n><gen>$
+[/6HfwAli_29aw]
+[8oBP1gOc92_X#0] ^табып/тап<v><tv><prc_perf>/тап<v><tv><gna_perf>/тап<v><tv><gpr_perf>/тап<v><tv><gpr_perf><subst><nom>$
+[/8oBP1gOc92_X]
+[976m4BY1ZveV#0] ^теби/теп<n><px3sp><nom>$
+[/976m4BY1ZveV]
+[AazYe6T7FI3L#0] ^бийивде/бийи<v><tv><ger><loc>$
+[/AazYe6T7FI3L]
+[BQhdM_ZPJx-2#0] ^тавдан/тав<n><abl>$
+[/BQhdM_ZPJx-2]
+[ByCsqy6zBVeW#0] ^явуп/яв<v><iv><prc_perf>/яв<v><iv><gna_perf>/яв<v><iv><gpr_perf>/яв<v><iv><gpr_perf><subst><nom>$
+[/ByCsqy6zBVeW]
+[C5Eb64WzF97c#0] ^Акаевин/Акаев<np><cog><m><px3sp><acc>$
+[/C5Eb64WzF97c]
+[CLC5IalgHDib#0] ^оьпдю/оьп<v><tv><ifi><p3><sg>$
+[/CLC5IalgHDib]
+[E22OKs6rBWGE#0] ^таву/тав<n><px3sp><nom>$
+[/E22OKs6rBWGE]
+[G885jgP59Hfs#0] ^оьлчевге/оьлчев<n><dat>$
+[/G885jgP59Hfs]
+[H-GTeA4MZoKd#0] ^оьлчевден/оьлчев<n><abl>$
+[/H-GTeA4MZoKd]
+[HNLVgYJkzG08#0] ^табулду/табулду<n><nom>/табулду<n><attr>/табул<v><iv><ifi><p3><sg>$
+[/HNLVgYJkzG08]
+[JfzYV0uV0xUq#0] ^Муратовну/Муратов<np><cog><m><acc>/Муратов<np><cog><m><gen>$
+[/JfzYV0uV0xUq]
+[MetimSy_q3PG#0] ^сезивю/сез<v><tv><ger><px3sp><nom>/сезив<n><px3sp><nom>$
+[/MetimSy_q3PG]
+[Oy0ksYju1K0e#0] ^сезивде/сез<v><tv><ger><loc>/сезив<n><loc>$
+[/Oy0ksYju1K0e]
+[SRmR64s-l0wi#0] ^себеби/себеп<n><px3sp><nom>$
+[/SRmR64s-l0wi]
+[W2h9ZdPWqvsG#0] ^тавуна/тав<n><px3sp><dat>$
+[/W2h9ZdPWqvsG]
+[XHmCw6tDCmPT#0] ^аркъатаявун/аркъатая<v><tv><ger><px3sp><acc>$
+[/XHmCw6tDCmPT]
+[aPJX5VLVfrhD#0] ^бийивню/бийи<v><tv><ger><acc>/бийи<v><tv><ger><gen>$
+[/aPJX5VLVfrhD]
+[dZUmIIquKJZr#0] ^Акаевни/Акаев<np><cog><m><acc>/Акаев<np><cog><m><gen>$
+[/dZUmIIquKJZr]
+[eMDcCJ92E_xf#0] ^сатывда/сат<v><tv><ger><loc>/сатыв<n><loc>$
+[/eMDcCJ92E_xf]
+[emua7uNTqStZ#0] ^китабы/китаб<n><px3sp><nom>/китап<n><px3sp><nom>$
+[/emua7uNTqStZ]
+[fVBO5U6DlyHU#0] ^оьбюп/оьп<v><tv><prc_perf>/оьп<v><tv><gna_perf>/оьп<v><tv><gpr_perf>/оьп<v><tv><gpr_perf><subst><nom>$
+[/fVBO5U6DlyHU]
+[g2FtvWqARwq9#0] ^тавну/тав<n><acc>/тав<n><gen>$
+[/g2FtvWqARwq9]
+[hZDz4MEEFlGu#0] ^бийивю/бийи<v><tv><ger><px3sp><nom>$
+[/hZDz4MEEFlGu]
+[hxN0qet_-9cq#0] ^оьлчевню/оьлчев<n><acc>/оьлчев<n><gen>$
+[/hxN0qet_-9cq]
+[ngIe8ATXMbfc#0] ^чечивде/чеч<v><tv><ger><loc>$
+[/ngIe8ATXMbfc]
+[paGxmHIsjb-7#0] ^гьисабы/гьисабы<n><nom>/гьисабы<n><attr>/гьисап<n><px3sp><nom>$
+[/paGxmHIsjb-7]
+[pw1ExkryPiKX#0] ^чечивню/чеч<v><tv><ger><acc>/чеч<v><tv><ger><gen>$
+[/pw1ExkryPiKX]
+[rM-ZFjcr8woA#0] ^сезивню/сез<v><tv><ger><acc>/сезив<n><acc>/сез<v><tv><ger><gen>/сезив<n><gen>$
+[/rM-ZFjcr8woA]
+[risMesRCtd9T#0] ^Къадиевин/Къадиев<np><cog><m><px3sp><acc>$
+[/risMesRCtd9T]
+[s7QOUeS7Uorz#0] ^Муратовун/Муратов<np><cog><m><px3sp><acc>$
+[/s7QOUeS7Uorz]
+[sfrgxVfojtsk#0] ^Къадиевни/Къадиев<np><cog><m><acc>/Къадиев<np><cog><m><gen>$
+[/sfrgxVfojtsk]
+[tZIbGNYu9wIp#0] ^составны/состав<n><acc>/состав<n><gen>$
+[/tZIbGNYu9wIp]
+[uRtDCqptMbkt#0] ^тилевден/тиле<v><tv><ger><abl>/тилев<n><abl>$
+[/uRtDCqptMbkt]
+[vBlhBbUTu_Wh#0] ^составын/состав<n><px3sp><acc>$
+[/vBlhBbUTu_Wh]
+[vwx271KS8hy_#0] ^оьлчевюн/оьлчев<n><px3sp><acc>$
+[/vwx271KS8hy_]
+[y3xIxq16g009#0] ^аркъатаявгъа/аркъатая<v><tv><ger><dat>$
+[/y3xIxq16g009]
+[yL6M4r6msMLO#0] ^чечивю/чеч<v><tv><ger><px3sp><nom>$
+[/yL6M4r6msMLO]

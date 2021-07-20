@@ -1,0 +1,76 @@
+[1JkI-5arqrs6#0] ^гёздеги/гёз<n><loc><attr>/гёз<n><loc><subst><nom>$
+[/1JkI-5arqrs6]
+[1o1A7Mg9cMXu#0] ^гёзню/гёз<n><acc>/гёз<n><gen>$
+[/1o1A7Mg9cMXu]
+[2Wqhf8SFtPhS#0] ^тарихден/тарих<n><abl>$
+[/2Wqhf8SFtPhS]
+[2tKlG30jtSWp#0] ^оьрден/оьр<n><abl>$
+[/2tKlG30jtSWp]
+[2x9RCOReoFZW#0] ^оьмюрге/оьмюр<n><dat>$
+[/2x9RCOReoFZW]
+[3whJoJshrACt#0] ^тарих/тарих<n><nom>/тарих<n><attr>$
+[/3whJoJshrACt]
+[4n-PZePlam2-#0] ^йылдан/йыл<n><abl>$
+[/4n-PZePlam2-]
+[5HBDb726lKMG#0] ^ёлну/ёл<n><acc>/ёл<n><gen>$
+[/5HBDb726lKMG]
+[8qGe5ZcQIHGi#0] ^тарихни/тарих<n><acc>/тарих<n><gen>$
+[/8qGe5ZcQIHGi]
+[B7EgHB3O6aR8#0] ^юрт/юрт<n><nom>/юрт<n><attr>$
+[/B7EgHB3O6aR8]
+[K4ZO86-RodMy#0] ^ёл/ёл<n><nom>/ёл<n><attr>$
+[/K4ZO86-RodMy]
+[LO8cJUVFE8gr#0] ^оьмюрде/оьмюр<n><loc>$
+[/LO8cJUVFE8gr]
+[NQKmoRiPjICT#0] ^оьмюрдеги/оьмюр<n><loc><attr>/оьмюр<n><loc><subst><nom>$
+[/NQKmoRiPjICT]
+[Nn9tcnUKdDGh#0] ^оьрде/оьр<n><loc>$
+[/Nn9tcnUKdDGh]
+[OIGjURtZI9MQ#0] ^оьмюрден/оьмюр<n><abl>$
+[/OIGjURtZI9MQ]
+[OR-yJ7qOoSYC#0] ^тарихге/тарих<n><dat>$
+[/OR-yJ7qOoSYC]
+[SuG08aLWDKA2#0] ^йылгъа/йыл<n><dat>$
+[/SuG08aLWDKA2]
+[TrAQ1STFNTmz#0] ^оьрдеги/оьр<n><loc><attr>/оьр<n><loc><subst><nom>/оьрдек<n><px3sp><nom>$
+[/TrAQ1STFNTmz]
+[UHsW67so8eK7#0] ^юртгъа/юрт<n><dat>$
+[/UHsW67so8eK7]
+[UlihuLNlfeMK#0] ^ёлгъа/ёл<n><dat>$
+[/UlihuLNlfeMK]
+[Yq-9S5rGrZP3#0] ^юртдан/юрт<n><abl>$
+[/Yq-9S5rGrZP3]
+[b95GHDhUwFEV#0] ^йыл/йыл<n><nom>/йыл<n><attr>$
+[/b95GHDhUwFEV]
+[bEAIMJn9o5-I#0] ^юртну/юрт<n><acc>/юрт<n><gen>$
+[/bEAIMJn9o5-I]
+[d1Xn0sCTyX1H#0] ^юртда/юрт<n><loc>$
+[/d1Xn0sCTyX1H]
+[e9ICBPExNBnT#0] ^йылны/йыл<n><acc>/йыл<n><gen>$
+[/e9ICBPExNBnT]
+[fNgZsw5_POHO#0] ^ёлдан/ёл<n><abl>$
+[/fNgZsw5_POHO]
+[gygeOuICSQvt#0] ^оьрге/оьр<n><dat>$
+[/gygeOuICSQvt]
+[hA7ASmOHkLTZ#0] ^гёзде/гёз<n><loc>$
+[/hA7ASmOHkLTZ]
+[i5bht9ngSCRU#0] ^йылда/йыл<n><loc>$
+[/i5bht9ngSCRU]
+[jESVsCUkExhY#0] ^ёлда/ёл<n><loc>$
+[/jESVsCUkExhY]
+[l0JCUyXUCVSH#0] ^оьр/оьр<n><nom>/оьр<n><attr>$
+[/l0JCUyXUCVSH]
+[lm3kTLH16ATT#0] ^оьмюрню/оьмюр<n><acc>/оьмюр<n><gen>$
+[/lm3kTLH16ATT]
+[mXcS1bGR7gFJ#0] ^оьрню/оьр<n><acc>/оьр<n><gen>$
+[/mXcS1bGR7gFJ]
+[nUoxCZWQqHW2#0] ^оьмюр/оьмюр<n><nom>/оьмюр<n><attr>$
+[/nUoxCZWQqHW2]
+[ndV5iiasj1H3#0] ^гёз/гёз<n><nom>/гёз<n><attr>$
+[/ndV5iiasj1H3]
+[urfnDXKBfcQC#0] ^гёзге/гёз<n><dat>$
+[/urfnDXKBfcQC]
+[vPCxGfXtPPlk#0] ^гёзден/гёз<n><abl>$
+[/vPCxGfXtPPlk]
+[xNhxKwSy5WFd#0] ^тарихде/тарих<n><loc>$
+[/xNhxKwSy5WFd]

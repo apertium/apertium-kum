@@ -1,0 +1,24 @@
+# [twol] Participle
+^сюй<v><tv><prc_perf>$
+^къой<v><tv><prc_perf>$
+^жый<v><tv><prc_perf>$
+# [twol] Aorist
+^сюй<v><tv><aor><p1><sg>$
+^сюй<v><tv><aor><p3><sg>$
+^къой<v><tv><aor><p1><sg>$
+^къой<v><tv><aor><p3><sg>$
+# [twol] px3sp
+^кюй<n><px3sp><nom>$
+^кюй<n><px3sp><loc>$
+^кюй<n><px3sp><gen>$
+^уьй<n><px3sp><nom>$
+^уьй<n><px3sp><dat>$
+^уьй<n><px3sp><loc>$
+^сююв<n><px3sp><nom>$
+^сююв<n><px3sp><dat>$
+^сююв<n><px3sp><gen>$
+^сююв<n><px3sp><loc>$
+# [twol] ъ/0 forms
+^кюй<n><dat>$
+^уьй<n><dat>$
+^сююв<n><dat>$

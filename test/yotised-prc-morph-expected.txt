@@ -1,0 +1,40 @@
+[8PyU1Q4ShfXG#0] ^сюювге/сюй<v><tv><ger><dat>/сююв<n><dat>$
+[/8PyU1Q4ShfXG]
+[InO2VE4ZLja9#0] ^сюювюне/сюй<v><tv><ger><px3sp><dat>/сююв<n><px3sp><dat>$
+[/InO2VE4ZLja9]
+[Jx0ZS9i37X82#0] ^сюе/сюй<v><tv><prc_impf>/сюй<v><tv><aor><p3><sg>$
+[/Jx0ZS9i37X82]
+[MMghgjgReoLU#0] ^къоя/къой<v><tv><prc_impf>/къой<v><tv><aor><p3><sg>$
+[/MMghgjgReoLU]
+[NpqdLHytS-Sc#0] ^къояман/къой<v><tv><aor><p1><sg>/къой<v><tv><aor><p3><sg>+э<cop><p1><sg>$
+[/NpqdLHytS-Sc]
+[S3EEQhyRbGSy#0] ^уьйге/уьй<n><dat>$
+[/S3EEQhyRbGSy]
+[Tcn7wwKxC26f#0] ^сюювюнде/сюй<v><tv><ger><px3sp><loc>/сююв<n><px3sp><loc>$
+[/Tcn7wwKxC26f]
+[Tpr7bRQngRQv#0] ^кюю/кюй<n><px3sp><nom>$
+[/Tpr7bRQngRQv]
+[VjmQ7Qk38UrX#0] ^уью/уью<n><nom>/уью<n><attr>/уьй<n><px3sp><nom>$
+[/VjmQ7Qk38UrX]
+[biAQ5sdw-fti#0] ^жыйып/жый<v><tv><prc_perf>/жый<v><tv><gna_perf>/жый<v><tv><gpr_perf>/жый<v><tv><gpr_perf><subst><nom>$
+[/biAQ5sdw-fti]
+[hB1N-EgxLltF#0] ^сюювюню/сюй<v><tv><ger><px3sp><gen>/сююв<n><px3sp><gen>$
+[/hB1N-EgxLltF]
+[hgwGAw8k76QK#0] ^кюйге/кюй<n><dat>$
+[/hgwGAw8k76QK]
+[iv2AOrYlegQN#0] ^сюювю/сюй<v><tv><ger><px3sp><nom>/сююв<n><px3sp><nom>$
+[/iv2AOrYlegQN]
+[j35PSg-6iv73#0] ^кююнде/кюй<n><px3sp><loc>$
+[/j35PSg-6iv73]
+[njBU-0j-Nisf#0] ^сюемен/сюй<v><tv><aor><p1><sg>/сюй<v><tv><aor><p3><sg>+э<cop><p1><sg>$
+[/njBU-0j-Nisf]
+[oF168Cf7P8Ui#0] ^къоюп/къой<v><tv><prc_perf>/къой<v><tv><gna_perf>/къой<v><tv><gpr_perf>/къой<v><tv><gpr_perf><subst><nom>$
+[/oF168Cf7P8Ui]
+[oQpYxwXnwfPi#0] ^уьюне/уьй<n><px3sp><dat>$
+[/oQpYxwXnwfPi]
+[w6gKIJRLska2#0] ^кююню/кюй<n><px3sp><gen>$
+[/w6gKIJRLska2]
+[x1auQAXU4kgO#0] ^уьюнде/уьй<n><px3sp><loc>$
+[/x1auQAXU4kgO]
+[zpPAhcqzNJQ4#0] ^сююп/сюй<v><tv><prc_perf>/сюй<v><tv><gna_perf>/сюй<v><tv><gpr_perf>/сюй<v><tv><gpr_perf><subst><nom>$
+[/zpPAhcqzNJQ4]

@@ -1,0 +1,57 @@
+# [twol] Vowel harmony after ав
+^тав<n><abl>$
+^тав<n><px3sp><dat>$
+^тав<n><gen>$
+^тав<n><acc>$
+^тав<n><px3sp><nom>$
+# [twol] Vowel harmony after ев
+^оьлчев<n><abl>$
+^оьлчев<n><dat>$
+^оьлчев<n><px3sp><acc>$
+^оьлчев<n><gen>$
+^тилев<n><abl>$
+^тилев<n><dat>$
+^тилев<n><px3sp><acc>$
+^тилев<n><gen>$
+# [twol] Vowel harmony after ив>, и>{I}в and front >{I}в
+^сезив<n><loc>$
+^сезив<n><px3sp><nom>$
+^сезив<n><acc>$
+^бийи<v><tv><ger><loc>$
+^бийи<v><tv><ger><px3sp><nom>$
+^бийи<v><tv><ger><acc>$
+^чеч<v><tv><ger><loc>$
+^чеч<v><tv><ger><px3sp><nom>$
+^чеч<v><tv><ger><acc>$
+# [twol] Vowel harmony after ыв>, {ы>{I}в} and back >{I}в
+^сатыв<n><loc>$
+^сатыв<n><px3sp><nom>$
+^сатыв<n><acc>$
+^сат<v><tv><ger><loc>$
+^сат<v><tv><ger><px3sp><nom>$
+^сат<v><tv><ger><acc>$
+# [twol] Russian words with ев that don't cause rounding
+^Къадиев<np><cog><m><acc>$
+^Акаев<np><cog><m><acc>$
+^Къадиев<np><cog><m><px3sp><acc>$
+^Акаев<np><cog><m><px3sp><acc>$
+^состав<n><acc>$
+^состав<n><px3sp><acc>$
+^Муратов<np><cog><m><acc>$
+^Муратов<np><cog><m><px3sp><acc>$
+# [twol] gerunds in яв
+^аркъатая<v><tv><ger><px3sp><acc>$
+^аркъатая<v><tv><ger><dat>$
+# [twol] verb stems ending in п
+^тап<v><tv><pass><ifi><p3><sg>$
+^тап<v><tv><gna_perf>$
+^оьп<v><tv><ifi><p3><sg>$
+^оьп<v><tv><gna_perf>$
+^теп<v><tv><gna_perf>$
+# [twol] verb stems ending in в
+^яв<v><iv><gna_perf>$
+# [twol] noun stems ending in п
+^китап<n><px3sp><nom>$
+^гьисап<n><px3sp><nom>$
+^себеп<n><px3sp><nom>$
+^теп<n><px3sp><nom>$

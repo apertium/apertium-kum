@@ -1,0 +1,6 @@
+# [twol] Base forms in ск
+^Минск<np><top><nom>$
+^Буйнакск<np><top><nom>$
+# [twol] Inflected forms in ски
+^Минск<np><top><loc>$
+^Буйнакск<np><top><abl>$

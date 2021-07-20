@@ -1,0 +1,98 @@
+[1A0dvTBpymY1#0] ^реализмлер/реализм<n><pl><nom>$
+[/1A0dvTBpymY1]
+[1K6AMQc7y-1p#0] ^концертлер/концерт<n><pl><nom>$
+[/1K6AMQc7y-1p]
+[2CeV3C0WeerF#0] ^центрлар/центр<n><pl><nom>$
+[/2CeV3C0WeerF]
+[3H1SmH1DFJg1#0] ^театрлар/театр<n><pl><nom>$
+[/3H1SmH1DFJg1]
+[4tz19b0fvIrP#0] ^тигры/тигр<n><px3sp><nom>$
+[/4tz19b0fvIrP]
+[5NN6W4HdpnPJ#0] ^автору/автор<n><px3sp><nom>$
+[/5NN6W4HdpnPJ]
+[60BZcAJr-1bh#0] ^проектлер/проект<n><pl><nom>$
+[/60BZcAJr-1bh]
+[6eBf6tqKnCg5#0] ^арбитрлер/арбитр<n><pl><nom>$
+[/6eBf6tqKnCg5]
+[AJ7xQID8VOPH#0] ^тигр/тигр<n><attr>/тигр<n><nom>$
+[/AJ7xQID8VOPH]
+[Az5Rsui2OxcE#0] ^оьзю/оьз<prn><ref><px3sp><nom>$
+[/Az5Rsui2OxcE]
+[BYUL2fDpHqKA#0] ^семестрлар/семестр<n><pl><nom>$
+[/BYUL2fDpHqKA]
+[D7WUYA5LYyM2#0] ^метрлер/метр<n><pl><nom>$
+[/D7WUYA5LYyM2]
+[H4dwEo6EvJIU#0] ^проценти/процент<n><px3sp><nom>$
+[/H4dwEo6EvJIU]
+[JEd_3PL9T5Wq#0] ^режиссёру/режиссёр<n><px3sp><nom>$
+[/JEd_3PL9T5Wq]
+[JjIRzUzpTpSM#0] ^министри/министр<n><px3sp><nom>$
+[/JjIRzUzpTpSM]
+[JvkYmkwFv26r#0] ^министрлер/министр<n><pl><nom>$
+[/JvkYmkwFv26r]
+[NfJiZeC7Gtxn#0] ^процентге/процент<n><dat>$
+[/NfJiZeC7Gtxn]
+[Nn9tcnUKdDGh#0] ^оьрде/оьр<n><loc>$
+[/Nn9tcnUKdDGh]
+[ONwAj3xEugNd#0] ^СССР-ни/СССР<np><top><acc>/СССР<np><top><gen>$
+[/ONwAj3xEugNd]
+[OOLfM0HezImj#0] ^къолум/къол<n><px1sg><nom>$
+[/OOLfM0HezImj]
+[OuTFBoSA1Nyi#0] ^проектге/проект<n><dat>$
+[/OuTFBoSA1Nyi]
+[PR_o25avTfmg#0] ^дюнья/дюнья<n><nom>/дюнья<n><attr>$
+[/PR_o25avTfmg]
+[UkHw_YF57m3W#0] ^оьлдю/оьл<v><iv><ifi><p3><sg>$
+[/UkHw_YF57m3W]
+[YEd1wk1X3UKI#0] ^оьрюнде/оьр<n><px3sp><loc>$
+[/YEd1wk1X3UKI]
+[Zb81O2C8zQ1r#0] ^центргъа/центр<n><dat>$
+[/Zb81O2C8zQ1r]
+[alRoWr20W2QG#0] ^режиссёрлар/режиссёр<n><pl><nom>$
+[/alRoWr20W2QG]
+[bKF_wcyLbygW#0] ^шедеврлер/шедевр<n><pl><nom>$
+[/bKF_wcyLbygW]
+[cn75RuGN23Mp#0] ^концерти/концерт<n><px3sp><nom>$
+[/cn75RuGN23Mp]
+[e04Mzfhb7cwn#0] ^концертге/концерт<n><dat>$
+[/e04Mzfhb7cwn]
+[f29ZeTnV6N7U#0] ^оьле/оьл<v><iv><prc_impf>/оьл<v><iv><aor><p3><sg>$
+[/f29ZeTnV6N7U]
+[g_4UR601YwAb#0] ^жанрлар/жанр<n><pl><nom>$
+[/g_4UR601YwAb]
+[i_w4W5cUJCtg#0] ^оркестрлар/оркестр<n><pl><nom>$
+[/i_w4W5cUJCtg]
+[lJ_sr8pg7YBH#0] ^тавушу/тавуш<n><px3sp><nom>$
+[/lJ_sr8pg7YBH]
+[mxxwK7qf5wmr#0] ^гёрюлеген/*гёрюлеген$
+[/mxxwK7qf5wmr]
+[nKkYDRPZi7bI#0] ^процентлер/процент<n><pl><nom>$
+[/nKkYDRPZi7bI]
+[o7mV9iz3PjIl#0] ^оьлген/оьл<v><iv><gpr_past>/оьл<v><iv><ger_past><nom>/оьл<v><iv><gpr_past><subst><nom>/оьл<v><iv><past><p3><sg>$
+[/o7mV9iz3PjIl]
+[psaUYHrleofC#0] ^дюньяны/дюнья<n><acc>/дюнья<n><gen>$
+[/psaUYHrleofC]
+[pv2EssB7hFWp#0] ^дюньягъа/дюнья<n><dat>$
+[/pv2EssB7hFWp]
+[qf0-EE-5HVzj#0] ^актёру/актёр<n><px3sp><nom>$
+[/qf0-EE-5HVzj]
+[rruW7IA28AQQ#0] ^центры/центр<n><px3sp><nom>$
+[/rruW7IA28AQQ]
+[sNwtLYFcD-8G#0] ^кадрлар/кадр<n><pl><nom>$
+[/sNwtLYFcD-8G]
+[tJ3uoNWpGas5#0] ^тигрлар/тигр<n><pl><nom>$
+[/tJ3uoNWpGas5]
+[tWH4YGmhQ2zU#0] ^реализми/реализм<n><px3sp><nom>$
+[/tWH4YGmhQ2zU]
+[tnGWeuYQN-qk#0] ^фронтну/фронт<n><acc>/фронт<n><gen>$
+[/tnGWeuYQN-qk]
+[viI-2xPLZXaY#0] ^охуду/оху<v><tv><ifi><p3><sg>$
+[/viI-2xPLZXaY]
+[wcePp1XMbNq9#0] ^актёрлар/актёр<n><pl><nom>$
+[/wcePp1XMbNq9]
+[xIfULPWRTVkF#0] ^тигргъа/тигр<n><dat>$
+[/xIfULPWRTVkF]
+[zPhToSvFLXA_#0] ^реализмге/реализм<n><dat>$
+[/zPhToSvFLXA_]
+[zmrN4k-_3-Ep#0] ^проекти/проект<n><px3sp><nom>$
+[/zmrN4k-_3-Ep]

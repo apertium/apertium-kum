@@ -1,0 +1,30 @@
+[1LXV_bOgR6XG#0] ^бойнуна/боюн<n><px3sp><dat>$
+[/1LXV_bOgR6XG]
+[2Bo_xsuRBjnT#0] ^орун/орун<n><nom>/орун<n><attr>/ор<n><px3sp><acc>$
+[/2Bo_xsuRBjnT]
+[7x5PMCZ7Rqp_#0] ^бурунгъа/бурун<n><dat>$
+[/7x5PMCZ7Rqp_]
+[9POZSfMJQCXh#0] ^орунгъа/орун<n><dat>$
+[/9POZSfMJQCXh]
+[Ha74y9KbnClj#0] ^бурнуну/бурун<n><px3sp><gen>$
+[/Ha74y9KbnClj]
+[IgmpMLL2KEjD#0] ^боюн/боюн<n><nom>/боюн<n><attr>/бой<n><px3sp><acc>$
+[/IgmpMLL2KEjD]
+[KdvHWEtEuqQx#0] ^бурнуна/бурун<n><px3sp><dat>$
+[/KdvHWEtEuqQx]
+[OhBz0A4_5roS#0] ^орнуна/орун<n><px3sp><dat>$
+[/OhBz0A4_5roS]
+[WTxQL4FAxMXC#0] ^боюнгъа/боюн<n><dat>/бой<n><px2sg><dat>/бою<n><px2sg><dat>$
+[/WTxQL4FAxMXC]
+[bWm1z9iGfd_k#0] ^боюнну/боюн<n><acc>/боюн<n><gen>$
+[/bWm1z9iGfd_k]
+[beS3F5m6RIeh#0] ^бурун/бурун<n><nom>/бурун<n><attr>$
+[/beS3F5m6RIeh]
+[crht6HQeMlhF#0] ^орунну/орун<n><acc>/орун<n><gen>$
+[/crht6HQeMlhF]
+[pCpp4qCaBkay#0] ^бойнуну/боюн<n><px3sp><gen>$
+[/pCpp4qCaBkay]
+[rfREr5B1etq_#0] ^орнуну/орун<n><px3sp><gen>$
+[/rfREr5B1etq_]
+[xHuSuzKYKLtZ#0] ^бурунну/бурун<n><acc>/бурун<n><gen>$
+[/xHuSuzKYKLtZ]

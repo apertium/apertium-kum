@@ -1,0 +1,82 @@
+{
+  "cases": {
+    "input": "cases-input.txt",
+    "mode": "kum-morph"
+  },
+  "cases-gen": {
+    "input": "cases-gen-input.txt",
+    "mode": "kum-gener"
+  },
+  "cases-px": {
+    "input": "cases-px-input.txt",
+    "mode": "kum-morph"
+  },
+  "cases-px-gen": {
+    "input": "cases-px-gen-input.txt",
+    "mode": "kum-gener"
+  },
+  "epenthesis": {
+    "input": "epenthesis-input.txt",
+    "mode": "kum-morph"
+  },
+  "epenthesis-gen": {
+    "input": "epenthesis-gen-input.txt",
+    "mode": "kum-gener"
+  },
+  "mz-cases": {
+    "input": "mz-cases-input.txt",
+    "mode": "kum-morph"
+  },
+  "mz-cases-gen": {
+    "input": "mz-cases-gen-input.txt",
+    "mode": "kum-gener"
+  },
+  "passives": {
+    "input": "passives-input.txt",
+    "mode": "kum-morph"
+  },
+  "passives-gen": {
+    "input": "passives-gen-input.txt",
+    "mode": "kum-gener"
+  },
+  "sk": {
+    "input": "sk-input.txt",
+    "mode": "kum-morph"
+  },
+  "sk-gen": {
+    "input": "sk-gen-input.txt",
+    "mode": "kum-gener"
+  },
+  "voicing": {
+    "input": "voicing-input.txt",
+    "mode": "kum-morph"
+  },
+  "voicing-gen": {
+    "input": "voicing-gen-input.txt",
+    "mode": "kum-gener"
+  },
+  "vowel-harmony": {
+    "input": "vowel-harmony-input.txt",
+    "mode": "kum-morph"
+  },
+  "vowel-harmony-gen": {
+    "input": "vowel-harmony-gen-input.txt",
+    "mode": "kum-gener"
+  },
+  "yotised-prc": {
+    "input": "yotised-prc-input.txt",
+    "mode": "kum-morph"
+  },
+  "yotised-prc-gen": {
+    "input": "yotised-prc-gen-input.txt",
+    "mode": "kum-gener"
+  },
+  "в": {
+    "input": "в-input.txt",
+    "mode": "kum-morph"
+  },
+  "в-gen": {
+    "input": "в-gen-input.txt",
+    "mode": "kum-gener"
+  }
+}

@@ -1,0 +1,116 @@
+[-52_net70D7l#0] ^Сибирден/Сибирь<np><top><abl>/Сибирь<np><top><abl>$
+[/-52_net70D7l]
+[09Ptug1kS9rC#0] ^аллагьгъа/аллагь<n><dat>$
+[/09Ptug1kS9rC]
+[0tNKHEGkCcJL#0] ^ноябрни/ноябрь<n><acc>/ноябрь<n><gen>$
+[/0tNKHEGkCcJL]
+[1X1pUhD1S7eH#0] ^Сибирь/Сибирь<np><top><nom>/Сибирь<np><top><attr>$
+[/1X1pUhD1S7eH]
+[27Ns5et2ETzV#0] ^декабрге/декабрь<n><dat>$
+[/27Ns5et2ETzV]
+[3amhEoYxrNJX#0] ^апрели/апрель<n><px3sp><nom>$
+[/3amhEoYxrNJX]
+[4CveUHInVKPZ#0] ^июнда/июнь<n><loc>$
+[/4CveUHInVKPZ]
+[4k7BmFCmQKu3#0] ^ансамблге/ансамбль<n><dat>$
+[/4k7BmFCmQKu3]
+[5GTQ8XWmLxns#0] ^июльну/*июльну$
+[/5GTQ8XWmLxns]
+[6Ti8Nu0ttV3S#0] ^ругьу/ругь<n><px3sp><nom>$
+[/6Ti8Nu0ttV3S]
+[6sAGhKBGtjGk#0] ^фестиваллар/фестиваль<n><pl><nom>$
+[/6sAGhKBGtjGk]
+[7bIe9274XIJa#0] ^октябри/октябрь<n><px3sp><nom>$
+[/7bIe9274XIJa]
+[7tRmQunpwxXr#0] ^февральда/февраль<n><loc>$
+[/7tRmQunpwxXr]
+[AzUTlb-YOs6d#0] ^ругьда/ругь<n><loc>$
+[/AzUTlb-YOs6d]
+[CBffCkqLsT2P#0] ^декабрни/декабрь<n><acc>/декабрь<n><gen>$
+[/CBffCkqLsT2P]
+[C_eIyYyH0eDj#0] ^апрелни/апрель<n><acc>/апрель<n><gen>$
+[/C_eIyYyH0eDj]
+[CnUd5lABVL-H#0] ^январы/январь<n><px3sp><nom>$
+[/CnUd5lABVL-H]
+[CtrGJYm2vCiU#0] ^ругьгъа/ругь<n><dat>$
+[/CtrGJYm2vCiU]
+[DZpl0iK9a6nL#0] ^фестивалыны/фестиваль<n><px3sp><gen>$
+[/DZpl0iK9a6nL]
+[FBhs8syMZXWw#0] ^спектакллер/спектакль<n><pl><nom>$
+[/FBhs8syMZXWw]
+[GKOyu1Yxd1FV#0] ^аллагьны/аллагь<n><acc>/аллагь<n><gen>$
+[/GKOyu1Yxd1FV]
+[H3gi4dQcUXfF#0] ^ругьну/ругь<n><acc>/ругь<n><gen>$
+[/H3gi4dQcUXfF]
+[HWX5G3PxYM4s#0] ^фестивальдан/фестиваль<n><abl>$
+[/HWX5G3PxYM4s]
+[If3Ou2TdxbX-#0] ^спектакль/спектакль<n><nom>/спектакль<n><attr>$
+[/If3Ou2TdxbX-]
+[JQ0r1xCpptBf#0] ^ноябрге/ноябрь<n><dat>$
+[/JQ0r1xCpptBf]
+[M9t4XFlBzntm#0] ^декабрде/декабрь<n><loc>$
+[/M9t4XFlBzntm]
+[OVEmrU8lzy58#0] ^сентябрге/сентябрь<n><dat>$
+[/OVEmrU8lzy58]
+[PRPGYG6BFRrt#0] ^ноябрде/ноябрь<n><loc>$
+[/PRPGYG6BFRrt]
+[PZvDVjlx-q6p#0] ^октябрге/октябрь<n><dat>$
+[/PZvDVjlx-q6p]
+[QYwXpC6JTuM9#0] ^июну/июнь<n><px3sp><nom>$
+[/QYwXpC6JTuM9]
+[S_OK-V2Dz5PL#0] ^сентябрде/сентябрь<n><loc>$
+[/S_OK-V2Dz5PL]
+[Yg1EeVa8_9y8#0] ^аллагьда/аллагь<n><loc>$
+[/Yg1EeVa8_9y8]
+[Z2o_18Jh7g3D#0] ^фестивальда/фестиваль<n><loc>$
+[/Z2o_18Jh7g3D]
+[Z7gWwQPYh5aG#0] ^ансамбллер/ансамбль<n><pl><nom>$
+[/Z7gWwQPYh5aG]
+[autKDOX4x8ke#0] ^аллагьы/аллагь<n><px3sp><nom>$
+[/autKDOX4x8ke]
+[bkQyXi-gNy2d#0] ^сентябри/сентябрь<n><px3sp><nom>$
+[/bkQyXi-gNy2d]
+[cHggGi1prJ2D#0] ^Сибирде/Сибирь<np><top><loc>/Сибирь<np><top><loc>$
+[/cHggGi1prJ2D]
+[cZ6Gs3Jr3YKV#0] ^октябрде/октябрь<n><loc>$
+[/cZ6Gs3Jr3YKV]
+[dEzQcHJLaOAu#0] ^спектаклге/спектакль<n><dat>$
+[/dEzQcHJLaOAu]
+[dQpe7Fx1jwa2#0] ^июнну/июнь<n><acc>/июнь<n><gen>$
+[/dQpe7Fx1jwa2]
+[dUWkrRbmMRCP#0] ^январьда/январь<n><loc>$
+[/dUWkrRbmMRCP]
+[drHNzdJADtuA#0] ^аллагь/аллагь<n><nom>/аллагь<n><attr>$
+[/drHNzdJADtuA]
+[dt2McEDRanog#0] ^октябрни/октябрь<n><acc>/октябрь<n><gen>$
+[/dt2McEDRanog]
+[h3GOqaRIbOCh#0] ^сентябрни/сентябрь<n><acc>/сентябрь<n><gen>$
+[/h3GOqaRIbOCh]
+[jV4JN8QvYQo2#0] ^Сибирге/Сибирь<np><top><dat>/Сибирь<np><top><dat>$
+[/jV4JN8QvYQo2]
+[l0ynbMKur5_K#0] ^ансамбли/ансамбль<n><px3sp><nom>$
+[/l0ynbMKur5_K]
+[mykI2GYL-y1U#0] ^ругь/ругь<n><nom>/ругь<n><attr>$
+[/mykI2GYL-y1U]
+[nxGm_5gUjs6o#0] ^декабри/декабрь<n><px3sp><nom>$
+[/nxGm_5gUjs6o]
+[pC3xkZTnazwD#0] ^февральны/февраль<n><acc>/февраль<n><gen>$
+[/pC3xkZTnazwD]
+[pZsRZXA6y6ds#0] ^декабрине/декабрь<n><px3sp><dat>$
+[/pZsRZXA6y6ds]
+[q0tHuYg-eGu-#0] ^апрелде/апрель<n><loc>$
+[/q0tHuYg-eGu-]
+[tIfUpG0VAU4o#0] ^февралы/февраль<n><px3sp><nom>$
+[/tIfUpG0VAU4o]
+[tp8l_7zsZM0v#0] ^январьны/январь<n><acc>/январь<n><gen>$
+[/tp8l_7zsZM0v]
+[uPmhJLIpLQKf#0] ^июльда/июль<n><loc>$
+[/uPmhJLIpLQKf]
+[vgo_akmG8F0r#0] ^спектакли/спектакль<n><px3sp><nom>$
+[/vgo_akmG8F0r]
+[xQftvBLFizSv#0] ^ноябри/ноябрь<n><px3sp><nom>$
+[/xQftvBLFizSv]
+[zHlg4CsR-t2P#0] ^фестивальгъа/фестиваль<n><dat>$
+[/zHlg4CsR-t2P]
+[zg1o7xz2Smri#0] ^фестивальны/фестиваль<n><acc>/фестиваль<n><gen>$
+[/zg1o7xz2Smri]

@@ -1,0 +1,27 @@
+# [twol] Front-vowel-final verb
+^терге<v><tv><pass><ifi><p3><sg>$
+# [twol] Back-vowel-final verb
+^сана<v><tv><pass><ifi><p3><sg>$
+# [twol] Front-vowel+Cons-final verb
+^эт<v><tv><pass><ifi><p3><sg>$
+^оьтгер<v><tv><pass><ifi><p3><sg>$
+^оьлтюр<v><tv><pass><ifi><p3><sg>$
+# [twol] Back-vowel+Cons-final verb
+^чакъыр<v><tv><pass><ifi><p3><sg>$
+^къош<v><tv><pass><ifi><p3><sg>$
+^къур<v><tv><pass><ifi><p3><sg>$
+# [twol] L+front-vowel-final verb
+^сёйле<v><tv><pass><ifi><p3><sg>$
+^ишле<v><tv><pass><ifi><p3><sg>$
+# [twol] Front-vowel+L-final verb
+^ил<v><tv><pass><ifi><p3><sg>$
+^бёл<v><tv><pass><ifi><p3><sg>$
+# [twol] Back-vowel+L-final verb
+^башла<v><tv><pass><ifi><p3><sg>$
+^байла<v><tv><pass><ifi><p3><sg>$
+# [twol] Back-vowel+B-final verb
+^тап<v><tv><pass><ifi><p3><sg>$
+# [twol] Voicing of К
+^йыкъ<v><tv><pass><ifi><p3><sg>$
+# [twol] irregular passive of гёр
+^гёр<v><tv><pass><ifi><p3><sg>$

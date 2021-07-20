@@ -1,0 +1,58 @@
+# [twol] px3sp Front-vowel words
+тарихи
+тарихин
+тарихини
+тарихине
+тарихинде
+тарихинден
+# [twol] px3sp Back vowel words
+йылы
+йылын
+йылыны
+йылына
+йылында
+йылындан
+# [twol] px3sp Back vowel words in ё
+ёлу
+ёлун
+ёлуну
+ёлуна
+ёлунда
+ёлундан
+# [twol] px3sp Back rounded vowel words in ю
+юрту
+юртун
+юртуну
+юртуна
+юртунда
+юртундан
+# [twol] Front-rounded vowel words
+оьмюрю
+оьмюрюн
+оьмюрюню
+оьмюрюне
+оьмюрюнде
+оьмюрюнден
+оьмюрюндеги
+# [twol] Front-rounded vowel words with ё
+гёзю
+гёзюн
+гёзюню
+гёзюне
+гёзюнде
+гёзюнден
+гёзюндеги
+# [twol] Front-rounded vowel words with оь
+оьрю
+оьрюн
+оьрюню
+оьрюне
+оьрюнде
+оьрюнден
+оьрюндеги
+# [lexc+twol] Dative stuff
+ишиме
+ишинге
+ишине
+ишибизге
+ишигизге
